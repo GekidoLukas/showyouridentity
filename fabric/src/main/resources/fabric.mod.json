@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "showyouridentity",
+  "version": "${version}",
+  "name": "Show Your Identity",
+  "description": "This mod aims to give players the ability to express their identity in any way they wish.",
+  "authors": [
+    "GekidoLukas"
+  ],
+  "contact": {
+    "homepage": "https://www.gekidolukas.com",
+    "sources": "https://github.com/GekidoLukas/showyouridentity",
+    "issues": "https://github.com/GekidoLukas/showyouridentity/issues"
+  },
+  "license": "GPL-3.0 license",
+  "icon": "assets/showyouridentity/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gekidolukas.showyouridentity.fabric.SYIModFabric"
+    ],
+    "client": [
+      "net.gekidolukas.showyouridentity.fabric.client.SYIModFabricClient"
+    ],
+    "cardinal-components": [
+      "net.gekidolukas.showyouridentity.fabric.data.SYIComponents"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/AKMkECwnqf"
+      }
+    },
+    "cardinal-components": [
+      "showyouridentity:identity_data"
+    ]
+  },
+  "mixins": [
+    "showyouridentity.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "=1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  }
+}

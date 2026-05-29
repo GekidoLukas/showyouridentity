@@ -1,0 +1,229 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/straight_ally_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uF000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/trans_ally_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uF001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/rainbow_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/progress_pride_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/lesbian_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/gay_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/bisexual_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/transgender_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE005"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/intersex_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE006"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/asexual_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE007"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/aromantic_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE008"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/agender_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE009"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/non_binary_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE010"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/demiboy_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE011"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/demigirl_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE012"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/genderfluid_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE013"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/genderqueer_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE014"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/demisexual_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE015"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/demiromantic_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE016"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/pansexual_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE017"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/omnisexual_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE018"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/polysexual_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE019"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/polyamory_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE020"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/bear_brotherhood_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE021"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/femboy_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE022"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/transfem_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE023"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/transmasc_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE024"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/neptunic_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE025"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/uranic_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE026"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/sapphic_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE027"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/sapiosexual_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE028"]
+    },
+    {
+      "type": "bitmap",
+      "file": "showyouridentity:font/aroace_flag.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["\uE029"]
+    }
+
+  ]
+}
