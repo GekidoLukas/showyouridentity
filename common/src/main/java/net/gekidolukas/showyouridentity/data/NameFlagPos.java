@@ -1,9 +1,15 @@
 package net.gekidolukas.showyouridentity.data;
 
+import com.mojang.serialization.Codec;
+
 public enum NameFlagPos {
     PLAYER_NAME("player_name"),
     PRONOUNS("pronouns");
 
+    public static final Codec<NameFlagPos> CODEC = Codec.STRING.xmap(
+            NameFlagPos::valueOf,
+            Enum::name
+    );
 
     private final String id;
 

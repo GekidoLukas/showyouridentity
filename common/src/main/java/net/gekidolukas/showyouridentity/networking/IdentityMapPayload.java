@@ -18,7 +18,7 @@ public record IdentityMapPayload(Map<UUID, IdentityEntry> map) implements Custom
                 buf.writeVarInt(payload.map.size());
                 for (Map.Entry<UUID, IdentityEntry> entry : payload.map.entrySet()) {
                     buf.writeUUID(entry.getKey());
-                    IdentityEntry.CODEC.encode(buf, entry.getValue());
+                    IdentityEntry.STREAM_CODEC.encode(buf, entry.getValue());
                 }
             },
             //Decoder
@@ -28,7 +28,7 @@ public record IdentityMapPayload(Map<UUID, IdentityEntry> map) implements Custom
 
                 for (int i = 0; i < size; i++) {
                     UUID key = buf.readUUID();
-                    IdentityEntry value = IdentityEntry.CODEC.decode(buf);
+                    IdentityEntry value = IdentityEntry.STREAM_CODEC.decode(buf);
                     map.put(key, value);
                 }
 

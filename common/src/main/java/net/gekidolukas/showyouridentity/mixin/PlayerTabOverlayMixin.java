@@ -9,7 +9,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.PlayerTabOverlay;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.FontDescription;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.player.Player;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -32,12 +33,11 @@ public class PlayerTabOverlayMixin {
         Minecraft mc = Minecraft.getInstance();
 
         if (profile != null && mc.level != null) {
-            Player player = mc.level.getPlayerByUUID(profile.getId());
+            Player player = mc.level.getPlayerByUUID(profile.id());
 
             if (player != null) {
                 IdentityData identityData = IdentityData.get(player.level());
                 IdentityEntry entry = identityData.getIdentity(player);
-                ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
 
                 if (entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
                     Component pronouns = Component.literal(" ")
@@ -45,7 +45,7 @@ public class PlayerTabOverlayMixin {
                             .append(Component.literal(entry.getPronouns()).withStyle(ChatFormatting.GOLD))
                             ;
 
-                    cir.setReturnValue(PrideFlag.applyChatFlags(originalName, entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont))));
+                    cir.setReturnValue(PrideFlag.applyChatFlags(originalName, entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(FontDescription.DEFAULT))));
                 }
             }
         }

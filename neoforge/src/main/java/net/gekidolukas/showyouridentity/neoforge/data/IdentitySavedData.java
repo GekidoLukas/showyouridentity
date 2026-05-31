@@ -1,6 +1,8 @@
 package net.gekidolukas.showyouridentity.neoforge.data;
 
+import com.mojang.serialization.Codec;
 import dev.architectury.networking.NetworkManager;
+import net.gekidolukas.showyouridentity.SYIMod;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
 import net.gekidolukas.showyouridentity.neoforge.IdentityDataAccessorImpl;
@@ -12,43 +14,35 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.saveddata.SavedData;
+import net.minecraft.world.level.saveddata.SavedDataType;
 import org.jetbrains.annotations.NotNull;
+import org.jspecify.annotations.Nullable;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
 public class IdentitySavedData extends SavedData implements IdentityData {
-
+    public static final Codec<IdentitySavedData> CODEC = IdentityData.CODEC.xmap(
+            IdentitySavedData::new,
+            data -> data.IDENTITIES
+    );
 
     Map<UUID, IdentityEntry> IDENTITIES;
-
 
     public IdentitySavedData() {
         IDENTITIES = new HashMap<>();
     }
 
+    public IdentitySavedData(Map<UUID, IdentityEntry> identities) {
+        this.IDENTITIES = new HashMap<>(identities);
+    }
 
-    public static final SavedData.Factory<IdentitySavedData> FACTORY = new SavedData.Factory<>(
+    public static final SavedDataType<IdentitySavedData> TYPE = new SavedDataType<>(
+            "identity_data",
             IdentitySavedData::new,
-            IdentitySavedData::load,
-            null
+            CODEC
     );
-
-
-    @Override
-    public CompoundTag save(CompoundTag tag, HolderLookup.Provider arg2) {
-        tag.put("identities",  IdentityData.mapToNbt(IDENTITIES));
-
-        return tag;
-    }
-    public static IdentitySavedData load(CompoundTag tag, HolderLookup.Provider provider) {
-        IdentitySavedData data = new IdentitySavedData();
-        if(tag.contains("identities")) {
-            data.IDENTITIES = IdentityData.nbtToMap(tag.getCompound("identities"));
-        }
-        return data;
-    }
 
     @Override
     public IdentityEntry getIdentity(Player player) {

@@ -1,6 +1,8 @@
 package net.gekidolukas.showyouridentity.data;
 
+import com.mojang.serialization.Codec;
 import net.gekidolukas.showyouridentity.IdentityDataAccessor;
+import net.minecraft.core.UUIDUtil;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
@@ -26,18 +28,20 @@ public interface IdentityData {
         return IdentityDataAccessor.getIdentityData(level);
     }
 
-
-
+    Codec<Map<UUID, IdentityEntry>> CODEC = Codec.unboundedMap(
+            UUIDUtil.CODEC,
+            IdentityEntry.CODEC
+    );
 
     static Map<UUID, IdentityEntry> nbtToMap(CompoundTag nbt) {
         Map<UUID, IdentityEntry> map = new HashMap<>();
 
-        for (String key : nbt.getAllKeys()) {
-            CompoundTag profileNbt = nbt.getCompound(key);
+        for (String key : nbt.keySet()) {
+            nbt.getCompound(key).ifPresent(profileNbt -> {
+                IdentityEntry identity = IdentityEntry.fromNBT(profileNbt);
 
-            IdentityEntry identity = IdentityEntry.fromNBT(profileNbt);
-
-            map.put(UUID.fromString(key), identity);
+                map.put(UUID.fromString(key), identity);
+            });
         }
 
         return map;

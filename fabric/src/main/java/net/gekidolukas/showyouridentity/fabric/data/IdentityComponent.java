@@ -12,6 +12,8 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
 import org.jetbrains.annotations.NotNull;
 import org.ladysnake.cca.api.v3.component.ComponentV3;
 import org.ladysnake.cca.api.v3.component.sync.AutoSyncedComponent;
@@ -31,16 +33,13 @@ public class IdentityComponent implements IdentityData, ComponentV3, AutoSyncedC
     }
 
     @Override
-    public void readFromNbt(CompoundTag tag, HolderLookup.Provider provider) {
-        if(tag.contains("identities")) {
-            this.IDENTITIES = IdentityData.nbtToMap(tag.getCompound("identities"));
-        }
+    public void readData(ValueInput readView) {
+        readView.read("identities", IdentityData.CODEC).ifPresent(identities -> IDENTITIES = new HashMap<>(identities));
     }
 
     @Override
-    public void writeToNbt(CompoundTag tag, HolderLookup.Provider provider) {
-        tag.put("identities",  IdentityData.mapToNbt(IDENTITIES));
-
+    public void writeData(ValueOutput writeView) {
+        writeView.store("identities", IdentityData.CODEC, IDENTITIES);
     }
 
     @Override

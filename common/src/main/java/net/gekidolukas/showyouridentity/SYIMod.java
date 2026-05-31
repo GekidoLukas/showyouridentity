@@ -10,7 +10,7 @@ import net.gekidolukas.showyouridentity.command.SYICommand;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.SlurFilter;
 import net.gekidolukas.showyouridentity.networking.IdentityMapPayload;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,8 +18,8 @@ public final class SYIMod {
     public static final String MOD_ID = "showyouridentity";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    public static ResourceLocation id(String string) {
-        return ResourceLocation.fromNamespaceAndPath(MOD_ID,string);
+    public static Identifier id(String string) {
+        return Identifier.fromNamespaceAndPath(MOD_ID,string);
     }
 
 
