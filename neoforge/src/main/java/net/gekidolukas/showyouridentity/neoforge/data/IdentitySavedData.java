@@ -34,8 +34,8 @@ public class IdentitySavedData extends SavedData implements IdentityData {
         IDENTITIES = new HashMap<>();
     }
 
-    public IdentitySavedData(Map<UUID, IdentityEntry> IDENTITIES) {
-        this.IDENTITIES = IDENTITIES;
+    public IdentitySavedData(Map<UUID, IdentityEntry> identities) {
+        this.IDENTITIES = new HashMap<>(identities);
     }
 
     public static final SavedDataType<IdentitySavedData> TYPE = new SavedDataType<>(

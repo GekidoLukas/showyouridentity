@@ -86,7 +86,7 @@ public abstract class AvatarRendererMixin<AvatarlikeEntity extends Avatar & Clie
             at = @At("TAIL")
     )
     private void extractRenderState(AvatarlikeEntity avatar, AvatarRenderState avatarRenderState, float f, CallbackInfo ci) {
-        if (avatar instanceof Player player) {
+        if (avatarRenderState.nameTag != null && avatar instanceof Player player) {
             IdentityEntry entry = IdentityData.get(player.level()).getIdentity(player);
 
             ((AvatarRenderStateExtension) avatarRenderState).showyouridentity$setIdentity(entry);

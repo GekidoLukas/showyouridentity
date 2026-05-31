@@ -7,7 +7,7 @@
     "AvatarRendererMixin",
     "AvatarRenderStateMixin",
     "ChatListenerMixin",
-    "EntityRendererMixin",
+    "NameTagFeatureRendererStorage",
     "PlayerTabOverlayMixin"
   ],
   "mixins": [

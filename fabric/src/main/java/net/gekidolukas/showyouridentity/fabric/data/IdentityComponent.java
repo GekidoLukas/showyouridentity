@@ -34,7 +34,7 @@ public class IdentityComponent implements IdentityData, ComponentV3, AutoSyncedC
 
     @Override
     public void readData(ValueInput readView) {
-        readView.read("identities", IdentityData.CODEC).ifPresent(identities -> IDENTITIES = identities);
+        readView.read("identities", IdentityData.CODEC).ifPresent(identities -> IDENTITIES = new HashMap<>(identities));
     }
 
     @Override
