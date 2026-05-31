@@ -4,7 +4,6 @@ import com.mojang.serialization.Codec;
 import net.gekidolukas.showyouridentity.SYIMod;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FontDescription;
-import net.minecraft.resources.Identifier;
 
 public enum PrideFlag {
 

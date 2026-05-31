@@ -26,10 +26,8 @@ public class IdentityComponent implements IdentityData, ComponentV3, AutoSyncedC
 
     Map<UUID, IdentityEntry> IDENTITIES;
 
-
-
     public IdentityComponent() {
-        IDENTITIES  = new HashMap<>();
+        IDENTITIES = new HashMap<>();
     }
 
     @Override
