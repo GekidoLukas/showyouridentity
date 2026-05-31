@@ -37,7 +37,7 @@ public class PlayerTabOverlayMixin {
             if (player != null) {
                 IdentityData identityData = IdentityData.get(player.level());
                 IdentityEntry entry = identityData.getIdentity(player);
-                ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
+                ResourceLocation defaultFont = new ResourceLocation("minecraft:default");
 
                 if (entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
                     Component pronouns = Component.literal(" ")

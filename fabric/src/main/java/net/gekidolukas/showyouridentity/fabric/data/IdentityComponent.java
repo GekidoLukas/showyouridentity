@@ -1,20 +1,20 @@
 package net.gekidolukas.showyouridentity.fabric.data;
 
 import dev.architectury.networking.NetworkManager;
+import dev.onyxstudios.cca.api.v3.component.ComponentV3;
+import dev.onyxstudios.cca.api.v3.component.sync.AutoSyncedComponent;
 import net.gekidolukas.showyouridentity.data.NameFlagPos;
 import net.gekidolukas.showyouridentity.data.PrideFlag;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
-import net.gekidolukas.showyouridentity.networking.IdentityMapPayload;
+import net.gekidolukas.showyouridentity.networking.IdentityMapPacket;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
-import org.ladysnake.cca.api.v3.component.ComponentV3;
-import org.ladysnake.cca.api.v3.component.sync.AutoSyncedComponent;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,16 +31,15 @@ public class IdentityComponent implements IdentityData, ComponentV3, AutoSyncedC
     }
 
     @Override
-    public void readFromNbt(CompoundTag tag, HolderLookup.Provider provider) {
+    public void readFromNbt(CompoundTag tag) {
         if(tag.contains("identities")) {
             this.IDENTITIES = IdentityData.nbtToMap(tag.getCompound("identities"));
         }
     }
 
     @Override
-    public void writeToNbt(CompoundTag tag, HolderLookup.Provider provider) {
+    public void writeToNbt(CompoundTag tag) {
         tag.put("identities",  IdentityData.mapToNbt(IDENTITIES));
-
     }
 
     @Override
@@ -81,11 +80,12 @@ public class IdentityComponent implements IdentityData, ComponentV3, AutoSyncedC
 
     @Override
     public void syncToPlayer(ServerPlayer serverPlayer) {
-        NetworkManager.sendToPlayer(serverPlayer, new IdentityMapPayload(IDENTITIES));
+        System.out.println("sending to " + serverPlayer);
+        NetworkManager.sendToPlayer(serverPlayer, IdentityMapPacket.ID, IdentityMapPacket.encode(IDENTITIES));
     }
 
     @Override
-    public void applySyncPacket(RegistryFriendlyByteBuf buf) {
+    public void applySyncPacket(FriendlyByteBuf buf) {
         IDENTITIES.clear();
         int size = buf.readVarInt();
         for (int i = 0; i < size; i++) {
@@ -113,7 +113,7 @@ public class IdentityComponent implements IdentityData, ComponentV3, AutoSyncedC
     }
 
     @Override
-    public void writeSyncPacket(RegistryFriendlyByteBuf buf, ServerPlayer recipient) {
+    public void writeSyncPacket(FriendlyByteBuf buf, ServerPlayer recipient) {
         buf.writeVarInt(IDENTITIES.size());
         for (Map.Entry<UUID, IdentityEntry> entry : IDENTITIES.entrySet()) {
             buf.writeUUID(entry.getKey());

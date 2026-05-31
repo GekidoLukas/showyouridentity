@@ -1,7 +1,7 @@
-package net.gekidolukas.showyouridentity.neoforge;
+package net.gekidolukas.showyouridentity.forge;
 
 import net.gekidolukas.showyouridentity.data.IdentityData;
-import net.gekidolukas.showyouridentity.neoforge.data.IdentitySavedData;
+import net.gekidolukas.showyouridentity.forge.data.IdentitySavedData;
 import net.minecraft.world.level.Level;
 
 public class IdentityDataAccessorImpl {

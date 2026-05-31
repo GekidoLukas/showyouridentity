@@ -46,7 +46,7 @@ public class ChatListenerMixin {
                 IdentityEntry entry = identityData.getIdentity(player);
 
                 if (entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
-                    ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
+                    ResourceLocation defaultFont = new ResourceLocation("minecraft:default");
 
                     Component pronouns = Component.literal(" ")
                             .append(Component.literal("- ").withStyle(ChatFormatting.GRAY))

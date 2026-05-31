@@ -1,11 +1,10 @@
-package net.gekidolukas.showyouridentity.neoforge.data;
+package net.gekidolukas.showyouridentity.forge.data;
 
 import dev.architectury.networking.NetworkManager;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
-import net.gekidolukas.showyouridentity.neoforge.IdentityDataAccessorImpl;
-import net.gekidolukas.showyouridentity.networking.IdentityMapPayload;
-import net.minecraft.core.HolderLookup;
+import net.gekidolukas.showyouridentity.forge.IdentityDataAccessorImpl;
+import net.gekidolukas.showyouridentity.networking.IdentityMapPacket;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -28,21 +27,14 @@ public class IdentitySavedData extends SavedData implements IdentityData {
         IDENTITIES = new HashMap<>();
     }
 
-
-    public static final SavedData.Factory<IdentitySavedData> FACTORY = new SavedData.Factory<>(
-            IdentitySavedData::new,
-            IdentitySavedData::load,
-            null
-    );
-
-
     @Override
-    public CompoundTag save(CompoundTag tag, HolderLookup.Provider arg2) {
+    public @NotNull CompoundTag save(CompoundTag tag) {
         tag.put("identities",  IdentityData.mapToNbt(IDENTITIES));
 
         return tag;
     }
-    public static IdentitySavedData load(CompoundTag tag, HolderLookup.Provider provider) {
+
+    public static IdentitySavedData load(CompoundTag tag) {
         IdentitySavedData data = new IdentitySavedData();
         if(tag.contains("identities")) {
             data.IDENTITIES = IdentityData.nbtToMap(tag.getCompound("identities"));
@@ -89,13 +81,13 @@ public class IdentitySavedData extends SavedData implements IdentityData {
     @Override
     public void sync(Level level) {
         if(level instanceof ServerLevel serverLevel) {
-            NetworkManager.sendToPlayers(serverLevel.getServer().getPlayerList().getPlayers(), new IdentityMapPayload(IDENTITIES));
+            NetworkManager.sendToPlayers(serverLevel.getServer().getPlayerList().getPlayers(), IdentityMapPacket.ID, IdentityMapPacket.encode(IDENTITIES));
 
         }
     }
 
     @Override
     public void syncToPlayer(ServerPlayer serverPlayer) {
-        NetworkManager.sendToPlayer(serverPlayer, new IdentityMapPayload(IDENTITIES));
+        NetworkManager.sendToPlayer(serverPlayer, IdentityMapPacket.ID, IdentityMapPacket.encode(IDENTITIES));
     }
 }
