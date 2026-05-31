@@ -1,8 +1,10 @@
 package net.gekidolukas.showyouridentity.data;
 
+import com.mojang.serialization.Codec;
 import net.gekidolukas.showyouridentity.SYIMod;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.FontDescription;
+import net.minecraft.resources.Identifier;
 
 public enum PrideFlag {
 
@@ -41,7 +43,11 @@ public enum PrideFlag {
     STRAIGHT_ALLY("straight_ally", "\uF000");
 
 
-    public static final ResourceLocation PRIDE_FONT = SYIMod.id( "pride");
+    public static final FontDescription PRIDE_FONT = new FontDescription.Resource(SYIMod.id( "pride"));
+    public static final Codec<PrideFlag> CODEC = Codec.STRING.xmap(
+            PrideFlag::valueOf,
+            Enum::name
+    );
 
     private final String id;
     private final String unicode;
@@ -96,9 +102,6 @@ public enum PrideFlag {
             return originalName;
         }
 
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
-
-
         Component leftFlagComponent = Component.literal((leftFlag != PrideFlag.NONE ? leftFlag : rightFlag).getUnicode())
                 .withStyle(style -> style.withFont(PRIDE_FONT));
 
@@ -108,9 +111,9 @@ public enum PrideFlag {
         boolean noFlag = leftFlag == PrideFlag.NONE && rightFlag == PrideFlag.NONE;
 
         return leftFlagComponent.copy()
-                .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(defaultFont)))
-                .append(originalName.copy().withStyle(style -> style.withFont(defaultFont)))
-                .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(defaultFont)))
+                .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(FontDescription.DEFAULT)))
+                .append(originalName.copy().withStyle(style -> style.withFont(FontDescription.DEFAULT)))
+                .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(FontDescription.DEFAULT)))
                 .append(rightFlagComponent);
     }
 
@@ -118,9 +121,6 @@ public enum PrideFlag {
         if (leftFlag == null || rightFlag == null ) {
             return originalName;
         }
-
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
-
 
         Component leftFlagComponent = leftFlag != PrideFlag.NONE ?  Component.literal(leftFlag.getUnicode())
                 .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();
@@ -131,6 +131,6 @@ public enum PrideFlag {
 
         return leftFlagComponent.copy()
                 .append(rightFlagComponent)
-                .append(originalName.copy().withStyle(style -> style.withFont(defaultFont)));
+                .append(originalName.copy().withStyle(style -> style.withFont(FontDescription.DEFAULT)));
     }
 }

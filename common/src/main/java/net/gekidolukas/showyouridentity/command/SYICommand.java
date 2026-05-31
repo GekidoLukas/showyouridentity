@@ -9,9 +9,12 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.FontDescription;
 import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.permissions.Permission;
+import net.minecraft.server.permissions.PermissionLevel;
 
 import java.util.Arrays;
 import java.util.List;
@@ -108,7 +111,7 @@ public class SYICommand {
         );
 
         dispatcher.register(Commands.literal("syi")
-                .then(Commands.literal("reset").requires(stack -> stack.hasPermission(2))
+                .then(Commands.literal("reset").requires(stack -> stack.permissions().hasPermission(new Permission.HasCommandLevel(PermissionLevel.GAMEMASTERS)))
                         .then(Commands.literal("all")
                                 .executes(commandContext -> executeResetAll(commandContext.getSource()))
                         )
@@ -118,7 +121,7 @@ public class SYICommand {
                                 )
                         )
                 )
-                .then(Commands.literal("slur_filter").requires(stack -> stack.hasPermission(2))
+                .then(Commands.literal("slur_filter").requires(stack -> stack.permissions().hasPermission(new Permission.HasCommandLevel(PermissionLevel.GAMEMASTERS)))
                         .then(Commands.literal("add")
                                 .then(Commands.argument("slur",StringArgumentType.word())
                                         .executes(commandContext ->executeSlurFilterAddSlur(commandContext.getSource(),StringArgumentType.getString(commandContext,"slur")))
@@ -361,19 +364,16 @@ public class SYICommand {
 
         PrideFlag flag = PrideFlag.byId(inputFlag);
 
-
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
-
         MutableComponent response = Component.empty();
         response.append(Component.literal(flag.getUnicode()).withStyle(style -> style.withFont(PrideFlag.PRIDE_FONT)));
-        response.append(Component.literal(" ").withStyle(style -> style.withFont(defaultFont)));
-        response.append(Component.translatable(flag.getFlagNameTranslationKey()).withStyle(style -> style.withFont(defaultFont).withColor(ChatFormatting.GOLD)));
-        response.append(Component.literal(" ").withStyle(style -> style.withFont(defaultFont)));
+        response.append(Component.literal(" ").withStyle(style -> style.withFont(FontDescription.DEFAULT)));
+        response.append(Component.translatable(flag.getFlagNameTranslationKey()).withStyle(style -> style.withFont(FontDescription.DEFAULT).withColor(ChatFormatting.GOLD)));
+        response.append(Component.literal(" ").withStyle(style -> style.withFont(FontDescription.DEFAULT)));
         response.append(Component.literal(flag.getUnicode()).withStyle(style -> style.withFont(PrideFlag.PRIDE_FONT)));
-        response.append(Component.literal("\n").withStyle(style -> style.withFont(defaultFont)));
-        response.append(Component.translatable(flag.getFlagDescriptionTranslationKey()).withStyle(style -> style.withFont(defaultFont).withColor(ChatFormatting.WHITE)));
-        response.append(Component.literal("\n\n").withStyle(style -> style.withFont(defaultFont)));
-        response.append(Component.translatable(flag.getFlagCreditTranslationKey()).withStyle(style -> style.withFont(defaultFont).withColor(ChatFormatting.GRAY)));
+        response.append(Component.literal("\n").withStyle(style -> style.withFont(FontDescription.DEFAULT)));
+        response.append(Component.translatable(flag.getFlagDescriptionTranslationKey()).withStyle(style -> style.withFont(FontDescription.DEFAULT).withColor(ChatFormatting.WHITE)));
+        response.append(Component.literal("\n\n").withStyle(style -> style.withFont(FontDescription.DEFAULT)));
+        response.append(Component.translatable(flag.getFlagCreditTranslationKey()).withStyle(style -> style.withFont(FontDescription.DEFAULT).withColor(ChatFormatting.GRAY)));
 
 
         source.sendSuccess(() -> response,false);

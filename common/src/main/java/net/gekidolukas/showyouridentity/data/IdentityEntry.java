@@ -1,8 +1,12 @@
 package net.gekidolukas.showyouridentity.data;
 
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.world.level.storage.ValueInput;
 
 public class IdentityEntry {
 
@@ -53,15 +57,21 @@ public class IdentityEntry {
     }
 
     public static IdentityEntry fromNBT(CompoundTag tag) {
-        String pronouns = tag.contains("pronouns") ? tag.getString("pronouns") : "";
-        PrideFlag primaryFlag = PrideFlag.byId(tag.contains("primary_flag") ? tag.getString("primary_flag") : "none");
-        PrideFlag secondaryFlag = PrideFlag.byId(tag.contains("secondary_flag") ? tag.getString("secondary_flag") : "none");
-        NameFlagPos flagPos = NameFlagPos.byId(tag.contains("flag_pos") ? tag.getString("flag_pos") : "player_name");
+        String pronouns = tag.getString("pronouns").orElse("");
+        PrideFlag primaryFlag = PrideFlag.byId(tag.getString("primary_flag").orElse("none"));
+        PrideFlag secondaryFlag = PrideFlag.byId(tag.getString("secondary_flag").orElse("none"));
+        NameFlagPos flagPos = NameFlagPos.byId(tag.getString("flag_pos").orElse("player_name"));
 
+        return new IdentityEntry(pronouns,primaryFlag,secondaryFlag,flagPos);
+    }
 
-        IdentityEntry entry = new IdentityEntry(pronouns,primaryFlag,secondaryFlag,flagPos);
+    public static IdentityEntry fromValueInput(ValueInput readView) {
+        String pronouns = readView.getStringOr("pronouns", "");
+        PrideFlag primaryFlag = PrideFlag.byId(readView.getStringOr("primary_flag", "none"));
+        PrideFlag secondaryFlag = PrideFlag.byId(readView.getStringOr("secondary_flag", "none"));
+        NameFlagPos flagPos = NameFlagPos.byId(readView.getStringOr("flag_pos", "player_name"));
 
-        return entry;
+        return new IdentityEntry(pronouns,primaryFlag,secondaryFlag,flagPos);
     }
 
     public CompoundTag toNBT() {
@@ -74,7 +84,19 @@ public class IdentityEntry {
         return nbt;
     }
 
-    public static final StreamCodec<FriendlyByteBuf, IdentityEntry> CODEC = StreamCodec.of(
+    public static final Codec<IdentityEntry> CODEC = RecordCodecBuilder.create(instance ->
+            instance.group(
+                    Codec.STRING.optionalFieldOf("pronouns", "")
+                            .forGetter(IdentityEntry::getPronouns),
+                    PrideFlag.CODEC.optionalFieldOf("primary_flag", PrideFlag.NONE)
+                            .forGetter(IdentityEntry::getPrimaryFlag),
+                    PrideFlag.CODEC.optionalFieldOf("secondary_flag", PrideFlag.NONE)
+                            .forGetter(IdentityEntry::getSecondaryFlag),
+                    NameFlagPos.CODEC.optionalFieldOf("flag_pos", NameFlagPos.PLAYER_NAME)
+                            .forGetter(IdentityEntry::getFlagPos)
+            ).apply(instance, IdentityEntry::new)
+    );
+    public static final StreamCodec<FriendlyByteBuf, IdentityEntry> STREAM_CODEC = StreamCodec.of(
             (buf,identityEntry) -> {
                 buf.writeUtf(identityEntry.pronouns);
                 buf.writeVarInt(identityEntry.primaryFlag.ordinal());

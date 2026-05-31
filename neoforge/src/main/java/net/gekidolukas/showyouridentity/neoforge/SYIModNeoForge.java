@@ -34,7 +34,7 @@ public final class SYIModNeoForge {
         assert overworld != null;
         DimensionDataStorage storage = overworld.getDataStorage();
 
-        IdentityDataAccessorImpl.identitySavedData = storage.computeIfAbsent(IdentitySavedData.FACTORY,"identity_data");
+        IdentityDataAccessorImpl.identitySavedData = storage.computeIfAbsent(IdentitySavedData.TYPE);
     }
 
 }

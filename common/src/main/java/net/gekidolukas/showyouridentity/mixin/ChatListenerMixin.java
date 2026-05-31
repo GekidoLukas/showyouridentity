@@ -9,8 +9,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.chat.ChatListener;
 import net.minecraft.network.chat.ChatType;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.FontDescription;
 import net.minecraft.network.chat.PlayerChatMessage;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.player.Player;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -39,22 +40,20 @@ public class ChatListenerMixin {
         Minecraft mc = Minecraft.getInstance();
 
         if (profile != null && mc.level != null) {
-            Player player = mc.level.getPlayerByUUID(profile.getId());
+            Player player = mc.level.getPlayerByUUID(profile.id());
 
             if (player != null) {
                 IdentityData identityData = IdentityData.get(player.level());
                 IdentityEntry entry = identityData.getIdentity(player);
 
                 if (entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
-                    ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
-
                     Component pronouns = Component.literal(" ")
                             .append(Component.literal("- ").withStyle(ChatFormatting.GRAY))
                             .append(Component.literal(entry.getPronouns()).withStyle(ChatFormatting.GOLD))
                             ;
 
 
-                    Component newName = PrideFlag.applyChatFlags(bound.name(), entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont)));
+                    Component newName = PrideFlag.applyChatFlags(bound.name(), entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(FontDescription.DEFAULT)));
 
                     return new ChatType.Bound(bound.chatType(), newName, bound.targetName());
                 }

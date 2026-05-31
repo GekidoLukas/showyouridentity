@@ -4,9 +4,10 @@
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
+    "AvatarRendererMixin",
+    "AvatarRenderStateMixin",
     "ChatListenerMixin",
     "EntityRendererMixin",
-    "PlayerRendererMixin",
     "PlayerTabOverlayMixin"
   ],
   "mixins": [
