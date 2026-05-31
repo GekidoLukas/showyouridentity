@@ -29,7 +29,10 @@ public interface IdentityData {
     }
 
     Codec<Map<UUID, IdentityEntry>> CODEC = Codec.unboundedMap(
-            UUIDUtil.CODEC,
+            Codec.STRING.xmap(
+                    UUID::fromString,
+                    UUID::toString
+            ),
             IdentityEntry.CODEC
     );
 
