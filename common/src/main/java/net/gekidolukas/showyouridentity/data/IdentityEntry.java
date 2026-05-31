@@ -2,7 +2,6 @@ package net.gekidolukas.showyouridentity.data;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.network.codec.StreamCodec;
 
 public class IdentityEntry {
 
@@ -73,35 +72,4 @@ public class IdentityEntry {
         nbt.putString("flag_pos",this.getFlagPos().getId());
         return nbt;
     }
-
-    public static final StreamCodec<FriendlyByteBuf, IdentityEntry> CODEC = StreamCodec.of(
-            (buf,identityEntry) -> {
-                buf.writeUtf(identityEntry.pronouns);
-                buf.writeVarInt(identityEntry.primaryFlag.ordinal());
-                buf.writeVarInt(identityEntry.secondaryFlag.ordinal());
-                buf.writeVarInt(identityEntry.flagPos.ordinal());
-
-            },
-            buf -> {
-                String pronounsEntry = buf.readUtf();
-                int indexPrimary = buf.readVarInt();
-                int indexSecondary = buf.readVarInt();
-                int indexFlagPos = buf.readVarInt();
-                PrideFlag primaryFlag;
-                PrideFlag secondaryFlag;
-                NameFlagPos flagPos;
-                try {
-                    primaryFlag = PrideFlag.values()[indexPrimary];
-                    secondaryFlag = PrideFlag.values()[indexSecondary];
-                    flagPos = NameFlagPos.values()[indexFlagPos];
-                } catch (Exception ignored) {
-                    primaryFlag = PrideFlag.NONE;
-                    secondaryFlag = PrideFlag.NONE;
-                    flagPos = NameFlagPos.PLAYER_NAME;
-                }
-
-
-                return new IdentityEntry(pronounsEntry, primaryFlag,secondaryFlag,flagPos);
-            }
-    );
 }

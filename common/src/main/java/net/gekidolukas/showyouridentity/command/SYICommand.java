@@ -362,7 +362,7 @@ public class SYICommand {
         PrideFlag flag = PrideFlag.byId(inputFlag);
 
 
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
+        ResourceLocation defaultFont = new ResourceLocation("minecraft:default");
 
         MutableComponent response = Component.empty();
         response.append(Component.literal(flag.getUnicode()).withStyle(style -> style.withFont(PrideFlag.PRIDE_FONT)));

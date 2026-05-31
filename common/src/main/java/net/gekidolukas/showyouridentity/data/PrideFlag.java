@@ -96,7 +96,7 @@ public enum PrideFlag {
             return originalName;
         }
 
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
+        ResourceLocation defaultFont = new ResourceLocation("minecraft:default");
 
 
         Component leftFlagComponent = Component.literal((leftFlag != PrideFlag.NONE ? leftFlag : rightFlag).getUnicode())
@@ -119,7 +119,7 @@ public enum PrideFlag {
             return originalName;
         }
 
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
+        ResourceLocation defaultFont = new ResourceLocation("minecraft:default");
 
 
         Component leftFlagComponent = leftFlag != PrideFlag.NONE ?  Component.literal(leftFlag.getUnicode())

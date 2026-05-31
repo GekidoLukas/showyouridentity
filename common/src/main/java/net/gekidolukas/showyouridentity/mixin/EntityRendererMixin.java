@@ -23,10 +23,10 @@ public abstract class EntityRendererMixin<T extends Entity> {
 
 
     @Inject(
-            method = "renderNameTag(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/network/chat/Component;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;IF)V",
+            method = "renderNameTag",
             at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/vertex/PoseStack;scale(FFF)V", shift = At.Shift.AFTER)
     )
-    private void scalePronounsTag(T entity, Component displayName, PoseStack poseStack, MultiBufferSource buffer, int packedLight, float partialTick, CallbackInfo ci) {
+    private void scalePronounsTag(T entity, Component component, PoseStack poseStack, MultiBufferSource multiBufferSource, int i, CallbackInfo ci) {
         if (NameTagRenderState.renderingPronouns) {
             poseStack.scale(0.5F, 0.5F, 1.0F);
             poseStack.translate(0,10,0);

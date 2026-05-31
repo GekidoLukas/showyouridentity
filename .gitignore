@@ -9,7 +9,7 @@ output/
 bin/
 libs/
 fabric/run/
-neoforge/run/
+forge/run/
 common/run/
 .classpath
 .project
