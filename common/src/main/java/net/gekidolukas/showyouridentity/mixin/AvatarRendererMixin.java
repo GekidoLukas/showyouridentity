@@ -61,7 +61,6 @@ public abstract class AvatarRendererMixin<AvatarlikeEntity extends Avatar & Clie
                     .append(Component.literal("=-").withStyle(ChatFormatting.GRAY));
             NameTagRenderState.renderingPronouns = true;
             submitNodeCollector.submitNameTag(poseStack, avatarRenderState.nameTagAttachment, 0, pronouns, !avatarRenderState.isDiscrete, avatarRenderState.lightCoords, avatarRenderState.distanceToCameraSq, cameraRenderState);
-            super.submitNameTag(avatarRenderState, poseStack, submitNodeCollector, cameraRenderState);
             NameTagRenderState.renderingPronouns = false;
         }
     }
