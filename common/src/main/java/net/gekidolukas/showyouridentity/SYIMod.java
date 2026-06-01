@@ -1,6 +1,7 @@
 package net.gekidolukas.showyouridentity;
 
 import dev.architectury.event.events.common.CommandRegistrationEvent;
+import dev.architectury.event.events.common.LifecycleEvent;
 import dev.architectury.event.events.common.PlayerEvent;
 import dev.architectury.networking.NetworkManager;
 import dev.architectury.platform.Platform;
@@ -24,7 +25,9 @@ public final class SYIMod {
 
 
     public static void init() {
-        MidnightConfig.init(MOD_ID, SYIConfig.class);
+        LifecycleEvent.SETUP.register(() -> {
+            MidnightConfig.init(MOD_ID, SYIConfig.class);
+        });
         SlurFilter.initialize();
 
         if (Platform.getEnv() != EnvType.CLIENT) {
