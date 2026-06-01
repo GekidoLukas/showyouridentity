@@ -1,6 +1,7 @@
 package net.gekidolukas.showyouridentity.mixin;
 
 import com.mojang.authlib.GameProfile;
+import net.gekidolukas.showyouridentity.client.ClientToggles;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
 import net.gekidolukas.showyouridentity.data.PrideFlag;
@@ -25,6 +26,7 @@ public class PlayerTabOverlayMixin {
             cancellable = true
     )
     private void appendPronounsToTab(PlayerInfo playerInfo, CallbackInfoReturnable<Component> cir) {
+        if(!ClientToggles.shouldRenderTab) return;
         Component originalName = cir.getReturnValue();
         if (originalName == null) return;
 
@@ -45,7 +47,7 @@ public class PlayerTabOverlayMixin {
                             .append(Component.literal(entry.getPronouns()).withStyle(ChatFormatting.GOLD))
                             ;
 
-                    cir.setReturnValue(PrideFlag.applyChatFlags(originalName, entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont))));
+                    cir.setReturnValue(PrideFlag.applyTabFlags(originalName, entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont))));
                 }
             }
         }

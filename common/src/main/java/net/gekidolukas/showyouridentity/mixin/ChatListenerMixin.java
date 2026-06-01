@@ -1,6 +1,7 @@
 package net.gekidolukas.showyouridentity.mixin;
 
 import com.mojang.authlib.GameProfile;
+import net.gekidolukas.showyouridentity.client.ClientToggles;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
 import net.gekidolukas.showyouridentity.data.PrideFlag;
@@ -18,7 +19,10 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@Mixin(ChatListener.class)
+import java.util.List;
+import java.util.Optional;
+
+@Mixin(value = ChatListener.class, priority = 100)
 public class ChatListenerMixin {
 
     private static final ThreadLocal<GameProfile> CURRENT_CHAT_PROFILE = new ThreadLocal<>();
@@ -37,6 +41,7 @@ public class ChatListenerMixin {
     private ChatType.Bound modifyBound(ChatType.Bound bound) {
         GameProfile profile = CURRENT_CHAT_PROFILE.get();
         Minecraft mc = Minecraft.getInstance();
+        if(!ClientToggles.shouldRenderChat) return bound;
 
         if (profile != null && mc.level != null) {
             Player player = mc.level.getPlayerByUUID(profile.getId());
@@ -45,7 +50,7 @@ public class ChatListenerMixin {
                 IdentityData identityData = IdentityData.get(player.level());
                 IdentityEntry entry = identityData.getIdentity(player);
 
-                if (entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
+                if (entry != null) {
                     ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
 
                     Component pronouns = Component.literal(" ")

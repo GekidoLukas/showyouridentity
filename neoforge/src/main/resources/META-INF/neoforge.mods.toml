@@ -7,7 +7,7 @@ license = "GPL-3.0 license"
 modId = "showyouridentity"
 version = "${version}"
 displayName = "Show Your Identity"
-authors = "GekidoLukas"
+authors = "GekidoLukas, The Typhothanian"
 displayURL="https://www.gekidolukas.com"
 description = '''
 This mod aims to give players the ability to express their identity in any way they wish.

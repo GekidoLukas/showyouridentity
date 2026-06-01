@@ -1,8 +1,14 @@
 package net.gekidolukas.showyouridentity.data;
 
+import com.mojang.authlib.GameProfile;
+import dev.architectury.platform.Platform;
 import net.gekidolukas.showyouridentity.SYIMod;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.player.Player;
+
+import java.io.Console;
 
 public enum PrideFlag {
 
@@ -121,6 +127,26 @@ public enum PrideFlag {
 
         ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
 
+
+        Component leftFlagComponent = leftFlag != PrideFlag.NONE ?  Component.literal(leftFlag.getUnicode())
+                .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();
+
+        Component rightFlagComponent = rightFlag != PrideFlag.NONE ?  Component.literal( rightFlag.getUnicode())
+                .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();
+
+
+        return leftFlagComponent.copy()
+                .append(rightFlagComponent)
+                .append(originalName.copy().withStyle(style -> style.withFont(defaultFont)));
+    }
+
+
+    public static Component applyTabFlags(Component originalName, PrideFlag leftFlag, PrideFlag rightFlag) {
+        if (leftFlag == null || rightFlag == null ) {
+            return originalName;
+        }
+
+        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
 
         Component leftFlagComponent = leftFlag != PrideFlag.NONE ?  Component.literal(leftFlag.getUnicode())
                 .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();

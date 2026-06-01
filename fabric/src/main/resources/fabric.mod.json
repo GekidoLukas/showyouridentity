@@ -5,7 +5,8 @@
   "name": "Show Your Identity",
   "description": "This mod aims to give players the ability to express their identity in any way they wish.",
   "authors": [
-    "GekidoLukas"
+    "GekidoLukas",
+    "The Typhothanian"
   ],
   "contact": {
     "homepage": "https://www.gekidolukas.com",
@@ -37,7 +38,8 @@
     ]
   },
   "mixins": [
-    "showyouridentity.mixins.json"
+    "showyouridentity.mixins.json",
+    "showyouridentity-fabric.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.19.2",

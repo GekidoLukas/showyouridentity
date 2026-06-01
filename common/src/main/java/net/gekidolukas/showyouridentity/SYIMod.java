@@ -10,6 +10,8 @@ import net.gekidolukas.showyouridentity.command.SYICommand;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.SlurFilter;
 import net.gekidolukas.showyouridentity.networking.IdentityMapPayload;
+import net.gekidolukas.showyouridentity.networking.ServerRenderOverridesPayload;
+import net.gekidolukas.showyouridentity.server.ServerOverrideValidator;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,6 +31,7 @@ public final class SYIMod {
 
         if (Platform.getEnv() != EnvType.CLIENT) {
             NetworkManager.registerS2CPayloadType(IdentityMapPayload.ID, IdentityMapPayload.CODEC);
+            NetworkManager.registerS2CPayloadType(ServerRenderOverridesPayload.ID, ServerRenderOverridesPayload.CODEC);
         }
 
 
@@ -39,6 +42,9 @@ public final class SYIMod {
         PlayerEvent.PLAYER_JOIN.register(serverPlayer -> {
             IdentityData identityData = IdentityData.get(serverPlayer.level());
             identityData.syncToPlayer(serverPlayer);
+
+            NetworkManager.sendToPlayer(serverPlayer, ServerOverrideValidator.getValidationPayload());
+
         });
     }
 
