@@ -2,6 +2,7 @@ package net.gekidolukas.showyouridentity.client;
 
 import dev.architectury.event.events.client.ClientPlayerEvent;
 import dev.architectury.networking.NetworkManager;
+import net.gekidolukas.showyouridentity.SYIConfig;
 import net.gekidolukas.showyouridentity.networking.IdentityMapPayload;
 import net.gekidolukas.showyouridentity.networking.ServerRenderOverridesPayload;
 

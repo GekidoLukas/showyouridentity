@@ -156,5 +156,10 @@
 
   "showyouridentity.midnightconfig.slur_filter_url": "URL for Slur Filter",
   "showyouridentity.midnightconfig.comment_slur_filter": "The slur filter needs to be based on the structure of awdev1/better-profane-words on Github",
-  "showyouridentity.midnightconfig.title": "Show Your Identity"
+  "showyouridentity.midnightconfig.title": "Show Your Identity",
+  "showyouridentity.midnightconfig.category.common": "Common",
+  "showyouridentity.midnightconfig.category.client": "Client",
+  "showyouridentity.midnightconfig.renderThirdPersonNameTag": "Show Nametag above Head in Third Person",
+  "showyouridentity.midnightconfig.pronounScale": "Pronoun Scale"
+
 }
