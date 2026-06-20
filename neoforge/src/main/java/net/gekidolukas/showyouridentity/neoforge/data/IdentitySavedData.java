@@ -57,6 +57,11 @@ public class IdentitySavedData extends SavedData implements IdentityData {
     }
 
     @Override
+    public IdentityEntry getIdentity(UUID playerUUID) {
+        return IDENTITIES.get(playerUUID);
+    }
+
+    @Override
     public void putIdentity(@NotNull Player player, @NotNull IdentityEntry entry) {
         IDENTITIES.put(player.getUUID(),entry);
         markNeoDirty();

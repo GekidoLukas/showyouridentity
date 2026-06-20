@@ -44,11 +44,9 @@ public class ChatListenerMixin {
         if(!ClientToggles.shouldRenderChat) return bound;
 
         if (profile != null && mc.level != null) {
-            Player player = mc.level.getPlayerByUUID(profile.getId());
-
-            if (player != null) {
-                IdentityData identityData = IdentityData.get(player.level());
-                IdentityEntry entry = identityData.getIdentity(player);
+            if (profile.getId() != null) {
+                IdentityData identityData = IdentityData.get(mc.level);
+                IdentityEntry entry = identityData.getIdentity(profile.getId());
 
                 if (entry != null) {
                     ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
