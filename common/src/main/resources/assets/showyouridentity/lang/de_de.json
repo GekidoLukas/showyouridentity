@@ -1,0 +1,162 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "%1$s hat noch keine Pronomen festgelegt. Frag am besten nach!",
+  "commands.showyouridentity.pronouns.get.success": "%1$s nutzt die Pronomen %2$s.",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "Nur ein*e Spieler*in kann Pronomen festlegen.",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "Du nutzt bereits die Pronomen %1$s.",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s enthält Beleidigungen. Hör auf.",
+  "commands.showyouridentity.pronouns.set.success": "Deine Pronomen wurden auf %1$s festgelegt.",
+  "commands.showyouridentity.slur_filter.reload.success": "Filter für Beleidigungen erfolgreich neu geladen. (Insgesamt: %1$s)",
+  "commands.showyouridentity.slur_filter.add.success": "Neuer Begriff wurde erfolgreich zum Filter hinzugefügt.",
+  "commands.showyouridentity.slur_filter.add.failure": "Dieser Begriff existiert bereits im Filter oder es ist ein Fehler aufgetreten (siehe Log).",
+  "commands.showyouridentity.reset.all.success": "Die Identitätsdaten aller Personen wurden zurückgesetzt.",
+  "commands.showyouridentity.reset.player.failure": "Die Identitätsdaten von %1$s konnten nicht zurückgesetzt werden.",
+  "commands.showyouridentity.reset.player.success": "Die Identitätsdaten von %1$s wurden zurückgesetzt.",
+  "commands.showyouridentity.flag.set_primary.success": "Deine primäre Pride-Flagge wurde auf %1$s gesetzt.",
+  "commands.showyouridentity.flag.set_secondary.success": "Deine sekundäre Pride-Flagge wurde auf %1$s gesetzt.",
+  "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "Deine primäre Pride-Flagge ist bereits %1$s.",
+  "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "Deine sekundäre Pride-Flagge ist bereits %1$s.",
+  "commands.showyouridentity.flag.set.failure.unknown": "Diese Flagge ist unbekannt.",
+  "commands.showyouridentity.flag.reset_primary.success": "Deine primäre Pride-Flagge wurde zurückgesetzt.",
+  "commands.showyouridentity.flag.reset_secondary.success": "Deine sekundäre Pride-Flagge wurde zurückgesetzt.",
+  "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "Deine primäre Pride-Flagge wurde bereits zurückgesetzt.",
+  "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "Deine sekundäre Pride-Flagge wurde bereits zurückgesetzt.",
+  "commands.showyouridentity.flag_pos.set.failure.unknown": "Diese Flaggenposition ist unbekannt.",
+  "commands.showyouridentity.flag_pos.set.success": "Deine Flaggenposition wurde auf %1$s gesetzt.",
+  "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "Deine Flaggenposition entspricht bereits %1$s.",
+
+  "showyouridentity.flag.rainbow.name": "Regenbogen-Pride-Flagge",
+  "showyouridentity.flag.rainbow.description": "Die moderne Version dieser Flagge zeigt horizontale Streifen in Rot, Orange, Gelb, Grün, Blau und Violett. Jede Farbe repräsentiert einen anderen Aspekt des Lebens und der Gemeinschaft, wie etwa Heilung, Sonnenlicht und die Natur.",
+  "showyouridentity.flag.rainbow.credit": "Entworfen von Gilbert Baker im Jahr 1978.",
+
+  "showyouridentity.flag.progress_pride.name": "Progress-Pride-Flagge",
+  "showyouridentity.flag.progress_pride.description": "Diese Flagge basiert auf der traditionellen Regenbogenflagge und erweitert sie um einen nach links gerichteten Keil, um Inklusion und stetigen Fortschritt deutlicher hervorzuheben. Der Keil enthält schwarze und braune Streifen, welche für marginalisierte und rassifizierte LGBTQ+ Communities stehen. Begleitet werden diese von den hellblauen, rosa und weißen Farben der Transgender-Pride-Flagge.",
+  "showyouridentity.flag.progress_pride.credit": "Entworfen von Daniel Quasar im Jahr 2018.",
+
+  "showyouridentity.flag.lesbian.name": "Sunset-Lesbian-Pride-Flagge",
+  "showyouridentity.flag.lesbian.description": "Eine lesbische Person wird im Allgemeinen als Frau oder nicht-binäre Person definiert, die romantische, emotionale und/oder sexuelle Anziehung zu Frauen oder feminin ausgerichteten Personen empfindet.\nDiese Flagge wurde von der Community eingeführt, um transgender und gender-nonkonforme Lesben sichtbarer einzuschließen. Die orangefarbenen Streifen stehen für Themen wie Nonkonformität, Unabhängigkeit und Gemeinschaft. Die rosa Streifen repräsentieren Gelassenheit, Liebe und Weiblichkeit. Alle Elemente umgeben einen zentralen weißen Streifen, der die einzigartige Verbindung zur Weiblichkeit symbolisiert.",
+  "showyouridentity.flag.lesbian.credit": "Entworfen von Emily Gwen im Jahr 2018.",
+
+  "showyouridentity.flag.gay.name": "Gay-Pride-Flagge (MLM-Flagge)",
+  "showyouridentity.flag.gay.description": "Ein schwuler Mann wird im Allgemeinen als Mann oder maskulin ausgerichtete Person definiert, die romantische, emotionale und/oder sexuelle Anziehung zu Männern oder maskulin ausgerichteten Personen empfindet.\nDiese Flagge wurde als Gegenstück zur Lesben-Flagge entworfen. Die oberen Streifen in Grün und Türkis symbolisieren Gemeinschaft, Heilung und Freude. Die unteren Streifen in Blau und Violett stehen für reine Liebe, Stärke und Vielfalt. Der weiße Streifen in der Mitte repräsentiert transgender, nicht-binäre und gender-nonkonforme schwule Männer.",
+  "showyouridentity.flag.gay.credit": "Entworfen von Tumblr-Nutzer*in @sadgaysite im Jahr 2019.",
+
+  "showyouridentity.flag.bisexual.name": "Bisexual-Pride-Flagge",
+  "showyouridentity.flag.bisexual.description": "Eine bisexuelle Person empfindet romantische, emotionale und/oder sexuelle Anziehung zu mehr als einem Geschlecht.\nDiese Flagge wurde entworfen, um der bisexuellen Community ein eigenes, sichtbares Symbol abseits der allgemeinen Regenbogenflagge zu geben. Der obere rosa Streifen steht für die Anziehung zum eigenen Geschlecht, der untere blaue Streifen für die Anziehung zu anderen Geschlechtern. Der lila Streifen in der Mitte entsteht aus der Überlagerung beider Farben und symbolisiert die Anziehung entlang des gesamten Geschlechterspektrums.",
+  "showyouridentity.flag.bisexual.credit": "Entworfen von Michael Page im Jahr 1998.",
+
+  "showyouridentity.flag.transgender.name": "Transgender-Pride-Flagge",
+  "showyouridentity.flag.transgender.description": "Eine transgender Person ist jemand, deren Geschlechtsidentität von dem bei der Geburt zugewiesenen Geschlecht abweicht.\nDas symmetrische Design der Flagge sorgt dafür, dass diese unabhängig von der Ausrichtung immer richtig herum weht. Dies symbolisiert das Finden der eigenen Richtigkeit im Leben. Die hellblauen Streifen stehen für die traditionelle Farbe von Jungen, die rosa Streifen für die von Mädchen. Der weiße Streifen in der Mitte repräsentiert intersexuelle Personen, Menschen, die eine Transition durchgehen oder jene, die sich einem neutralen oder undefinierten Geschlecht zugehörig fühlen.",
+  "showyouridentity.flag.transgender.credit": "Entworfen von Monica Helms im Jahr 1999.",
+
+  "showyouridentity.flag.intersex.name": "Intersex-Pride-Flagge",
+  "showyouridentity.flag.intersex.description": "Intersexuelle Menschen werden mit körperlichen Geschlechtsmerkmalen geboren, die nicht der traditionellen medizinischen Einteilung von männlichen oder weiblichen Körpern entsprechen.\nDiese Flagge verzichtet bewusst auf geschlechterstereotype Farben wie Blau oder Rosa. Der gelbe Hintergrund und der violette Kreis stehen für Ganzheitlichkeit und Vollkommenheit. Sie symbolisieren zudem das Recht, genau so zu sein, wie die Natur oder das Göttliche einen geschaffen hat, und stehen für körperliche Autonomie sowie Selbstbestimmung.",
+  "showyouridentity.flag.intersex.credit": "Entworfen von Morgan Carpenter im Jahr 2013.",
+
+  "showyouridentity.flag.asexual.name": "Asexual-Pride-Flagge",
+  "showyouridentity.flag.asexual.description": "Eine asexuelle Person empfindet wenig bis gar keine sexuelle Anziehung zu anderen Menschen, kann jedoch durchaus romantische, emotionale oder ästhetische Anziehung verspüren.\nDiese Flagge wurde durch eine Abstimmung in der Community ausgewählt, um die verschiedenen Facetten des Asexualitäts-Spektrums (Ace) darzustellen. Der schwarze Streifen steht für Asexualität, der graue Streifen für Demisexualität und Grauasexualität, der weiße Streifen für nicht-asexuelle Allies sowie Partner*innen außerhalb des Spektrums und der violette Streifen repräsentiert die Community.",
+  "showyouridentity.flag.asexual.credit": "Entworfen von Nutzer*in @standup des Asexual Visibility and Education Network (AVEN) im Jahr 2010.",
+
+  "showyouridentity.flag.aromantic.name": "Aromantic-Pride-Flagge",
+  "showyouridentity.flag.aromantic.description": "Eine aromantische Person empfindet wenig bis gar keine romantische Anziehung zu anderen Menschen. Das bedeutet meist, dass sie sich nicht im klassischen Sinne verliebt oder das Bedürfnis nach einer romantischen Partnerschaft verspürt. Platonische Beziehungen werden von ihnen jedoch oft zutiefst geschätzt.\nDies ist die am weitesten verbreitete Version der Flagge. Die dunkel- und hellgrünen Streifen stehen für das aromantische Spektrum (da Grün die Komplementärfarbe zu Rot ist, welches traditionell mit Romantik verbunden wird). Der weiße Streifen symbolisiert platonische Liebe und Freundschaft, während die grauen und schwarzen Streifen das Sexualitäten-Spektrum darstellen.",
+  "showyouridentity.flag.aromantic.credit": "Entworfen von Tumblr-Nutzer*in @cameronwhimsy im Jahr 2014.",
+
+  "showyouridentity.flag.aroace.name": "Aroace-Pride-Flagge",
+  "showyouridentity.flag.aroace.description": "Eine aroace Person identifiziert sich sowohl als aromantisch als auch als asexuell. Das bedeutet, dass sie sowohl wenig bis gar keine romantische als auch wenig bis gar keine sexuelle Anziehung empfindet.\nStatt die grüne und die lila Flagge einfach zu kombinieren, vereint dieses Design Aspekte beider Identitäten in einem eigenständigen, vereinheitlichen Muster. Die orangefarbenen Streifen stehen für die Community sowie die einzigartige Natur von Aroace-Beziehungen und Liebe. Der weiße Streifen symbolisiert Ganzheit und Frieden. Die blauen Streifen repräsentieren die Identität und das Spektrum selbst.",
+  "showyouridentity.flag.aroace.credit": "Entworfen von Tumblr-Nutzer*in @bi-aroace (heute bekannt als Jacqueline) im Jahr 2018.",
+
+  "showyouridentity.flag.agender.name": "Agender-Pride-Flagge",
+  "showyouridentity.flag.agender.description": "Eine agender Person definiert sich selbst als geschlechtslos, geschlechtsneutral oder empfindet eine vollständige Abwesenheit einer geschlechtlichen Identität.\nDiese Flagge steht für Geschlechtslosigkeit und Neutralität. Die schwarzen und weißen Streifen symbolisieren das Fehlen von Geschlecht, die grauen Streifen stehen für eine Teilgeschlechtslosigkeit. Der zentrale grüne Streifen repräsentiert nicht-binäre Identitäten, da Grün die Umkehrung von Lila ist, was wiederum die Mischung der traditionellen Geschlechterfarben Rosa und Blau ist.",
+  "showyouridentity.flag.agender.credit": "Entworfen von Salem X (auch bekannt als @transvestia) im Jahr 2014.",
+
+  "showyouridentity.flag.non_binary.name": "Nicht-Binär-Pride-Flagge",
+  "showyouridentity.flag.non_binary.description": "Eine nicht-binäre Person ist jemand, deren Geschlechtsidentität nicht in die traditionellen binären Kategorien von Mann oder Frau passt. Dies kann bedeuten, sich als beides, als keines von beiden oder als fließend zwischen den Geschlechtern zu identifizieren.\nDiese Flagge wurde entworfen, um die Genderqueer-Flagge zu ergänzen, nicht um sie zu ersetzen. Der gelbe Streifen steht für Personen außerhalb der Zweigeschlechtlichkeit, der weiße Streifen für Menschen mit vielen oder allen Geschlechtern, der lila Streifen für jene, die ihr Geschlecht als Mischung aus männlich und weiblich erleben, und der schwarze Streifen repräsentiert geschlechtsneutrale Identitäten.",
+  "showyouridentity.flag.non_binary.credit": "Entworfen von Kye Rowan im Jahr 2014.",
+
+  "showyouridentity.flag.demiboy.name": "Demiboy-Pride-Flagge",
+  "showyouridentity.flag.demiboy.description": "Ein Demiboy identifiziert sich teilweise, jedoch nicht vollständig, als Mann, Junge oder männlich gelesene Person. Das ist unabhängig von dem bei der Geburt zugewiesenen Geschlecht.\nDie gedämpften Farben der Flagge symbolisieren die Teilidentität. Die grauen Streifen stehen für die Grauzonen der Geschlechtsidentität, die blauen Streifen repräsentieren Männlichkeit oder das Mannsein, und der weiße Streifen in der Mitte steht für nicht-binäre oder agender Identitäten.",
+  "showyouridentity.flag.demiboy.credit": "Entworfen von Tumblr-Nutzer*in @transmasculine-perspective im Jahr 2015.",
+
+  "showyouridentity.flag.demigirl.name": "Demigirl-Pride-Flagge",
+  "showyouridentity.flag.demigirl.description": "Ein Demigirl identifiziert sich teilweise, jedoch nicht vollständig, als Frau, Mädchen oder weiblich gelesene Person. Das ist unabhängig von dem bei der Geburt zugewiesenen Geschlecht.\nDie gedämpften Farben der Flagge symbolisieren die Teilidentität. Die grauen Streifen stehen für die Grauzonen der Geschlechtsidentität, die rosa Streifen repräsentieren Weiblichkeit oder das Frausein, und der weiße Streifen in der Mitte steht für nicht-binäre oder agender Identitäten.",
+  "showyouridentity.flag.demigirl.credit": "Entworfen von Tumblr-Nutzer*in @transmasculine-perspective im Jahr 2015.",
+
+  "showyouridentity.flag.genderfluid.name": "Genderfluid-Pride-Flagge",
+  "showyouridentity.flag.genderfluid.description": "Eine genderfluide Person besitzt keine feste Geschlechtsidentität. Diese verändert sich im Laufe der Zeit und wandelt sich zwischen verschiedenen Geschlechtern wie männlich, weiblich, nicht-binär oder agender. Diese Flagge feiert die dynamische und wandelbare Natur dieser Identität. Der rosa Streifen steht für Weiblichkeit, der weiße für alle Geschlechter, der lila Streifen symbolisiert die Kombination aus Männlichkeit und Weiblichkeit, der schwarze das Fehlen von Geschlecht und der blaue Streifen repräsentiert Männlichkeit.",
+  "showyouridentity.flag.genderfluid.credit": "Erstellt von JJ Poole im Jahr 2012.",
+
+  "showyouridentity.flag.genderqueer.name": "Genderqueer-Pride-Flagge",
+  "showyouridentity.flag.genderqueer.description": "Eine genderqueere Person ist jemand, deren Geschlechtsidentität außerhalb der traditionellen zweigeteilten Geschlechterordnung liegt, diese überschreitet oder ablehnt. Der Begriff kann sowohl als spezifische Identität als auch als Oberbegriff (ähnlich wie \"nicht-binär\") genutzt werden.\nDie Flagge zeigt Streifen in Lavendel, Weiß und Dunkelgrün. Lavendel mischt Blau und Rosa, was Androgynität und queere Identitäten symbolisiert. Weiß steht für agender oder geschlechtsneutrale Identitäten, während Dunkelgrün für Identitäten steht, die komplett außerhalb der Binärität liegen.",
+  "showyouridentity.flag.genderqueer.credit": "Erstellt von Marilyn Roxie im Jahr 2011.",
+
+  "showyouridentity.flag.demisexual.name": "Demisexual-Pride-Flagge",
+  "showyouridentity.flag.demisexual.description": "Eine demisexuelle Person empfindet sexuelle Anziehung zu einer anderen Person erst dann, nachdem sich eine starke emotionale Bindung aufgebaut hat. Diese Identität ist Teil des Asexualitäts-Spektrums, da Anziehung nicht von Natur aus sofort oder spontan entsteht.\nDie Flagge nutzt dieselben Farben wie die Asexual-Flagge, ordnet sie jedoch in einem Keil-Design an. Der schwarze Keil steht für Asexualität, der graue Streifen für das demisexuelle Spektrum, der weiße Streifen repräsentiert Sexualität sowie Allies und der lila Streifen steht für die Community.",
+  "showyouridentity.flag.demisexual.credit": "Entworfen von Sonofofallon, einem Mitglied des Asexual Visibility and Education Network (AVEN), im Jahr 2010.",
+
+  "showyouridentity.flag.demiromantic.name": "Demiromantic-Pride-Flagge",
+  "showyouridentity.flag.demiromantic.description": "Eine demiromantische Person empfindet romantische Anziehung zu einer anderen Person erst dann, nachdem sich eine starke emotionale Bindung aufgebaut hat. Diese Identität ist Teil des Asexualitäts-Spektrums, da sich romantische Gefühle niemals auf Basis des ersten Eindrucks oder oberflächlicher Begegnungen entwickeln.\nDas Design orientiert sich an der demisexuellen Flagge, tauscht jedoch die Farben aus, um die aromantische Identität zu spiegeln. Der schwarze Keil symbolisiert das aromantische Spektrum, der graue Streifen das demiromantische Spektrum, der weiße Streifen steht für platonische Liebe sowie Freundschaft und der grüne Streifen repräsentiert den Aromantizismus.",
+  "showyouridentity.flag.demiromantic.credit": "Anonym auf Tumblr erstellt im Jahr 2015.",
+
+  "showyouridentity.flag.pansexual.name": "Pansexual-Pride-Flagge",
+  "showyouridentity.flag.pansexual.description": "Eine pansexuelle Person empfindet romantische, emotionale und/oder sexuelle Anziehung zu Menschen unabhängig von deren Geschlechtsidentität. Dies wird oft als \"geschlechtsblind\" beschrieben oder als Anziehung zu Personen aller Geschlechter definiert.\nDiese Flagge wurde entworfen, um die Sichtbarkeit der pansexuellen Community zu stärken und sie von der bisexuellen Flagge abzugrenzen. Der rosa Streifen steht für die Anziehung zu Personen, die sich als weiblich identifizieren, der blaue Streifen für jene, die sich als männlich identifizieren, und der gelbe Streifen repräsentiert die Anziehung zu nicht-binären, genderqueeren, agender oder genderfluiden Menschen.",
+  "showyouridentity.flag.pansexual.credit": "Erstellt von Jasper V. (unter dem Namen @evandragonfly) im Jahr 2010.",
+
+  "showyouridentity.flag.omnisexual.name": "Omnisexual-Pride-Flagge",
+  "showyouridentity.flag.omnisexual.description": "Eine omnisexuelle Person empfindet romantische, emotionale und/oder sexuelle Anziehung zu Menschen aller Geschlechter. Im Gegensatz zu pansexuellen Menschen, die oft als \"geschlechtsblind\" bezeichnet werden, nehmen omnisexuelle Personen das Geschlecht ihres Gegenübers sehr wohl wahr und beziehen es bewusst ein. Das Geschlecht kann bei der Anziehung eine Rolle spielen.\nDie Flagge nutzt Farbverläufe von Rosa und Blau, um das Geschlechterspektrum darzustellen. Die hell- und dunkelblauen Streifen stehen für die Anziehung zu Männern und maskulinen Identitäten, die hell- und dunkelrosa Streifen für die zu Frauen und femininen Identitäten. Der zentrale dunkelviolette Streifen steht für die Anziehung zu nicht-binären und gender-expansiven Identitäten.",
+  "showyouridentity.flag.omnisexual.credit": "Entworfen von Nutzer*in @bastard-of-the-skies (auch bekannt als Pastellight) im Jahr 2015.",
+
+  "showyouridentity.flag.polysexual.name": "Polysexual-Pride-Flagge",
+  "showyouridentity.flag.polysexual.description": "Eine polysexuelle Person fühlt sich zu mehreren, jedoch nicht zwingend zu allen Geschlechtern hingezogen. Im Unterschied zur Pansexualität (Anziehung ungeachtet des Geschlechts) und Omnisexualität (Anziehung zu allen Geschlechtern) schließt Polysexualität die Anziehung zu vielen Geschlechtern ein, klammert manche jedoch bewusst aus.\nDie Flagge soll die Besonderheit dieser Multi-Geschlechter-Anziehung darstellen. Der rosa Streifen steht für die Anziehung zu Frauen, der blaue für die Anziehung zu Männern und der grüne Streifen repräsentiert die Anziehung zu Personen außerhalb der zweigeteilten Geschlechterordnung, wie etwa nicht-binäre, genderfluide oder agender Menschen.",
+  "showyouridentity.flag.polysexual.credit": "Erstellt von Tumblr-Nutzer*in @samlin im Jahr 2012.",
+
+  "showyouridentity.flag.polyamory.name": "Polyamory-Pride-Flagge",
+  "showyouridentity.flag.polyamory.description": "Eine polyamore Person lebt oder wünscht sich mehrere einvernehmliche, romantische und/oder emotionale Beziehungen gleichzeitig, basierend auf dem informierten Konsens aller Beteiligten.\nDie moderne Flagge wurde entworfen, um die alte Trikolore von 1995 durch ein harmonischeres Symbol zu ersetzen. Der hellblaue Streifen steht für Offenheit und Ehrlichkeit, der magentafarbene für Liebe und Leidenschaft, während der dunkelviolette Streifen die polyamore Community darstellt. Der weiße Keil auf der linken Seite zeigt nach vorn, um Fortschritt zu symbolisieren, und das goldene Herz im Zentrum steht für den Kernwert der Liebe und der emotionalen Verbundenheit.",
+  "showyouridentity.flag.polyamory.credit": "Erstellt von Red Howell im Jahr 2022.",
+
+  "showyouridentity.flag.bear_brotherhood.name": "International-Bear-Brotherhood-Pride-Flagge",
+  "showyouridentity.flag.bear_brotherhood.description": "In schwulen, bisexuellen und queeren männlichen Communitys beschreibt die Subkultur der \"Bears\" meist behaarte, kräftige, stämmige oder übergewichtige Männer.\nDiese Flagge steht für die weltweite Inklusion innerhalb dieser Gruppe. Die horizontalen Streifen zeigen einen Farbverlauf (Dunkelbraun, Rostorange, Goldgelb, Beige, Weiß, Grau und Schwarz), welcher die verschiedenen Fell- und Hautfarben von Bären sowie Menschen weltweit widerspiegelt. In der linken oberen Ecke befindet sich ein schwarzer Bärtatzenabdruck, der die unverkennbare Identität und Stärke dieser Bruderschaft symbolisiert.",
+  "showyouridentity.flag.bear_brotherhood.credit": "Erstellt von Craig Byrnes im Jahr 1995.",
+
+  "showyouridentity.flag.femboy.name": "Femboy-Pride-Flagge",
+  "showyouridentity.flag.femboy.description": "Ein Femboy ist eine Person, die sich als Mann oder maskulin definiert, die eigene Geschlechtsidentität jedoch auf traditionell feminine Weise durch Kleidung, Verhalten oder Ästhetik ausdrückt. Dieser Geschlechtsausdruck stellt konventionelle Männerrollen infrage.\nDie Flagge zeigt einen symmetrischen Farbverlauf, der das Zusammenspiel von männlicher Identität und femininem Ausdruck betont. Die äußeren dunkelrosa und inneren hellrosa Streifen symbolisieren Weiblichkeit und feminine Präsentation. Die weißen Streifen stehen für nicht-binäre Menschen, die diese Ästhetik ebenfalls teilen. Der zentrale hellblaue Streifen repräsentiert die zugrundeliegende Identität als Mann oder maskulin ausgerichtete Person.",
+  "showyouridentity.flag.femboy.credit": "Erstellt von \"Jay\" im Jahr 2017.",
+
+  "showyouridentity.flag.transfem.name": "Transfeminine-Pride-Flagge",
+  "showyouridentity.flag.transfem.description": "Eine transfeminine Person ist jemand, dem bei der Geburt das männliche Geschlecht zugewiesen wurde, sich jedoch stärker mit Weiblichkeit, dem Frausein oder einer femininen Identität identifiziert. Dies umfasst Trans-Frauen ebenso wie nicht-binäre, genderfluide oder demigirl Personen, die sich feminin ausdrücken oder so definieren.\nDie Flagge erweitert die Farben der traditionellen Transgender-Flagge. Die äußeren hellblauen Streifen stehen für die männliche Zuweisung bei der Geburt, während der Übergang nach innen zu immer kräftigeren Rosatönen den Weg hin zur Akzeptanz und dem Stolz auf eine feminine Identität symbolisiert.",
+  "showyouridentity.flag.transfem.credit": "Erstellt von Tumblr-Nutzer*in @asexual-lesbian im Jahr 2015.",
+
+  "showyouridentity.flag.transmasc.name": "Transmasculine-Pride-Flagge",
+  "showyouridentity.flag.transmasc.description": "Eine transmaskuline Person ist jemand, dem bei der Geburt das weibliche Geschlecht zugewiesen wurde, sich jedoch stärker mit Männlichkeit, dem Mannsein oder einer maskulinen Identität identifiziert. Dies umfasst Trans-Männer ebenso wie nicht-binäre, genderfluide oder demiboy Personen, die sich maskulin ausdrücken oder so definieren.\nDie Flagge erweitert die Farben der traditionellen Transgender-Flagge. Die äußeren hellrosa Streifen stehen für die weibliche Zuweisung bei der Geburt, während der Übergang nach innen zu immer kräftigeren Blautönen den Weg hin zur Akzeptanz und dem Stolz auf eine maskuline Identität symbolisiert.",
+  "showyouridentity.flag.transmasc.credit": "Erstellt von Tumblr-Nutzer*in @asexual-lesbian im Jahr 2015.",
+
+  "showyouridentity.flag.neptunic.name": "Neptunic-Pride-Flagge",
+  "showyouridentity.flag.neptunic.description": "Eine neptunische Person empfindet Anziehung zu Frauen, feminin ausgerichteten nicht-binären Menschen sowie neutralen oder geschlechtslosen nicht-binären Menschen. Diese Orientierung schließt die Anziehung zu Männern oder maskulin ausgerichteten nicht-binären Personen sowie Männlichkeit explizit aus. Der Begriff wird oft von nicht-binären Menschen genutzt, um ihre Präferenz zu beschreiben, ohne auf zweigeteilte Begriffe wie \"lesbisch\" oder \"hetero\" zurückgreifen zu müssen.\nDie Farbpalette ist vom Ozean und dem Planeten Neptun inspiriert. Die oberen Streifen in Teal (Blaugrün) und Aqua stehen für weibliche und feminin ausgerichtete Identitäten. Die mittleren pastellblauen Streifen symbolisieren neutrale und nicht zugeordnete nicht-binäre Menschen. Die unteren Streifen in Lavendel und Violett repräsentieren den queeren Charakter dieser Anziehung.",
+  "showyouridentity.flag.neptunic.credit": "Anonym auf Tumblr erstellt im Jahr 2017.",
+
+  "showyouridentity.flag.uranic.name": "Uranic-Pride-Flagge",
+  "showyouridentity.flag.uranic.description": "Eine uranische Person empfindet Anziehung zu Männern, maskulin ausgerichteten nicht-binären Menschen sowie neutralen oder geschlechtslosen nicht-binären Menschen. Diese Orientierung schließt die Anziehung zu Frauen oder feminin ausgerichteten nicht-binären Personen sowie Weiblichkeit explizit aus. Der Begriff wird oft von nicht-binären Menschen genutzt, um ihre Präferenz zu beschreiben, ohne auf zweigeteilte Begriffe wie \"schwul\" oder \"hetero\" zurückgreifen zu müssen.\nDas Design ist vom Farbschema mit Himmelsmotiv und Uranus, dem griechischen Gott des Himmels, inspiriert. Die oberen vier Streifen bilden einen Verlauf von mittlerem zu sanftem Pastellblau und stehen für Männer und maskulin ausgerichtete Identitäten. Die unteren cremefarbenen und beigen Streifen stehen für neutrale oder nicht-binäre Menschen, die von dieser Anziehung eingeschlossen werden.",
+  "showyouridentity.flag.uranic.credit": "Anonym auf Tumblr erstellt im Jahr 2017.",
+
+  "showyouridentity.flag.sapphic.name": "Sapphic-Pride-Flagge",
+  "showyouridentity.flag.sapphic.description": "Eine sapphische Person ist eine Frau oder eine nicht-binäre Person, die sich zu Frauen und feminin ausgerichteten Menschen hingezogen fühlt. Dieser inklusive Oberbegriff umfasst Lesben, bisexuelle, pansexuelle sowie queere Frauen und stellt die gemeinsame Erfahrung der Anziehung zwischen Frauen in den Vordergrund. Das ist unabhängig davon, ob die Anziehung ausschließlich Frauen gilt oder nicht.\nDie Flagge ist eine moderne Adaption historischer Symbole. Die oberen und unteren rosa Streifen stehen für Liebe, Romantik und Weiblichkeit. Der weiße Streifen in der Mitte symbolisiert Sicherheit, Frieden und die Inklusion gender-expansiver Personen. Im Zentrum befindet sich eine Veilchenblüte, ein geschichtliches Symbol sapphischer Liebe, das auf die Gedichte der antiken griechischen Dichterin Sappho zurückgeht, welche über ihre Geliebten schrieb, die Kränze aus Veilchen trugen.",
+  "showyouridentity.flag.sapphic.credit": "Erstellt von den Tumblr-Nutzer*innen @pride-flags und @lesbian-herstory im Jahr 2015.",
+
+  "showyouridentity.flag.sapiosexual.name": "Sapiosexual-Pride-Flagge",
+  "showyouridentity.flag.sapiosexual.description": "Eine sapiosexuelle Person empfindet romantische und/oder sexuelle Anziehung primär gegenüber der Intelligenz und dem menschlichen Geist. Für diese Menschen bilden eine intellektuelle Verbindung, anregende Gespräche oder die mentale Tiefe das Fundament der Anziehung, weit vor dem körperlichen Erscheinungsbild oder der Geschlechtsidentität.\nDie Flagge stellt die verschiedenen Facetten einer intellektuellen Verbindung dar. Der obere grüne Streifen steht für das Wachstum, die Entwicklung und die Erweiterung des Geistes. Der mittlere braune Streifen symbolisiert Stabilität, Tiefe und die Bodenständigkeit tiefen Denkens. Der untere blaue Streifen steht für Wissen, Logik und intellektuelle Erkundung.",
+  "showyouridentity.flag.sapiosexual.credit": "Erstellt von Nutzer*in @WolfieBoy im Jahr 2015.",
+
+  "showyouridentity.flag.straight_ally.name": "Heterosexuelle Ally-Flagge",
+  "showyouridentity.flag.straight_ally.description": "Allies nutzen ihre gesellschaftlichen Privilegien, um Homophobie, Biphobie, Transphobie und systemische Ungerechtigkeiten zu bekämpfen und sichere, inklusive Räume für LGBTQ+ Personen zu schaffen.\nDiese Flagge kombiniert Symbole der Heterosexualität mit denen des queeren Stolzes. Der Hintergrund besteht aus abwechselnden schwarzen und weißen horizontalen Streifen, die historisch die Hetero-Pride-Flagge darstellen. Im Zentrum befindet sich ein großes, stilisiertes \"A\", das mit dem traditionellen sechsfarbigen LGBTQ+-Regenbogen gefüllt ist. Das \"A\" steht für \"Ally\" und symbolisiert den aktiven Einsatz für den Schutz und die Unterstützung der queeren Community.",
+  "showyouridentity.flag.straight_ally.credit": "Erstellt von einer unbekannten Person Ende der 2000er-Jahre.",
+
+  "showyouridentity.flag.trans_ally.name": "Trans-Ally-Flagge",
+  "showyouridentity.flag.trans_ally.description": "Allies nutzen ihre gesellschaftlichen Privilegien, um Homophobie, Biphobie, Transphobie und systemische Ungerechtigkeiten zu bekämpfen und sichere, inklusive Räume für LGBTQ+ Personen zu schaffen.\nAngelehnt an das visuelle Konzept der heterosexuellen Ally-Flagge verbindet dieses Design die heterosexuelle/cisgeschlechtliche Identität mit Transgender-Pride. Der Hintergrund besteht aus abwechselnden schwarzen und weißen horizontalen Streifen, die historisch die Hetero-Pride-Flagge darstellen. Im Zentrum befindet sich ein großes, stilisiertes \"A\", gefüllt mit den hellblauen, rosa und weißen Farben der traditionellen Transgender-Pride-Flagge von Monica Helms. Das \"A\" steht für \"Ally\" und symbolisiert den aktiven Einsatz für den Schutz und die Unterstützung von trans* Personen.",
+  "showyouridentity.flag.trans_ally.credit": "Erstellt von einer unbekannten Person Ende der 2010er-Jahre.",
+
+  "showyouridentity.midnightconfig.slur_filter_url": "URL für den Beleidigungen-Filter",
+  "showyouridentity.midnightconfig.comment_slur_filter": "Der Beleidigungen-Filter muss auf der Struktur von awdev1/better-profane-words auf GitHub basieren.",
+  "showyouridentity.midnightconfig.title": "Show Your Identity",
+  "showyouridentity.midnightconfig.category.common": "Common",
+  "showyouridentity.midnightconfig.category.client": "Client",
+  "showyouridentity.midnightconfig.renderThirdPersonNameTag": "Zeige das Namensschild über dem Kopf in der Third-Person-Perspektive",
+  "showyouridentity.midnightconfig.pronounScale": "Pronomen-Maßstab"
+}

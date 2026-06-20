@@ -1,0 +1,158 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "%1$s no definió un pronombre, pregúntaselos",
+  "commands.showyouridentity.pronouns.get.success": "%1$s tiene de pronombre %2$s.",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "Solo quienes jueguen pueden definir sus pronombres",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "Ya tienes esos pronombres %1$s.",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s contiene términos ofensivos. No los digas.",
+  "commands.showyouridentity.pronouns.set.success": "Has definido tus pronombres como %1$s.",
+  "commands.showyouridentity.slur_filter.reload.success": "Filtro de términos ofensivos recargado (Recuento: %1$s)",
+  "commands.showyouridentity.slur_filter.add.success": "Agregado satisfactoriamente un nuevo término ofensivo al filtro",
+  "commands.showyouridentity.slur_filter.add.failure": "El término ofensivo ya existe u ocurrió un error (Revisa el registro)",
+  "commands.showyouridentity.reset.all.success": "Los datos de identidad de todos han sido reiniciados",
+  "commands.showyouridentity.reset.player.failure": "Imposible reiniciar el dato de identidad de %s",
+  "commands.showyouridentity.reset.player.success": "El dato de identidad de %s ha sido reiniciado",
+  "commands.showyouridentity.flag.set_primary.success": "Tu bandera principal del orgullo se definió como %s",
+  "commands.showyouridentity.flag.set_secondary.success": "Tu bandera secundaria del orgullo se definió como %s",
+  "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "Tu bandera principal del orgullo ya es %s",
+  "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "Tu bandera secundaria del orgullo ya es %s",
+  "commands.showyouridentity.flag.set.failure.unknown": "Esa bandera es desconocida",
+  "commands.showyouridentity.flag.reset_primary.success": "Tu bandera principal del orgullo ha sido reiniciada",
+  "commands.showyouridentity.flag.reset_secondary.success": "Tu bandera secundaria del orgullo ha sido reiniciada",
+  "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "Tu bandera principal del orgullo ya ha sido reiniciada",
+  "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "Tu bandera secundaria del orgullo ya ha sido reiniciada",
+  "commands.showyouridentity.flag_pos.set.failure.unknown": "Esa posición de la bandera es desconocida",
+  "commands.showyouridentity.flag_pos.set.success": "La posición de tu bandera ha sido establecida a %s",
+  "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "La posición de tu bandera ya coincide con %s",
+
+  "showyouridentity.flag.rainbow.name": "Bandera de orgullo arcoíris",
+  "showyouridentity.flag.rainbow.description": "La versión moderna muestra barras horizontales de rojo, naranja, amarillo, verde, azul y violeta. Cada color representa un aspecto diferente de vida y comunidad, como la sanación, luz del sol y la naturaleza",
+  "showyouridentity.flag.rainbow.credit": "Diseñada por Gilbert Baker en 1978",
+
+  "showyouridentity.flag.progress_pride.name": "Bandera del orgullo progresista",
+  "showyouridentity.flag.progress_pride.description": "Esta bandera construye sobre la bandera de arcoíris tradicional al agregarle un chebrón orientado hacia la izquierda para enfatizar de manera explícita la inclusión y el progreso continuo. El chebrón cuenta con franjas negras y marrones para representar a las comunidades marginalizadas LGBTQ+ de minorías étnicas. Estas franjas se ven acompañadas por los colores celeste, rosa y blanco de la bandera del orgullo transgénero.",
+  "showyouridentity.flag.progress_pride.credit": "Diseñada por Daniel Quasar en 2018.",
+
+  "showyouridentity.flag.lesbian.name": "Bandera del orgullo lésbico al atardecer",
+  "showyouridentity.flag.lesbian.description": "Una lesbiana es generalmente definida como una mujer o persona no binaria quien se siente atraída romántica, emocional y/o sexual por mujeres o personas alineadas femeninas.\nLa comunidad adoptó esta bandera para ser más inclusiva a las lesbianas transgénero y género no conforme. Las franjas naranjas representan temas como la disconformidad, independencia y comunidad. Las franjas rosas representan a la serenidad, amor y feminidad. Todos estos temas se centran alrededor de una franja blanca, que representa las relaciones únicas con la feminidad",
+  "showyouridentity.flag.lesbian.credit": "Diseñada por Emily Gwen en 2018.",
+
+  "showyouridentity.flag.gay.name": "Bandera del orgullo gay masculino (Bandera MLM)",
+  "showyouridentity.flag.gay.description": "Una persona gay es generalmente definida como un hombre o una persona alineada al masculino quien se siente atraído romántico, emocional y/o sexual por hombres o personas alineadas masculinas.\nEsta bandera fue diseñada como una contraparte de la bandera lésbica. Las franjas superiores de color verde y verde azulado simboliza comunidad, sanación y diversión. Las franjas inferiores de color azul y violeta representa amor puro, fuerza y diversidad. La franja blanca en el centro representa a los hombres transgénero gay, personas no binarias y género no conforme",
+  "showyouridentity.flag.gay.credit": "Diseñada por el usuario de Tumblr @sadgaysite en 2019.",
+
+  "showyouridentity.flag.bisexual.name": "Bandera de orgullo bisexual",
+  "showyouridentity.flag.bisexual.description": "Una persona bisexual es aquella que experimenta atracción romántica, emocional y/o sexual hacia más de un género.\nEsta bandera se creó con el objetivo de que la comunidad bisexual tenga su propio símbolo distintivo de visibilidad, independiente de la bandera de arcoíris general. La franja rosa superior representa la atracción hacia el propio género; la franja azul inferior representa la atracción hacia distintos géneros; y la franja morada del medio representa la atracción hacia todo el espectro de género.",
+  "showyouridentity.flag.bisexual.credit": "Diseñada por Michael Page en 1998",
+
+  "showyouridentity.flag.transgender.name": "Bandera del orgullo transgénero",
+  "showyouridentity.flag.transgender.description": "Una persona transgénero es aquella cuya identidad de género difiere de su sexo asignado al nacer.\nEl diseño simétrico de la bandera da por seguro que siempre se visualice del modo correcto, lo que simboliza el encontrar precisión en la vida. Las franjas celestes representan el color tradicional para los niños; las franjas rosas representan el color tradicional para las niñas; y la franja blanca en el medio representa a aquellas personas intersexuales, en transición o que consideran que su género es neutral o no definido.",
+  "showyouridentity.flag.transgender.credit": "Diseñada por Monica Helms en 1999.",
+
+  "showyouridentity.flag.intersex.name": "Bandera del orgullo intersexual",
+  "showyouridentity.flag.intersex.description": "Una persona intersexual es aquella que nace con características de sexo que no se ajustan a las ideas binarias típicas de cuerpos masculinos o femeninos.\nEsta bandera evita a propósito colores de género como el azul y el rosa. El fondo amarillo y el círculo morado representan integridad y completitud. También simbolizan el derecho de ser tal y como Dios o la naturaleza los creó, y representan la autonomía corporal y la libre determinación.",
+  "showyouridentity.flag.intersex.credit": "Diseñada por Morgan Carpenter en 2013.",
+
+  "showyouridentity.flag.asexual.name": "Bandera del orgullo asexual",
+  "showyouridentity.flag.asexual.description": "Una persona asexual es aquella que experimenta poca o nula atracción sexual hacia los demás, aunque sí puede que experimente atracción romántica, emocional o estética.\nSe llevó a cabo una votación comunitaria para elegir una bandera que represente los distintos aspectos del espectro asexual. La franja negra representa la asexualidad; la gris, la demisexualidad y la asexualidad gris; la blanca, los aliados y las parejas no asexuales; y la franja morada, la comunidad.",
+  "showyouridentity.flag.asexual.credit": "Diseñado por @standup de la Red para la Educación y Visibilidad de la Asexualidad en 2010.",
+
+  "showyouridentity.flag.aromantic.name": "Bandera del orgullo arromántico",
+  "showyouridentity.flag.aromantic.description": "Una persona arromántica es aquella que experimenta poca o nula atracción romántica hacia los demás. Significa que, por lo general, no suelen pasar por \"enamoramientos\" ni desean relaciones románticas. Sin embargo, valoran mucho las relaciones platónicas.\nEsta versión de la bandera es la más reconocida. Las franjas verdes oscuras y claras representan el espectro arromántico (dado que el verde es el opuesto al rojo, el cual tradicionalmente se asocia con el romance). La franja blanca representa el amor platónico y la amistad, mientras que las franjas grises y negras representan el espectro de la sexualidad.",
+  "showyouridentity.flag.aromantic.credit": "Diseñado por @cameronwhimsy en Tumblr en 2014.",
+
+  "showyouridentity.flag.aroace.name": "Bandera del orgullo aroace",
+  "showyouridentity.flag.aroace.description": "Una persona aroace es aquella que se identifica como arromántica y asexual, lo cual indica que experimentan poca y nula atracción tanto romántica como sexual.\nEn vez de combinar las banderas verdes y moradas, esta bandera incorpora los aspectos de ambas identidades en un diseño único y unificado. Las franjas naranjas representan la comunidad y la naturaleza única del amor y las relaciones aroace; la franja blanca representa la integridad y la paz; las franjas azules representan la identidad y el espectro aroace.",
+  "showyouridentity.flag.aroace.credit": "Diseñada por @bi-aroace (que ahora se conoce como Jacqueline) en Tumblr en 2018.",
+
+  "showyouridentity.flag.agender.name": "Bandera del orgullo agénero",
+  "showyouridentity.flag.agender.description": "Una persona agénero es aquella que se identifica con no tener un género o con una ausencia de identidad de género.\nEsta bandera representa la carencia de género y la neutralidad. Las franjas negras y blancas representan la ausencia del género; las franjas grises representan la semicarencia de género; y la franja verde en el medio representa las identidades no binarias, ya que el verde es lo opuesto al morado, que es una mezcla de los colores tradicionales asociados al género: el rosa y el azul.",
+  "showyouridentity.flag.agender.credit": "Diseñado por Salem X (bajo el alias @transvestia) en 2014.",
+
+  "showyouridentity.flag.non_binary.name": "Bandera del orgullo no binario",
+  "showyouridentity.flag.non_binary.description": "Una persona no binaria es aquella cuya identidad de género no se ajusta de manera estricta a las categorías binarias de masculino o femenino, lo que incluye identificarse como ambos, ninguno o fluir entre géneros.\nEsta bandera se diseñó para complementar —no reemplazar— la bandera genderqueer. La franja amarilla representa a aquellas personas cuyo género no se encuentra dentro de lo binario; la franja blanca señala a aquellas cuyo género es una combinación de lo masculino y lo femenino; y la franja negra simboliza a aquellas que se identifican como de género neutro.",
+  "showyouridentity.flag.non_binary.credit": "Diseñada por Kye Rowan en 2014.",
+
+  "showyouridentity.flag.demiboy.name": "Bandera del orgullo demiboy",
+  "showyouridentity.flag.demiboy.description": "Una persona demiboy es aquella que se identifica parcialmente, pero no del todo, como hombre, varón o masculina, independientemente del sexo que le asignaron al nacer.\nLos colores apagados de la bandera simbolizan una identidad parcial. Las franjas grises representan las áreas grises de la identidad de género; las franjas azules representan la masculinidad o la hombría; y la franja blanca del medio representa las identidades no binarias o de agénero.",
+  "showyouridentity.flag.demiboy.credit": "Diseñada por @transmasculine-perspective en Tumblr en 2015.",
+
+  "showyouridentity.flag.demigirl.name": "Bandera del orgullo demigirl",
+  "showyouridentity.flag.demigirl.description": "Una persona demigirl es aquella que se identifica parcialmente, pero no del todo, como mujer, chica o femenina, independientemente del sexo que le asignaron al nacer.\nLos colores opacados de la bandera simbolizan una identidad parcial. Las franjas grises representan las áreas grises de la identidad de género; las franjas rosas representan la femineidad; y la franja blanca del medio representa las identidades no binarias y de agénero.",
+  "showyouridentity.flag.demigirl.credit": "Diseñada por @transmasculine-perspective en Tumblr en 2015.",
+
+  "showyouridentity.flag.genderfluid.name": "Bandera del orgullo del género fluido",
+  "showyouridentity.flag.genderfluid.description": "Una persona de género fluido es aquella cuya identidad de género no es fija y varía con el tiempo, es decir, que fluye entre géneros como masculino, femenino, no binario o agénero.\nEsta bandera abarca la naturaleza dinámica y cambiante de la variabilidad del género. La franja rosa representa la femineidad; la franja blanca, todos los géneros; la franja morada, la combinación entre lo masculino y lo femenino; la franja negra, la falta de género; y la franja azul, la masculinidad.",
+  "showyouridentity.flag.genderfluid.credit": "Diseñada por JJ Poole en 2012.",
+
+  "showyouridentity.flag.genderqueer.name": "Bandera del orgullo genderqueer",
+  "showyouridentity.flag.genderqueer.description": "Una persona genderqueer es aquella cuya identidad de género queda fuera del binario tradicional hombre-mujer, va más allá de él o lo rechaza. Este término puede usarse como una identidad en particular o como un término general, similar a \"no binario\".\nEsta bandera cuenta con franjas de color lavanda, blanco y verde oscuro. La franja lavanda representa una mezcla del azul y rosa, lo que simboliza la androginia y las identidades de género neutro, mientras que la franja verde oscura representa las identidades que se encuentran afuera de lo binario.",
+  "showyouridentity.flag.genderqueer.credit": "Diseñada por Marilyn Roxie en 2011.",
+
+  "showyouridentity.flag.demisexual.name": "Bandera del orgullo demisexual",
+  "showyouridentity.flag.demisexual.description": "Una persona demisexual es aquella que experimenta atracción sexual hacia otra persona solo tras establecer un vínculo emocional con ella. Se encuentra dentro del espectro asexual ya que esta atracción no se siente de manera innata o instantánea.\nEsta bandera usa los mismos colores que la bandera asexual, pero colocados en distinto orden: el chebrón negro representa la asexualidad; la franja gris, el espectro demisexual; la franja blanca, la sexualidad y los aliados; y la franja morada, la comunidad.",
+  "showyouridentity.flag.demisexual.credit": "Diseñada por Sonofofallon de la Red para la Educación y Visibilidad de la Asexualidad en 2010.",
+
+  "showyouridentity.flag.demiromantic.name": "Bandera del orgullo demiromántico",
+  "showyouridentity.flag.demiromantic.description": "Una persona demiromántica es aquella que experimenta atracción romántica hacia otra persona solo tras establecer un vínculo emocional con ella. Se encuentra dentro del espectro arromántico, ya que estos sentimientos románticos no nacen a partir de las apariencias o de las interacciones superficiales.\nEsta bandera usa el mismo diseño que la bandera demisexual pero cambia los colores para reflejar las identidades arrománticas. El chebrón negro representa el espectro arromántico; la franja gris, el espectro demiromántico; la franja blanca, el amor platónico y la amistad; y la franja verde, el arromanticismo.",
+  "showyouridentity.flag.demiromantic.credit": "Diseñada por un usuario anónimo en Tumblr en 2015.",
+
+  "showyouridentity.flag.pansexual.name": "Bandera del orgullo pansexual",
+  "showyouridentity.flag.pansexual.description": "Una persona pansexual es aquella que siente atracción romántica, emocional y/o sexual por otras personas, independientemente de su identidad de género.\nEsta bandera se diseñó para aumentar la visibilidad de la comunidad pansexual y separarla de la bandera bisexual. La franja rosa representa la atracción hacia personas que se identifican como femeninas; la franja azul representa la atracción hacia personas que se identifican como masculinas; y la franja amarilla representa la atracción hacia personas no binarias, genderqueer, de agénero o de género fluido.",
+  "showyouridentity.flag.pansexual.credit": "Diseñada por Jasper V. (bajo el usuario @evandragonfly) en 2010.",
+
+  "showyouridentity.flag.omnisexual.name": "Bandera del orgullo omnisexual",
+  "showyouridentity.flag.omnisexual.description": "Una persona omnisexual es aquella que experimenta atracción romántica, emocional y/o sexual por las personas de todos los géneros. A diferencia de las personas pansexuales, que no suelen hacer distinción de género, las personas omnisexuales reconocen y son conscientes del género de la otra.\nEsta bandera usa tonos de rosa y azul para representar el espectro de género. Las franjas azules claras y oscuras representan la atracción hacia los hombres y los géneros masculinos; las franjas rosas claras y oscuras representan la atracción hacia las mujeres y los géneros femeninos; y la franja morada oscura del medio representa la atracción hacia las identidades no binarias y de género expansivo.",
+  "showyouridentity.flag.omnisexual.credit": "Diseñada por el usuario @bastard-of-the-skies (aka Pastellight) en 2015.",
+
+  "showyouridentity.flag.polysexual.name": "Bandera del orgullo polisexual",
+  "showyouridentity.flag.polysexual.description": "Una persona polisexual es aquella que le atraen varios géneros, pero no necesariamente todos. A diferencia de la pansexualidad, que es la atracción independientemente del género, o la omnisexualidad, que es la atracción por todos los géneros, la polisexualidad es la atracción hacia muchos géneros, pero que también excluye a otros.\nEsta bandera se diseñó para representar la naturaleza particular de la atracción multigénero. La franja rosa representa la atracción hacia personas que se identifican como mujer; la franja azul representa la atracción hacia personas que se identifican como hombre; y la franja verde representa la atracción hacia personas cuya identidad queda fuera del binario de género tradicional, como las no binarias, de género fluido o de agénero.",
+  "showyouridentity.flag.polysexual.credit": "Diseñada por el usuario de Tumblr @samlin en 2012.",
+
+  "showyouridentity.flag.polyamory.name": "Bandera del orgullo poliamoroso",
+  "showyouridentity.flag.polyamory.description": "Una persona poliamorosa es aquella que está abierta a o que tiene muchas relaciones románticas y/o emocionales al mismo tiempo con el consentimiento informado de todas las parejas involucradas.\nEsta bandera se diseñó para reemplazar la bandera tricolor de 1995 por un símbolo más cohesivo. La franja celeste representa la franqueza y la honestidad; la franja magenta, el amor y la pasión; y la franja morada oscura, la comunidad poliamorosa. El chebrón blanco a la izquierda señala hacia adelanta para simbolizar la progresión, y el corazón dorado en el medio representa el valor fundamental del amor y la conexión emocional.",
+  "showyouridentity.flag.polyamory.credit": "Diseñada por Red Howell en 2022.",
+
+  "showyouridentity.flag.bear_brotherhood.name": "Bandera del orgullo de la hermandad de osos internacional",
+  "showyouridentity.flag.bear_brotherhood.description": "En las comunidades gay, bisexuales y queer masculinas, un \"oso\" es una subcultura que suele referirse a un hombre peludo, robusto, corpulento o fornido.\nEsta bandera representa la inclusión por toda la comunidad global. Las franjas horizontales muestran un degradado de colores (marrón oscuro, roya naranja, amarillo dorado, canela, blanco, gris y negro) que representan el pelaje y los colores de piel de los osos y de los humanos en todo el mundo. La huella de la pata de un oso negro se posiciona en la esquina superior izquierda, que simboliza la identidad característica y la fuerza de la hermandad.",
+  "showyouridentity.flag.bear_brotherhood.credit": "Diseñada por Craig Byrnes en 1995.",
+
+  "showyouridentity.flag.femboy.name": "Bandera del orgullo femboy",
+  "showyouridentity.flag.femboy.description": "Un femboy es aquel que se identifica como hombre o masculino pero que expresa su género de manera tradicionalmente femenina mediante su vestimenta, comportamiento o estéticas. Esta expresión de género desafía los roles masculinos tradicionales.\nEsta bandera cuenta con un degradado simétrico de colores diseñado para destacar la intersección entre la identidad masculina y la expresión femenina. Las franjas rosas oscuras en el exterior y las franjas rosas claras en el interior simbolizan la femineidad y la presentación femenina; las franjas blancas representan a las personas no binarias que también adoptan la estética femboy; y la franja celeste en el medio representa la identidad masculina subyacente o alineada con lo masculino.",
+  "showyouridentity.flag.femboy.credit": "Diseñada por el usuario \"Jay\" en 2017",
+
+  "showyouridentity.flag.transfem.name": "Bandera del orgullo transfemenino",
+  "showyouridentity.flag.transfem.description": "Una persona transfemenina es aquella cuyo sexo se le asignó como masculino al nacer pero que se identifica con la femineidad. Este término abarca tanto a las mujeres transgénero como a las personas no binarias, de género fluido o demigirls que se expresan o se identifican como femeninas.\nLa bandera amplía la gama de colores de la bandera transgénero tradicional. Las franjas exteriores celestes representan la asignación de género masculino al nacer, y van cambiando hacia el interior mediante tonos de rosa más intensos para simbolizar el camino hacia una identidad femenina y orgullosa.",
+  "showyouridentity.flag.transfem.credit": "Diseñada por el usuario de Tumblr @asexual-lesbian en 2015.",
+
+  "showyouridentity.flag.transmasc.name": "Bandera del orgullo transmasculino",
+  "showyouridentity.flag.transmasc.description": "Una persona transmasculina es aquella cuyo sexo se le asignó como femenino al nacer pero que se identifica con la masculinidad y hombría. Este término abarca tanto a los hombres transgénero como a las personas no binarias, de género fluido o demiboys que se expresan o se identifican como masculinos.\nLa bandera amplía la gama de colores de la bandera transgénero tradicional. Las franjas exteriores rosas representan la asignación de género femenino al nacer, y van cambiando hacia el interior mediante tonos de azul más intensos para simbolizar el camino hacia una identidad masculina y orgullosa.",
+  "showyouridentity.flag.transmasc.credit": "Diseñada por un usuario de Tumblr @asexual-lesbian en 2015.",
+
+  "showyouridentity.flag.neptunic.name": "Bandera del orgullo neptúnico",
+  "showyouridentity.flag.neptunic.description": "Una persona neptúnica es aquella que experimenta atracción hacia las mujeres, personas no binarias alineadas con lo femenino y personas no binarias neutrales o sin alineación. Esta orientación excluye por completo la atracción hacia los hombres, personas no binarias alineadas con lo masculino y la masculinidad. Este término suele ser usado por las personas no binarias para describir su atracción sin recurrir a términos binarios como \"lesbiana\" o \"heterosexual\".\nEsta bandera usa una paleta de colores oceánicos inspirada en el planeta Neptuno. Las franjas verdes azuladas y aguamarinas superiores representan las identidades femeninas y alineadas con lo femenino; las franjas de azules pastel y aguamarinas claras del medio simbolizan a las personas no binarias neutras y sin alineación; las franjas de lavanda y moradas inferiores representan la naturaleza única y queer de esta atracción.",
+  "showyouridentity.flag.neptunic.credit": "Diseñada por un usuario anónimo de Tumblr en 2017.",
+
+  "showyouridentity.flag.uranic.name": "Bandera del orgullo uránico",
+  "showyouridentity.flag.uranic.description": "Una persona uránica es aquella que experimenta atracción hacia los hombres, personas no binarias alineadas con lo masculino y personas no binarias neutrales o sin alineación. Esta orientación excluye por completo la atracción hacia las mujeres, personas no binarias alineadas con lo femenino y la femineidad. Este término suele ser usado por las personas no binarias para describir su atracción sin recurrir a términos binarios como \"homosexual\" o \"heterosexual\".\nEsta bandera usa una combinación de colores inspirada en el cielo y en Urano, el dios griego del cielo. Las cuatro franjas superiores forman un degradado de azules pastel que representan a los hombres y las identidades alineadas con lo masculino; las franjas inferiores de color crema y naranja-marrón claro representan a las personas que se identifican como neutras, sin alineación o no binarias, y que también se incluyen en esta atracción.",
+  "showyouridentity.flag.uranic.credit": "Diseñada por un usuario anónimo de Tumblr en 2017.",
+
+  "showyouridentity.flag.sapphic.name": "Bandera del orgullo sáfico",
+  "showyouridentity.flag.sapphic.description": "Una persona sáfica es una mujer o no binaria que siente atracción por las mujeres y las personas con alineación femenina. Este término general inclusivo abarca a las lesbianas, las mujeres bisexuales, las mujeres pansexuales y las mujeres queer, centrándose en la experiencia compartida de la atracción entre mujeres, independientemente de si les atraen exclusivamente las mujeres.\nEsta bandera es una adaptación moderna de símbolos históricos antiguos. La franja rosa superior e inferior representan el amor, el romance y la femineidad, mientras que la franja blanca del medio representa la seguridad, la paz y la inclusión de personas de género expansivo en la comunidad. En el centro se observa una flor violeta, que es el símbolo histórico del amor sáfico que data de la poesía de Safo en la antigua Grecia. Ella escribía sobre sus amantes, que lucían guirnaldas de violetas.",
+  "showyouridentity.flag.sapphic.credit": "Diseñada por el usuario de Tumblr @pride-flags y @lesbian-herstory en 2015.",
+
+  "showyouridentity.flag.sapiosexual.name": "Bandera de orgullo sapiosexual",
+  "showyouridentity.flag.sapiosexual.description": "Una persona sapiosexual es aquella que experimenta atracción romántica y sexual por la inteligencia y la mente humana. Para ellas, una conexión intelectual, una conversación estimulante o la profundidad mental de alguien constituyen la base de la atracción, y tienen prioridad sobre el aspecto físico o la identidad de género.\nEsta bandera representa los varios aspectos de una conexión intelectual. La franja verde superior representa el crecimiento, desarrollo y expansión de la mente; la franja marrón del medio representa la estabilidad, la profundidad y la naturaleza sensata del pensamiento; y la franja inferior azul representa el conocimiento, la lógica y la exploración intelectual.",
+  "showyouridentity.flag.sapiosexual.credit": "Diseñada por el usuario @WolfieBoy en 2015",
+
+  "showyouridentity.flag.straight_ally.name": "Bandera del aliado heterosexual",
+  "showyouridentity.flag.straight_ally.description": "Los aliados hacen uso de su privilegio para luchar contra la homofobia, bifobia, transfobia y las desigualdades sistémicas al crear espacios seguros e inclusivos para las personas LGBTQ+.\nEsta bandera combina los símbolos de la identidad heterosexual y el orgullo queer. El fondo está formado por franjas horizontales alternadas en blanco y negro, que históricamente representan la bandera del orgullo heterosexual. En el medio se observa una \"A\" mayúscula grande en cuyo interior están los colores de la bandera de arcoíris LGBTQ+ tradicional. La \"A\" se refiere a \"aliado/a\" y representa los esfuerzos activos de la comunidad para brindar apoyo y protección a la comunidad queer.",
+  "showyouridentity.flag.straight_ally.credit": "Diseñada por una persona desconocida a finales del 2000",
+
+  "showyouridentity.flag.trans_ally.name": "Bandera del aliado trans",
+  "showyouridentity.flag.trans_ally.description": "Los aliados hacen uso de su privilegio para luchar contra la homofobia, bifobia, transfobia y las desigualdades sistémicas al crear espacios seguros e inclusivos para las personas LGBTQ+.\nAl igual que el concepto del diseño de la bandera del aliado heterosexual, esta bandera combina la identidad heterosexual y cis y el orgullo transgénero. El fondo está formado por franjas horizontales alternadas en blanco y negro, que históricamente representan la bandera del orgullo heterosexual. En el medio se observa una \"A\" mayúscula grande en cuyo interior están los colores de la bandera del orgullo transgénero tradicional. La \"A\" se refiere a \"aliado/a\" y representa los esfuerzos activos de la comunidad para brindar apoyo y protección a la comunidad trans.",
+  "showyouridentity.flag.trans_ally.credit": "Diseñada por una persona desconocida a finales del 2010",
+
+  "showyouridentity.midnightconfig.slur_filter_url": "URL del Filtro de términos ofensivos",
+  "showyouridentity.midnightconfig.comment_slur_filter": "El filtro de términos ofensivos debe basarse en la estructura de awdev1/better-profane-words en GitHub",
+  "showyouridentity.midnightconfig.title": "Muestra tu identidad"
+}

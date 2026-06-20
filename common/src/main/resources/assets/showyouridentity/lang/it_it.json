@@ -1,0 +1,158 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "%1$s non ha impostato alcun pronome, quindi chiedi.",
+  "commands.showyouridentity.pronouns.get.success": "%1$s usa i pronomi %2$s.",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "Solo la persona può impostare i propri pronomi.",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "Usi già i pronomi %1$s.",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s contiene termini offensivi. Non usarli.",
+  "commands.showyouridentity.pronouns.set.success": "Hai impostato i tuoi pronomi su %1$s.",
+  "commands.showyouridentity.slur_filter.reload.success": "Filtro dei termini offensivi caricato con successo. (Totale: %1$s)",
+  "commands.showyouridentity.slur_filter.add.success": "Nuovo termine offensivo aggiunto con successo al filtro.",
+  "commands.showyouridentity.slur_filter.add.failure": "Il termine offensivo esiste già oppure si è verificato un errore (Controlla il registro)",
+  "commands.showyouridentity.reset.all.success": "I dati di identità di tutti sono stati reimpostati.",
+  "commands.showyouridentity.reset.player.failure": "Impossibile reimpostare i dati di identità di %1$s.",
+  "commands.showyouridentity.reset.player.success": "I dati di identità di %s sono stati reimpostati.",
+  "commands.showyouridentity.flag.set_primary.success": "La tua bandiera pride principale è stata impostata su %s.",
+  "commands.showyouridentity.flag.set_secondary.success": "La tua bandiera pride secondaria è stata impostata su %s.",
+  "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "La tua bandiera pride principale è già %s.",
+  "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "La tua bandiera pride secondaria è già %s.",
+  "commands.showyouridentity.flag.set.failure.unknown": "Bandiera sconosciuta.",
+  "commands.showyouridentity.flag.reset_primary.success": "La tua bandiera pride principale è stata reimpostata.",
+  "commands.showyouridentity.flag.reset_secondary.success": "La tua bandiera pride secondaria è stata reimpostata.",
+  "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "La tua bandiera pride principale era già stata reimpostata.",
+  "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "La tua bandiera pride secondaria era già stata reimpostata.",
+  "commands.showyouridentity.flag_pos.set.failure.unknown": "Posizione della bandiera sconosciuta.",
+  "commands.showyouridentity.flag_pos.set.success": "La tua posizione della bandiera adesso è impostata su %s.",
+  "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "La tua posizione della bandiera combacia già con %s.",
+
+  "showyouridentity.flag.rainbow.name": "La Bandiera Pride Arcobaleno",
+  "showyouridentity.flag.rainbow.description": "La versione moderna presenta strisce orizzontali rosse, arancioni, gialle, verdi, blu e viola. Ogni colore rappresenta un diverso aspetto della vita e della comunità, come la guarigione, la luce del sole e la natura.",
+  "showyouridentity.flag.rainbow.credit": "Disegnata da Gilbert Baker nel 1978.",
+
+  "showyouridentity.flag.progress_pride.name": "Bandiera Progress Pride",
+  "showyouridentity.flag.progress_pride.description": "Questa bandiera si basa sulla tradizionale bandiera arcobaleno aggiungendo un gallone rivolto verso sinistra per sottolineare esplicitamente l'inclusione e il progresso continuo. Il gallone presenta strisce nere e marroni per rappresentare le comunità LGBTQ+ razzializzate e storicamente emarginate. Queste strisce sono accompagnate dai colori azzurro chiaro, rosa e bianco della bandiera dell'orgoglio transgender.",
+  "showyouridentity.flag.progress_pride.credit": "Disegnata da Daniel Quasar nel 2018.",
+
+  "showyouridentity.flag.lesbian.name": "Bandiera Lesbica Sunset",
+  "showyouridentity.flag.lesbian.description": "Una persona lesbica viene generalmente definita come una donna o una persona non binaria che prova attrazione romantica, emotiva e/o sessuale verso donne o persone allineate alla femminilità. La comunità ha adottato questa bandiera per essere più inclusiva nei confronti delle persone lesbiche transgender e non conformi al genere. Le strisce arancioni rappresentano temi come la non conformità, l'indipendenza e la comunità. Le strisce rosa rappresentano serenità, amore e femminilità. Tutti questi temi ruotano attorno a una striscia bianca centrale, che rappresenta i diversi e unici rapporti con la femminilità.",
+  "showyouridentity.flag.lesbian.credit": "Disegnata da Emily Gwen nel 2018.",
+
+  "showyouridentity.flag.gay.name": "Bandiera Gay (bandiera MLM)",
+  "showyouridentity.flag.gay.description": "Una persona gay viene generalmente definita come un uomo o una persona allineata alla mascolinità che prova attrazione romantica, emotiva e/o sessuale verso uomini o persone allineate alla mascolinità. Questa bandiera è stata creata come controparte della bandiera lesbica. Le strisce verdi e turchesi superiori simboleggiano comunità, guarigione e gioia. Le strisce blu e viola inferiori simboleggiano amore puro, forza e diversità. La striscia bianca centrale rappresenta le persone gay transgender, non binarie e non conformi al genere.",
+  "showyouridentity.flag.gay.credit": "Disegnata dall'utente Tumblr @sadgaysite nel 2019.",
+
+  "showyouridentity.flag.bisexual.name": "Bandiera Bisessuale",
+  "showyouridentity.flag.bisexual.description": "Una persona bisessuale prova attrazione romantica, emotiva e/o sessuale verso più di un genere. Questa bandiera è stata creata per fornire alla comunità bisessuale un simbolo di visibilità distinto, separato dalla bandiera arcobaleno generale. La striscia rosa superiore rappresenta l'attrazione verso il proprio genere. La striscia blu inferiore rappresenta l'attrazione verso generi diversi dal proprio. La striscia viola centrale, risultante dalla sovrapposizione dei due colori, rappresenta l'attrazione lungo tutto lo spettro di genere.",
+  "showyouridentity.flag.bisexual.credit": "Disegnata da Michael Page nel 1998.",
+
+  "showyouridentity.flag.transgender.name": "Bandiera Transgender",
+  "showyouridentity.flag.transgender.description": "Una persona transgender è una persona la cui identità di genere differisce dal sesso assegnato alla nascita. Il design simmetrico della bandiera garantisce che venga sempre esposta correttamente, simboleggiando la ricerca della propria autenticità. Le strisce azzurre rappresentano il colore tradizionalmente associato ai neonati maschi, le strisce rosa quello tradizionalmente associato alle neonate femmine, mentre la striscia bianca centrale rappresenta le persone intersessuali, in transizione oppure con un'identità di genere neutra o non definita.",
+  "showyouridentity.flag.transgender.credit": "Disegnata da Monica Helms nel 1999.",
+
+  "showyouridentity.flag.intersex.name": "Bandiera Intersessuale",
+  "showyouridentity.flag.intersex.description": "Una persona intersessuale nasce con caratteristiche sessuali che non rientrano nelle tipiche categorie binarie di maschio o femmina. Questa bandiera evita intenzionalmente colori associati a un genere specifico, come il blu e il rosa. Lo sfondo giallo e il cerchio viola rappresentano completezza e integrità. Simboleggiano inoltre il diritto di essere esattamente come natura o divinità hanno creato ciascuna persona, rappresentando l'autonomia corporea e l'autodeterminazione.",
+  "showyouridentity.flag.intersex.credit": "Disegnata da Morgan Carpenter nel 2013.",
+
+  "showyouridentity.flag.asexual.name": "Bandiera Asessuale",
+  "showyouridentity.flag.asexual.description": "Una persona asessuale prova poca o nessuna attrazione verso altre persone, pur potendo comunque provare attrazione romantica, emotiva o estetica. \nÈ stata organizzata una votazione della comunità per scegliere questa bandiera come rappresentazione delle diverse sfaccettature dello spettro asessuale. La striscia nera rappresenta l'asessualità; la striscia grigia rappresenta la demisessualità e la grigio-asessualità; la striscia bianca rappresenta alleati e partner non asessuali; la striscia viola rappresenta la comunità.",
+  "showyouridentity.flag.asexual.credit": "Disegnata dall'utente @standup della Rete per la Visibilità e l'Educazione sull'Asessualità (AVEN) nel 2010.",
+
+  "showyouridentity.flag.aromantic.name": "Bandiera Aromantica",
+  "showyouridentity.flag.aromantic.description": "Una persona aromantica prova poca o nessuna attrazione romantica verso altre persone. Questo significa che generalmente non prova \"cotte\" né desidera una relazione romantica. Tuttavia, spesso attribuisce grande valore alle relazioni platoniche. \nQuesta è la versione della bandiera più ampiamente riconosciuta. Le strisce verde scuro e verde chiaro rappresentano lo spettro aromantico (poiché il verde è il colore opposto al rosso, tradizionalmente associato al romanticismo). La striscia bianca rappresenta l'amore platonico e l'amicizia. Le strisce grigia e nera rappresentano lo spettro della sessualità.",
+  "showyouridentity.flag.aromantic.credit": "Disegnata dall'utente Tumblr @cameronwhimsy nel 2014.",
+
+  "showyouridentity.flag.aroace.name": "Bandiera Aroace",
+  "showyouridentity.flag.aroace.description": "Una persona aroace si identifica sia come aromantica sia come asessuale, il che significa che prova poca o nessuna attrazione romantica e poca o nessuna attrazione sessuale. \nInvece di limitarsi a combinare la bandiera aromantica verde e quella asessuale viola, questa bandiera incorpora elementi di entrambe le identità in un design unico e unificato. Le strisce arancioni rappresentano la comunità e la natura unica dell'amore e delle relazioni aroace. La striscia bianca rappresenta completezza e pace. Le strisce blu rappresentano l'identità e lo spettro aroace.",
+  "showyouridentity.flag.aroace.credit": "Disegnata nel 2018 da Jacqueline (nome utente Tumblr dell'epoca: @bi-aroace).",
+
+  "showyouridentity.flag.agender.name": "Bandiera Agender",
+  "showyouridentity.flag.agender.description": "Una persona agender è qualcuno che si identifica come privo di genere, con un genere neutro oppure con una totale assenza di identità di genere. \nQuesta bandiera rappresenta l'assenza di genere e la neutralità. Le strisce nere e bianche rappresentano l'assenza di genere, le strisce grigie rappresentano una parziale assenza di genere, mentre la striscia verde centrale rappresenta le identità non binarie, poiché il verde è il colore opposto al viola, che a sua volta è una combinazione dei colori tradizionalmente associati ai generi, il rosa e il blu.",
+  "showyouridentity.flag.agender.credit": "Disegnata da Salem X nel 2014.",
+
+  "showyouridentity.flag.non_binary.name": "Bandiera Non Binaria",
+  "showyouridentity.flag.non_binary.description": "Una persona non binaria è qualcuno la cui identità di genere non rientra strettamente nelle categorie binarie di uomo o donna. Questo può includere l'identificarsi come entrambi, nessuno dei due oppure con un'identità che varia tra diversi generi.\nLa bandiera è stata progettata per affiancare, e non sostituire, la bandiera genderqueer. La striscia gialla rappresenta le persone il cui genere si colloca al di fuori del binarismo di genere; la striscia bianca rappresenta chi possiede più generi o tutti i generi; la striscia viola rappresenta chi vive il proprio genere come una combinazione di maschile e femminile; la striscia nera rappresenta chi si identifica come neutrale rispetto al genere.",
+  "showyouridentity.flag.non_binary.credit": "Disegnata da Kye Rowan nel 2014.",
+
+  "showyouridentity.flag.demiboy.name": "Bandiera Demiboy",
+  "showyouridentity.flag.demiboy.description": "Una persona demiboy si identifica parzialmente, ma non completamente, come uomo, ragazzo o persona maschile, indipendentemente dal sesso assegnato alla nascita.\nI colori tenui della bandiera simboleggiano un'identità parziale. Le strisce grigie rappresentano le aree intermedie dell'identità di genere; le strisce blu rappresentano la mascolinità o l'essere uomo; la striscia bianca centrale rappresenta le identità non binarie o agender.",
+  "showyouridentity.flag.demiboy.credit": "Disegnata nel 2015 da @transmasculine-perspective su Tumblr.",
+
+  "showyouridentity.flag.demigirl.name": "Bandiera Demigirl",
+  "showyouridentity.flag.demigirl.description": "Una persona demigirl si identifica parzialmente, ma non completamente, come donna, ragazza o persona femminile, indipendentemente dal sesso assegnato alla nascita.\nI colori tenui della bandiera simboleggiano un'identità parziale. Le strisce grigie rappresentano le aree intermedie dell'identità di genere; le strisce rosa rappresentano la femminilità o l'essere donna; la striscia bianca centrale rappresenta le identità non binarie o agender.",
+  "showyouridentity.flag.demigirl.credit": "Disegnata nel 2015 da @transmasculine-perspective su Tumblr.",
+
+  "showyouridentity.flag.genderfluid.name": "Bandiera Genderfluid",
+  "showyouridentity.flag.genderfluid.description": "Una persona genderfluid è qualcuno la cui identità di genere non è fissa e può cambiare nel tempo, spostandosi tra diversi generi come uomo, donna, non binario o agender.\nQuesta bandiera rappresenta la natura dinamica e mutevole della fluidità di genere. La striscia rosa rappresenta la femminilità; la striscia bianca rappresenta tutti i generi; la striscia viola rappresenta una combinazione di mascolinità e femminilità; la striscia nera rappresenta l'assenza di genere; e la striscia blu rappresenta la mascolinità.",
+  "showyouridentity.flag.genderfluid.credit": "Creata da JJ Poole nel 2012.",
+
+  "showyouridentity.flag.genderqueer.name": "Bandiera Genderqueer",
+  "showyouridentity.flag.genderqueer.description": "Una persona genderqueer è qualcuno la cui identità di genere si colloca al di fuori del tradizionale binarismo uomo-donna, lo supera o lo rifiuta. Questo termine può essere utilizzato sia come identità specifica sia come termine ombrello, in modo simile a \"non binario\".\nQuesta bandiera è composta da strisce color lavanda, bianche e verde scuro. La striscia lavanda rappresenta una combinazione di blu e rosa, simboleggiando l'androginia e le identità queer. La striscia bianca rappresenta le identità agender o neutre rispetto al genere. La striscia verde scuro rappresenta le identità che si collocano completamente al di fuori del binarismo di genere.",
+  "showyouridentity.flag.genderqueer.credit": "Creata da Marilyn Roxie nel 2011.",
+
+  "showyouridentity.flag.demisexual.name": "Bandiera Demisessuale",
+  "showyouridentity.flag.demisexual.description": "Una persona demisessuale prova attrazione sessuale verso un'altra persona solo dopo aver sviluppato un forte legame emotivo. Questa identità fa parte dello spettro asessuale perché l'attrazione non viene percepita in modo immediato o spontaneo.\nQuesta bandiera utilizza gli stessi colori della bandiera asessuale, ma disposti in modo diverso. Il gallone nero rappresenta l'asessualità; la striscia grigia rappresenta lo spettro demisessuale; la striscia bianca rappresenta la sessualità e le persone alleate; la striscia viola rappresenta la comunità.",
+  "showyouridentity.flag.demisexual.credit": "Disegnata dall'utente Sonofofallon della Rete per la Visibilità e l'Educazione sull'Asessualità (AVEN) nel 2010.",
+
+  "showyouridentity.flag.demiromantic.name": "Bandiera Demiromantica",
+  "showyouridentity.flag.demiromantic.description": "Una persona demiromantica prova attrazione romantica verso un'altra persona solamente dopo aver instaurato un forte legame emotivo con lei. Ciò rientra nello spettro arromantico, il che significa che i sentimenti romantici non si sviluppano sulla base dell'aspetto iniziale o di interazioni superficiali. \nQuesta bandiera riprende la struttura della bandiera demisessuale, ma ne sostituisce i colori per rappresentare l'identità demiromantica. Il triangolo nero rappresenta lo spettro aromantico; la striscia grigia lo spettro demiromantico; la striscia bianca l'amore platonico e l'amicizia; e la striscia verde l'aromanticismo.",
+  "showyouridentity.flag.demiromantic.credit": "Disegnata da un utente anonimo di Tumblr nel 2015.",
+
+  "showyouridentity.flag.pansexual.name": "Bandiera Pansessuale",
+  "showyouridentity.flag.pansexual.description": "Una persona pansessuale prova attrazione romantica, emotiva e/o sessuale verso altre persone indipendentemente dalla loro identità di genere. Questo viene spesso descritto come essere \"ciechi al genere\" oppure come provare attrazione verso persone di tutti i generi.\nQuesta bandiera è stata creata per aumentare la visibilità della comunità pansessuale, distinguendola dalla bandiera bisessuale. La striscia rosa rappresenta l'attrazione verso le persone che si identificano come donne, la striscia blu rappresenta l'attrazione verso le persone che si identificano come uomini e la striscia gialla rappresenta l'attrazione verso le persone non binarie, genderqueer, agender o genderfluid.",
+  "showyouridentity.flag.pansexual.credit": "Creata da Jasper V. (sotto l'username @evandragonfly) nel 2010.",
+
+  "showyouridentity.flag.omnisexual.name": "Bandiera Omnisessuale",
+  "showyouridentity.flag.omnisexual.description": "Una persona omnisessuale prova attrazione romantica, emotiva e/o sessuale verso persone di tutti i generi. A differenza delle persone pansessuali, che sono spesso descritte come \"cieche al genere\", le persone omnisessuali riconoscono e sono consapevoli del genere di una persona. Il genere può comunque avere un ruolo nella loro attrazione.\nQuesta bandiera utilizza sfumature di rosa e blu per rappresentare lo spettro dei generi. Le strisce azzurre chiara e scura rappresentano l'attrazione verso gli uomini e i generi maschili; le strisce rosa chiara e scura rappresentano l'attrazione verso le donne e i generi femminili; mentre la striscia viola scuro centrale rappresenta l'attrazione verso le persone non binarie e le identità di genere espansive.",
+  "showyouridentity.flag.omnisexual.credit": "Disegnata da @bastard-of-the-skies (aka Pastellight) nel 2015.",
+
+  "showyouridentity.flag.polysexual.name": "Bandiera Polisessuale",
+  "showyouridentity.flag.polysexual.description": "Una persona polisessuale prova attrazione verso più generi, ma non necessariamente verso tutti. A differenza della pansessualità, che indica attrazione indipendentemente dal genere, o dell'omnisessualità, che indica attrazione verso tutti i generi, la polisessualità consiste nell'attrazione verso molti generi, escludendone altri.\nQuesta bandiera è stata progettata per rappresentare la natura specifica dell'attrazione verso più generi. La striscia rosa rappresenta l'attrazione verso persone che si identificano come donne, la striscia blu rappresenta l'attrazione verso persone che si identificano come uomini e la striscia verde rappresenta l'attrazione verso persone che si identificano al di fuori del tradizionale binarismo di genere, come persone non binarie, genderfluid o agender.",
+  "showyouridentity.flag.polysexual.credit": "Creata dall'utente Tumblr @samlin nel 2012.",
+
+  "showyouridentity.flag.polyamory.name": "Bandiera Poliamorosa",
+  "showyouridentity.flag.polyamory.description": "Una persona poliamorosa è una persona aperta ad avere, o che intraprende, più relazioni romantiche e/o affettive contemporaneamente, con il consenso informato di tutte le persone coinvolte.\nLa bandiera moderna è stata progettata per sostituire la bandiera tricolore del 1995 con un simbolo più coerente. La striscia azzurra rappresenta l'apertura e l'onestà; la striscia magenta rappresenta l'amore e la passione; e la striscia viola scuro rappresenta la comunità poliamorosa. Il gallone bianco sul lato sinistro punta in avanti per simboleggiare il progresso, mentre il cuore dorato al centro rappresenta il valore fondamentale dell'amore e della connessione emotiva.",
+  "showyouridentity.flag.polyamory.credit": "Creata da Red Howell nel 2022.",
+
+  "showyouridentity.flag.bear_brotherhood.name": "Bandiera Pride della Comunità Bear Internazionale",
+  "showyouridentity.flag.bear_brotherhood.description": "Nelle comunità gay, bisessuali e queer maschili, un \"bear\" è una sottocultura che generalmente descrive un uomo peloso, fisicamente grande, robusto o di corporatura massiccia.\nQuesta bandiera rappresenta l'inclusività all'interno della comunità globale. Le sue strisce orizzontali presentano una gradazione di colori (marrone scuro, arancione ruggine, giallo dorato, beige, bianco, grigio e nero) che rappresenta il pelo e le tonalità della pelle degli orsi e delle persone di tutto il mondo. Nell'angolo superiore sinistro è presente l'impronta di una zampa d'orso nera, simbolo dell'identità distintiva e della forza della comunità bear.",
+  "showyouridentity.flag.bear_brotherhood.credit": "Creata da Craig Byrnes nel 1995.",
+
+  "showyouridentity.flag.femboy.name": "Bandiera Femboy",
+  "showyouridentity.flag.femboy.description": "Un femboy è una persona che si identifica come uomo o come persona maschile, ma che esprime il proprio genere in modi tradizionalmente femminili attraverso l'abbigliamento, il comportamento o l'estetica. Questa espressione di genere mette in discussione i ruoli maschili convenzionali.\nQuesta bandiera presenta una sfumatura di colori simmetrica progettata per evidenziare l'incontro tra identità maschile ed espressione femminile. Le strisce rosa scuro all'esterno e le strisce rosa più chiaro all'interno simboleggiano la femminilità e la presentazione femminile. Le strisce bianche rappresentano le persone non binarie che abbracciano anch'esse l'estetica femboy. La striscia azzurra chiara centrale rappresenta l'identità sottostante di uomo o di persona allineata alla mascolinità.",
+  "showyouridentity.flag.femboy.credit": "Creata da \"Jay\" nel 2017.",
+
+  "showyouridentity.flag.transfem.name": "Bandiera Transfemminile",
+  "showyouridentity.flag.transfem.description": "Una persona transfemminile è una persona a cui è stato assegnato il genere maschile alla nascita, ma che si identifica maggiormente con la femminilità, l'essere donna o un'identità di genere femminile. Questo termine comprende le donne transgender, così come le persone non binarie, genderfluid e demigirl che esprimono o rivendicano un'identità femminile.\nLa bandiera riprende i colori della tradizionale bandiera transgender. Le strisce azzurre esterne rappresentano l'assegnazione del genere maschile alla nascita, mentre le tonalità di rosa sempre più intense verso il centro simboleggiano il percorso verso un'identità femminile vissuta con orgoglio e la sua affermazione.",
+  "showyouridentity.flag.transfem.credit": "Creata da @asexual-lesbian su Tumblr nel 2015.",
+
+  "showyouridentity.flag.transmasc.name": "Bandiera Transmascolina",
+  "showyouridentity.flag.transmasc.description": "Una persona transmascolina è una persona a cui è stato assegnato il genere femminile alla nascita ma che si identifica maggiormente con la mascolinità, l'essere uomo o un'identità di genere maschile. Questo termine comprende gli uomini transgender, così come le persone non binarie, genderfluid e demiboy che esprimono o si identificano con la mascolinità.\nLa bandiera amplia i colori della tradizionale bandiera transgender. Le strisce esterne rosa chiaro rappresentano l'assegnazione femminile alla nascita, passando verso l'interno attraverso tonalità di blu progressivamente più intense per simboleggiare il percorso verso e l'accettazione di una fiera identità maschile.",
+  "showyouridentity.flag.transmasc.credit": "Creata da @asexual-lesbian su Tumblr nel 2015.",
+
+  "showyouridentity.flag.neptunic.name": "Bandiera Neptunica",
+  "showyouridentity.flag.neptunic.description": "Una persona neptunica prova attrazione verso donne, persone non binarie allineate alla femminilità e persone non binarie neutre o non allineate. Questo orientamento esclude esplicitamente l'attrazione verso uomini, persone non binarie allineate alla mascolinità e la mascolinità. Questo termine viene spesso utilizzato da persone non binarie per descrivere la propria attrazione senza usare termini binari come \"lesbica\" o \"etero\".\nQuesta bandiera utilizza una palette di colori ispirata all'oceano e al pianeta Nettuno. Le strisce superiori verde acqua e acquamarina rappresentano le identità femminili e allineate all'essere donna. Le strisce centrali azzurro pastello e acquamarina chiaro simboleggiano le persone non binarie neutre e non allineate. Le strisce inferiori lavanda e viola rappresentano la natura unica e queer di questa attrazione.",
+  "showyouridentity.flag.neptunic.credit": "Creata da un utente anonimo di Tumblr nel 2017.",
+
+  "showyouridentity.flag.uranic.name": "Bandiera Uranica",
+  "showyouridentity.flag.uranic.description": "Una persona uranica prova attrazione verso uomini, persone non binarie allineate alla mascolinità e persone non binarie neutre o non allineate. Questo orientamento esclude esplicitamente l'attrazione verso donne, persone non binarie allineate alla femminilità e la femminilità. Questo termine viene spesso utilizzato da persone non binarie per descrivere la propria attrazione senza usare termini binari come \"gay\" o \"etero\".\nQuesta bandiera presenta una combinazione di colori ispirata al cielo e a Urano, il dio greco del cielo. Le quattro strisce superiori formano una sfumatura di blu, da tonalità medie a tonalità pastello più morbide, e rappresentano gli uomini e le identità allineate alla mascolinità. Le strisce inferiori color crema e arancione-beige tenue rappresentano persone neutre, non allineate o non binarie incluse in questa attrazione.",
+  "showyouridentity.flag.uranic.credit": "Creata da un utente anonimo di Tumblr nel 2017.",
+
+  "showyouridentity.flag.sapphic.name": "Bandiera Saffica",
+  "showyouridentity.flag.sapphic.description": "Una persona saffica è una donna o una persona non binaria attratta dalle donne e dalle persone con un'identità di genere femminile. Questo termine ombrello inclusivo comprende lesbiche, donne bisessuali, donne pansessuali e donne queer, concentrandosi sull'esperienza condivisa dell'attrazione tra donne, indipendentemente dal fatto che siano attratte esclusivamente dalle donne.\nLa bandiera è un adattamento moderno di simboli storici più antichi. Le strisce rosa superiore e inferiore rappresentano l'amore, il romanticismo e la femminilità. La striscia bianca centrale rappresenta la sicurezza, la pace e l'inclusione delle persone con identità di genere non conformi all'interno della comunità. Al centro si trova un fiore di viola, simbolo storico dell'amore saffico che risale alla poesia di Saffo nell'antica Grecia. Saffo scriveva delle proprie amate che indossavano ghirlande di violette.",
+  "showyouridentity.flag.sapphic.credit": "Creata da @pride-flags e @lesbian-herstory su Tumblr nel 2015.",
+
+  "showyouridentity.flag.sapiosexual.name": "Bandiera Sapiosessuale",
+  "showyouridentity.flag.sapiosexual.description": "Una persona sapiosessuale prova principalmente attrazione romantica o sessuale verso l'intelligenza e la mente umana. Per queste persone, una connessione intellettuale, una conversazione stimolante o la profondità mentale di una persona costituiscono la base dell'attrazione, avendo la priorità rispetto all'aspetto fisico o all'identità di genere.\nQuesta bandiera rappresenta i vari aspetti di una connessione intellettuale. La striscia verde superiore rappresenta la crescita, lo sviluppo e l'espansione della mente. La striscia marrone centrale rappresenta la stabilità, la profondità e la natura concreta del pensiero profondo. La striscia blu inferiore rappresenta la conoscenza, la logica e l'esplorazione intellettuale.",
+  "showyouridentity.flag.sapiosexual.credit": "Creata da @WolfieBoy nel 2015.",
+
+  "showyouridentity.flag.straight_ally.name": "Bandiera dell'Alleato Etero",
+  "showyouridentity.flag.straight_ally.description": "Le persone alleate usano il loro privilegio per combattere l'omofobia, bifobia, transfobia e disuguaglianze sistemiche, creando spazi sicuri e inclusivi per le persone LGBTQ+.\nQuesta bandiera combina simboli dell'eterosessualità e dell'orgoglio queer. Lo sfondo è composto da strisce orizzontali alternate bianche e nere, che storicamente rappresentano la bandiera dell'orgoglio eterosessuale. Al centro si trova una grande lettera maiuscola \"A\" riempita con il tradizionale arcobaleno LGBTQ+ a sei colori. La \"A\" sta per \"alleato/a\" e simboleggia l'impegno attivo della comunità nel fornire supporto e protezione alla comunità queer.",
+  "showyouridentity.flag.straight_ally.credit": "Creata da una persona sconosciuta alla fine degli anni 2000.",
+
+  "showyouridentity.flag.trans_ally.name": "Bandiera dell'Alleato Trans",
+  "showyouridentity.flag.trans_ally.description": "Le persone alleate usano il loro privilegio per combattere l'omofobia, bifobia, transfobia e disuguaglianze sistemiche, creando spazi sicuri e inclusivi per le persone LGBTQ+.\nRiprendendo il concetto visivo della bandiera degli alleati eterosessuali, questa bandiera combina l'identità eterosessuale/cisgender con l'orgoglio transgender. Lo sfondo è composto da strisce orizzontali alternate bianche e nere, che storicamente rappresentano la bandiera dell'orgoglio eterosessuale. Al centro si trova una grande lettera maiuscola \"A\" riempita con i colori azzurro chiaro, rosa e bianco della tradizionale bandiera dell'orgoglio transgender creata da Monica Helms. La \"A\" sta per \"alleato/a\" e simboleggia l'impegno attivo della comunità nel fornire supporto e protezione alla comunità trans.",
+  "showyouridentity.flag.trans_ally.credit": "Creata da una persona sconosciuta alla fine degli anni 2010.",
+
+  "showyouridentity.midnightconfig.slur_filter_url": "URL per il filtro degli insulti e termini offensivi",
+  "showyouridentity.midnightconfig.comment_slur_filter": "Il filtro dei termini offensivi deve essere basato sulla struttura di awdev1/better-profane-words su Github",
+  "showyouridentity.midnightconfig.title": "Mostra la tua identità"
+}

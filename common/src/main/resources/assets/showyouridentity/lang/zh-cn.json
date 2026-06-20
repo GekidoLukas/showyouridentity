@@ -1,0 +1,158 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "玩家 %1$s 没有设置自己的人称代词，记得问一问。",
+  "commands.showyouridentity.pronouns.get.success": "玩家 %1$s 使用如下的人称代词： %2$s。",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "只有玩家能够设置自己的人称代词。",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "你已经拥有了该人称代词 %1$s。",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s 包含了屏蔽词。别这样。",
+  "commands.showyouridentity.pronouns.set.success": "你已经将自己的人称代词设置为了 %1$s。",
+  "commands.showyouridentity.slur_filter.reload.success": "屏蔽词过滤器加载成功。（数量：%1$s）",
+  "commands.showyouridentity.slur_filter.add.success": "成功添加了新的屏蔽词。",
+  "commands.showyouridentity.slur_filter.add.failure": "该屏蔽词已经存在，或是系统出错了（查看日志）",
+  "commands.showyouridentity.reset.all.success": "所有人的身份信息已经全部重置。",
+  "commands.showyouridentity.reset.player.failure": "无法重置 %s 的身份信息",
+  "commands.showyouridentity.reset.player.success": " %s 的身份信息已经重置了。",
+  "commands.showyouridentity.flag.set_primary.success": "你的主要骄傲旗已经设置为 %s",
+  "commands.showyouridentity.flag.set_secondary.success": "你的次要骄傲旗已经设置为 %s",
+  "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "你的主要骄傲旗已经是 %s 了",
+  "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "你的次要骄傲旗已经是 %s 了",
+  "commands.showyouridentity.flag.set.failure.unknown": "该旗帜是未知的",
+  "commands.showyouridentity.flag.reset_primary.success": "你的主要骄傲旗已经被重置",
+  "commands.showyouridentity.flag.reset_secondary.success": "你的次要骄傲旗已经被重置",
+  "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "你的主要骄傲旗已经被重置过了",
+  "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "你的次要骄傲旗已经被重置过了",
+  "commands.showyouridentity.flag_pos.set.failure.unknown": "该旗帜位置是未知的",
+  "commands.showyouridentity.flag_pos.set.success": "你的旗帜位置已经被设置为 %s",
+  "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "你的旗帜位置已经在 %s 了",
+
+  "showyouridentity.flag.rainbow.name": "彩虹骄傲旗",
+  "showyouridentity.flag.rainbow.description": "现代版本的旗帜上有着红、橙、黄、绿、蓝，以及紫色横条。每种颜色都代表着生命与团体的一个维度，例如治愈、阳光，以及大自然。",
+  "showyouridentity.flag.rainbow.credit": "由Gilbert Baker设计于1978年。",
+
+  "showyouridentity.flag.progress_pride.name": "进步骄傲旗",
+  "showyouridentity.flag.progress_pride.description": "这面旗帜在传统彩虹旗的基础上添加了向左的箭头，以此来强调包容性与不断的进步。其中的黑色与棕色条纹代表了被边缘化的有色LGBTQ+群体。这些条纹边上还配有来自跨性别骄傲旗的淡蓝色、粉色，和白色。",
+  "showyouridentity.flag.progress_pride.credit": "由Daniel Quasar设计于2018年。",
+
+  "showyouridentity.flag.lesbian.name": "落日女同性恋骄傲旗",
+  "showyouridentity.flag.lesbian.description": "一位女同性恋（lesbian）人士，通常被定义为一位从爱情、感情，或是性的角度被女性或是女性向的个人所吸引的女性，或是非二元性别人士。\n该群体采用了这幅旗帜，以便展现其对于非常规性别和跨性别女同的包容性。橙色横条代表了非常规、独立，与社群的主题。粉色横条代表宁静、爱，与女性向。所有的这些元素全部围绕着白色横条，它代表着与女性的独特纽带。",
+  "showyouridentity.flag.lesbian.credit": "由Emily Gwen设计于2018年。",
+
+  "showyouridentity.flag.gay.name": "男同性恋骄傲旗（MLM旗帜）",
+  "showyouridentity.flag.gay.description": "一位男同性恋（gay）人士，通常被定义为一位从爱情、感情，或是性的角度被男性或是男性向的个人所吸引的男性，或是男性向人士。\n该旗帜是对应着女同性恋旗设计的。顶端的绿色和青色横条代表着社群、治愈，与欢愉。底部的蓝色和紫色横条象征着纯洁的爱、力量，与多元化。中间的白色横条代表了跨性别、非二元性别，与非常规性别的男同。",
+  "showyouridentity.flag.gay.credit": "由Tumblr用户@sadgaysite设计于2019年。",
+
+  "showyouridentity.flag.bisexual.name": "双性恋骄傲旗",
+  "showyouridentity.flag.bisexual.description": "一位双性恋（bisexual）人士，通常被定义为一位从爱情、感情，或是性的角度被多个性别的人士所吸引的人。\n这面旗被设计出来，是为了为双性恋群体增添其独特的知名度，使其能与常见的彩虹旗区别开来。顶部的粉色横条代表着受到某人自身的性别的吸引。底部的蓝色横条代表了受到不同性别人士的吸引。中间交错的紫色横条代表着受到性别光谱上各种性别之人士的吸引。",
+  "showyouridentity.flag.bisexual.credit": "由Michael Page设计于1998年。",
+
+  "showyouridentity.flag.transgender.name": "跨性别骄傲旗",
+  "showyouridentity.flag.transgender.description": "一位跨性别（transgender）人士，是自我性别认同与出生时的性别不一致的个人。\n该旗帜的对称设计确保了它以任何方向升起都是正确的，代表着一个人永远都能在人生中寻找正确的方向。淡蓝色横条是传统的男性儿童颜色，淡粉色横条代表着传统的女性儿童颜色，中间的白色横条代表着双性、正在转性的人士，或是那些认为自己属于中立或是不可定义之性别的人士。",
+  "showyouridentity.flag.transgender.credit": "由Monica Helms设计于1999年。",
+
+  "showyouridentity.flag.intersex.name": "间性人骄傲旗",
+  "showyouridentity.flag.intersex.description": "一位间性（intersex）人士，是出生时具有的性征不符合传统二元男女性别的个人。\n该旗帜刻意不使用具有性别象征意义的颜色，例如蓝色和粉色。黄色背景与紫色圆圈代表了完整与圆满。它们同时也象征着按照神意、顺应自然去做你自己的一种权利，代表着身体自主权和坚定的自我意志。",
+  "showyouridentity.flag.intersex.credit": "由Morgan Carpenter设计于2013年。",
+
+  "showyouridentity.flag.asexual.name": "无性恋骄傲旗",
+  "showyouridentity.flag.asexual.description": "一位无性恋（asexual）人士，是在性的角度几乎不被他人所吸引的个人，不过他们可能仍能够体验爱情、感情，或是美感方面的吸引力。\n该旗帜是由一次群体投票决定出来的，代表着无性光谱上的多种含义。黑色横条代表着无性恋；灰色横条代表半性取向与灰色性取向；白色横条代表了非无性恋的盟友和伙伴们；紫色横条则代表了群体。",
+  "showyouridentity.flag.asexual.credit": "由无性可见性与教育网络(AVEN)用户@standup设计于2010年。",
+
+  "showyouridentity.flag.aromantic.name": "无浪漫倾向骄傲旗",
+  "showyouridentity.flag.aromantic.description": "一位无浪漫倾向（aromantic）人士，在爱情的角度几乎不会被他人所吸引。这意味着他们一般不会体会到“一见钟情”的感觉，也不会渴望拥有相爱的伴侣。然而，他们通常十分珍惜柏拉图式的关系。\n这面旗帜是受到最多人认可的版本。深绿和浅绿横条代表了aromantic光谱（因为绿色是红色的相反色，而红色通常于爱情有关）。白色横条代表着柏拉图式的爱与友情。灰色与黑色横条代表着性别光谱。",
+  "showyouridentity.flag.aromantic.credit": "由Tumblr用户@cameronwhimsy设计于2014年。",
+
+  "showyouridentity.flag.aroace.name": "无浪漫倾向的无性恋骄傲旗",
+  "showyouridentity.flag.aroace.description": "一位无浪漫倾向的无性恋（aroace）人士，是自认为同时具有无浪漫倾向和无性恋的，这意味着他们既不会在爱情的角度上被吸引，也不会在性的方面被吸引。\n这面旗帜没有简单地将绿色和紫色旗帜相结合，而是将两种身份的特点结合在了一起，形成独特而统一的图案。橙色横条象征了群体，以及无浪漫倾向的无性恋者的爱与关系的独特本质。白色横条象征了完满与平静。蓝色横条代表了无浪漫倾向的无性恋者的身份与光谱。",
+  "showyouridentity.flag.aroace.credit": "由Tumblr用户@bi-aroace（现更名为Jacqueline）设计于2018年。",
+
+  "showyouridentity.flag.agender.name": "无性别骄傲旗",
+  "showyouridentity.flag.agender.description": "一位无性别（agender）人士，指的是自我定义为不拥有性别、拥有中立性别，或是完全没有自我性别身份的个人。\n这面旗帜代表着无性别主义和中立性。黑色和白色横条象征着性别的缺失，灰色横条象征着半无性别，而中间的绿色横条象征着非二元性别身份，因为绿色是紫色的反转色，而紫色是传统性别颜色——粉色和蓝色——的混合色。",
+  "showyouridentity.flag.agender.credit": "由Salem X（网络昵称为@transvestia）设计于2014年。",
+
+  "showyouridentity.flag.non_binary.name": "非二元性别骄傲旗",
+  "showyouridentity.flag.non_binary.description": "一位非二元性别（non-binary）人士，指的是那些性别身份无法严格符合二元男女性别的个人，包括了那些自我认同为同时属于两种性别、不属于任一性别，或是在两种性别之间流动的群体。\n这面旗帜是为了完善——而非取代——性别酷儿（gendergueer）旗帜。黄色横条象征了那些二元性别之外的人们，白色横条代表了那些拥有多个或全部性别的人们，紫色横条代表了男女混合性别的人们，黑色横条代表了自我认同为中立性别的人们。",
+  "showyouridentity.flag.non_binary.credit": "由Kye Rowan设计于2014年。",
+
+  "showyouridentity.flag.demiboy.name": "部分男性骄傲旗",
+  "showyouridentity.flag.demiboy.description": "一位部分男性（demiboy），指的是那些在一定程度上——而非完全——自我认同为男人、男孩，或是男性向的个人，这与他们在出生时的性别无关。\n这面旗帜的淡色主题代表着部分身份认同。灰色横条象征着性别认同的灰色领域；蓝色横条象征着男性向；中间的白色横条代表了非二元性别或是无性别身份。",
+  "showyouridentity.flag.demiboy.credit": "由Tumblr用户@transmasculine-perspective设计于2015年。",
+
+  "showyouridentity.flag.demigirl.name": "部分女性骄傲旗",
+  "showyouridentity.flag.demigirl.description": "一位部分女性（demigirl），指的是那些在一定程度上——而非完全——自我认同为女人、女孩，或是女性向的个人，这与他们在出生时的性别无关。\n这面旗帜的淡色主题代表着部分身份认同。灰色横条象征着性别认同的灰色领域；粉色横条象征着女性向；中间的白色横条代表了非二元性别或是无性别身份。",
+  "showyouridentity.flag.demigirl.credit": "由Tumblr用户@transmasculine-perspective设计于2015年。",
+
+  "showyouridentity.flag.genderfluid.name": "流动性别骄傲旗",
+  "showyouridentity.flag.genderfluid.description": "一位流动性别（genderfluid）人士，指的是那些性别身份不固定，且会随着时间而变化的个人。例如在男性、女性、非二元性别、无性别这样的性别之间发生变化。\n这面旗帜致敬了这种不断变化的性别流动性。粉色横条代表着女性向；白色横条代表所有性别；紫色横条代表男性向于女性向的结合；黑色横条代表性别的缺失；蓝色横条则代表了男性向。",
+  "showyouridentity.flag.genderfluid.credit": "由JJ Poole设计于2012年。",
+
+  "showyouridentity.flag.genderqueer.name": "性别酷儿骄傲旗",
+  "showyouridentity.flag.genderqueer.description": "一位性别酷儿（genderqueer），指的是那些自我性别认同超出传统二元男女性别的，或是否定二元性别的个人。该术语可以被看作一种特定的身份，也可以被用作一个伞式术语，类似于“非二元性别。”\n这面旗帜包括了薰衣草色、白色，和深绿色横条。薰衣草色是蓝色与粉色的混合色，代表了两性同体和酷儿身份。白色象征着无性别和中立性别身份。深绿色象征着那些完全处于二元性别之外的性别。",
+  "showyouridentity.flag.genderqueer.credit": "由Marilyn Roxie设计于2011年。",
+
+  "showyouridentity.flag.demisexual.name": "半性向骄傲旗",
+  "showyouridentity.flag.demisexual.description": "一位半性向（demisexual）人士，指的是与他人建立稳定的情感联系后，才会发展出性吸引力的个人。该群体位于无性恋光谱上，因为性吸引力不是由始至终地、即刻地产生的。\n这面旗帜使用了与无性恋旗帜相同的颜色，但在布局上也有其独特性。黑色象征着无性恋；灰色横条象征了半性向光谱；白色横条象征了性别与盟友；紫色横条则代表着群体。",
+  "showyouridentity.flag.demisexual.credit": "由无性可见性与教育网络(AVEN)用户Sonofofallon设计于2010年。",
+
+  "showyouridentity.flag.demiromantic.name": "半浪漫倾向骄傲旗",
+  "showyouridentity.flag.demiromantic.description": "一位半浪漫倾向（demiromantic）人士，是那些与他人建立稳定的情感联系后，才会发展出浪漫吸引力的个人。该群体位于无浪漫倾向光谱上，因为浪漫的感受并不因为第一印象和浮于表面的互动而产生。\n这面旗帜采用了半性向旗帜的布局，但将颜色更换得更加能够反映无浪漫倾向的身份。黑色象征着无浪漫倾向光谱；灰色象征了半浪漫倾向光谱；白色象征柏拉图式的爱与友情；绿色象征着无浪漫倾向主义。",
+  "showyouridentity.flag.demiromantic.credit": "由一位匿名的Tumblr用户设计于2015年。",
+
+  "showyouridentity.flag.pansexual.name": "泛性恋骄傲旗",
+  "showyouridentity.flag.pansexual.description": "一位泛性恋（pansexual）人士，指的是那些在不在意对方的性别身份的情况下，会在爱情、感情，以及性的角度被人所吸引的个人。该群体常常被形容是性别盲，或是被认为会受到任何性别的人的吸引。\n该旗帜的设计意图是为了增加泛性恋群体的可视度，并且与双性恋旗帜区分开来。粉色横条代表着受到自我认同为女性的人的吸引，蓝色横条代表着受到自我认同为男性的人的吸引，黄色横条代表着受到自我认同为非二元性别、性别酷儿、无性别，或是流动性别的人的吸引。",
+  "showyouridentity.flag.pansexual.credit": "由Jasper V.（用户名为@evandragonfly）设计于2010年。",
+
+  "showyouridentity.flag.omnisexual.name": "全性恋骄傲旗",
+  "showyouridentity.flag.omnisexual.description": "一位全性恋（omnisexual）人士，指的是那些会在爱情、感情，以及性的角度被任何性别的人所吸引的个人。与常常被认为是“性别盲”的泛性恋不同的是，全性恋清楚且认可对方的性别。性别在两人的关系中仍然占有一席之地。\n该旗帜使用了粉色和蓝色来代表两性光谱。淡蓝与深蓝条纹代表了受到男性与男性向个人的吸引；淡粉与深粉条纹代表了受到女性与女性向个人的吸引；中间的深紫色条纹代表着受到非二元性别和扩展性别身份人士的吸引。",
+  "showyouridentity.flag.omnisexual.credit": "由用户@bastard-of-the-skies（又名Pastellight）设计于2015年。",
+
+  "showyouridentity.flag.polysexual.name": "多性恋骄傲旗",
+  "showyouridentity.flag.polysexual.description": "一位多性恋（polysexual）人士，指的是那些会受到多种性别的人的吸引，但不一定会受到所有性别的人吸引的个人。与泛性恋的区别在于，泛性恋受到一个人的吸引与此人的性别无关。而与全性恋的区别在于，全性恋会被所有性别的人所吸引。多性恋者会被多种性别的人吸引，但同时又不会受到某些性别的人的吸引。\n这面旗帜的设计初衷是为了代表多性别吸引的独特本质。粉色横条代表着受到自我认同为女性的人的吸引，蓝色横条代表着受到自我认同为男性的人的吸引，黄色横条代表着受到自我认同为非二元性别、性别酷儿、无性别，或是流动性别的人的吸引。",
+  "showyouridentity.flag.polysexual.credit": "由Tumblr用户@samlin设计于2012年。",
+
+  "showyouridentity.flag.polyamory.name": "多边恋骄傲旗",
+  "showyouridentity.flag.polyamory.description": "一位多边恋（polyamorous）人士，指的是那些同时拥有着多位爱情或感情方面的伴侣（这些伴侣全部知情且自愿）的个人，或是对此事抱着接受和开放态度的个人。\n现代版本的旗帜被设计用来将1995年的三色旗替换为更加协调的标志。淡蓝色横条表示开放与诚实；洋红色横条象征了爱与激情；深紫色横条象征了多边恋群体。左侧的白色部分象征着进步，中间的金色心形代表了爱与情感连结的核心价值。",
+  "showyouridentity.flag.polyamory.credit": "由Red Howell设计于2022年。",
+
+  "showyouridentity.flag.bear_brotherhood.name": "国际熊族骄傲旗",
+  "showyouridentity.flag.bear_brotherhood.description": "在男同性恋、双性恋，和男性酷儿群体的亚文化中，一头“熊”通常在用来形容毛发旺盛、体型壮硕的男性的。\n这面旗帜代表着在全球群体中的包容性。水平的色块形成了一种梯度（深棕色、锈橙色、金黄色、浅棕色、白色、灰色，和黑色），代表了全世界的熊的毛发颜色和人种肤色。一只黑色熊掌位于旗帜左上方，代表着熊族的独特身份和该群体所蕴含的力量。",
+  "showyouridentity.flag.bear_brotherhood.credit": "由Craig Byrnes设计于1995年。",
+
+  "showyouridentity.flag.femboy.name": "男娘骄傲旗",
+  "showyouridentity.flag.femboy.description": "一位男娘（femboy），指的是那些自我性别认同为男性或是男性向，但是却以传统的女性向方式表达自我的个人。这些方式包括衣着、行为，和美容。这种性别表达方式挑战了传统的男性角色。\n这幅旗帜采用了对称的颜色梯度，以便强调男性身份与女性向表达的交融。外圈的深粉色和内部的淡粉色象征着女性美与女性向的外在。白色横条象征着非二元性别的个人也能拥抱男娘之美。中间的淡蓝色横条代表了潜藏在表面之下的男性或男性向身份。",
+  "showyouridentity.flag.femboy.credit": "由用户“Jay”设计于2017年。",
+
+  "showyouridentity.flag.transfem.name": "女性倾向跨性别者骄傲旗",
+  "showyouridentity.flag.transfem.description": "一位女性倾向跨性别者，指的是那些出生时为男性，但在后天的自我认同更加倾向于女性向或是女性性别身份的个人。该术语涵盖了自我表达或认同为女性向的跨性别女性、非二元性别者、流动性别者，以及部分女性。\n这面旗帜延展了传统跨性别旗帜的色彩。外部的淡蓝色横条代表了出生时的男性性别，而内部越来越深的粉色，则象征着逐渐骄傲地拥抱女性向身份。",
+  "showyouridentity.flag.transfem.credit": "由Tumblr用户@asexual-lesbian设计于2015年。",
+
+  "showyouridentity.flag.transmasc.name": "男性倾向跨性别者骄傲旗",
+  "showyouridentity.flag.transmasc.description": "一位男性倾向跨性别者，指的是那些出生时为女性，但在后天的自我认同更加倾向于男性向或是男性性别身份的个人。该术语涵盖了自我表达或认同为男性向的跨性别男性、非二元性别者、流动性别者，以及部分男性。\n这面旗帜延展了传统跨性别旗帜的色彩。外部的淡粉色横条代表了出生时的女性性别，而内部越来越深的蓝色，则象征着逐渐骄傲地拥抱男性向身份。",
+  "showyouridentity.flag.transmasc.credit": "由Tumblr用户@asexual-lesbian设计于2015年。",
+
+  "showyouridentity.flag.neptunic.name": "海王星恋骄傲旗",
+  "showyouridentity.flag.neptunic.description": "一位海王星恋（neptunic）人士，指的是那些只会被女性、女性向的非二元性别者，以及中立性别的非二元性别者吸引。这个群体十分清楚地将对男性、男性向的非二元性别者，以及男性向身份的吸引排除在外。该术语常常被非二元性别者用来形容他们的偏好，而不是用“女同性恋”或者“直的”。\n这幅旗帜用到了海洋的颜色，灵感来自于海王星的颜色。顶部的青色与水绿色横条代表着女性向身份。中间的淡蓝色与淡水绿色象征着中立性别的非二元性别者。底部的薰衣草色横条象征着该群体的独特酷儿本质。",
+  "showyouridentity.flag.neptunic.credit": "由一位匿名的Tumblr用户设计于2017年。",
+
+  "showyouridentity.flag.uranic.name": "天王星恋骄傲旗",
+  "showyouridentity.flag.uranic.description": "一位天王星恋（uranic）人士，指的是那些只会被男性、男性向的非二元性别者，以及中立性别的非二元性别者吸引。这个群体十分清楚地将对女性、女性向的非二元性别者，以及女性向身份的吸引排除在外。该术语常常被非二元性别者用来形容他们的偏好，而不是用“男同性恋”或者“直的”。\n这幅旗帜用到了天空的颜色，灵感来自于Uranus，即希腊的天空之神。顶部的四条横条是由中等到浅的蓝色，象征着男性与男性向身份。底部的奶油色和淡褐橘色象征着那些能够吸引天王星恋的中立的、未决定性别的、非二元性别的群体。",
+  "showyouridentity.flag.uranic.credit": "由一位匿名的Tumblr用户设计于2017年。",
+
+  "showyouridentity.flag.sapphic.name": "萨福恋骄傲旗",
+  "showyouridentity.flag.sapphic.description": "一位萨福恋（sapphic）人士，指的是那些受到女性或是女性向非二元性别者吸引的女性和非二元性别者。这一伞形术语包含了女同性恋、女性无性恋者、女性泛性恋者，以及女性酷儿。该术语聚焦于各群体所共享的女性与女性之间的吸引力，而不在意成员们是否只被女性吸引。\n这面旗帜是对历史中流传的图案的现代化描绘。顶部与底部的粉色象征着爱、浪漫，与女性向。中间的白色横条代表了安全、宁静，与对群体内的各个性别的个人的包容性。中间的紫罗兰花朵，是历史上萨福之恋的象征物，最早可以追溯至古希腊的萨福诗歌。她曾经写到自己的恋人戴着紫罗兰花环。",
+  "showyouridentity.flag.sapphic.credit": "由Tumblr用户@pride-flags和@lesbian-herstory设计于2015年。",
+
+  "showyouridentity.flag.sapiosexual.name": "智性恋骄傲旗",
+  "showyouridentity.flag.sapiosexual.description": "一位智性恋（sapiosexual）人士，指的是那些在爱情和性的角度主要被智力和人类思维所吸引的个人。对这类人来说，一次智力的接洽、启发的对话，以及一个人的思维深度，都是吸引力的来源，这种吸引力的优先级要高于一个人的外表和性别身份。\n这面旗帜代表了智慧交融的方方面面。顶部的绿色象征着思维的成长、发展，和拓展。中间的棕色象征着深度思考的稳定、深刻，和务实。底部的蓝色象征着知识、逻辑，和智力探索。",
+  "showyouridentity.flag.sapiosexual.credit": "由用户@WolfieBoy设计于2015年。",
+
+  "showyouridentity.flag.straight_ally.name": "异性恋盟友旗",
+  "showyouridentity.flag.straight_ally.description": "盟友（ally），指的是那些利用自己的权利对抗恐同、恐双、恐跨，以及系统性不平等的个人。他们为LGBTQ+群体们创造了安全和包容的环境。\n这面旗帜结合了异性恋身份与酷儿骄傲的标志。背景包含了黑白横条，这在历史上曾经是异性恋骄傲旗。在中间有一个放大的大写字母“A”，内部由传统的LGBTQ+六色彩虹填色。字母“A”是“盟友”的首字母，也强调了该群体为为酷儿群体提供支持和保护所作出的不懈努力。",
+  "showyouridentity.flag.straight_ally.credit": "由一位未知的作者创作于本世纪00年代末。",
+
+  "showyouridentity.flag.trans_ally.name": "跨性别盟友旗",
+  "showyouridentity.flag.trans_ally.description": "盟友（ally），指的是那些利用自己的权利对抗恐同、恐双、恐跨，以及系统性不平等的个人。他们为LGBTQ+群体们创造了安全和包容的环境。\n对应着异性恋盟友旗的设计思路，这面旗帜将异性恋/顺性别的身份与跨性别者的骄傲相结合。背景包含了黑白横条，这在历史上曾经是异性恋骄傲旗。在中间有一个放大的大写字母“A”，内部由Monica Helms的传统跨性别骄傲旗的淡蓝色、粉色，和白色填色。字母“A”是“盟友”的首字母，也强调了该群体为为酷儿群体提供支持和保护所作出的不懈努力。",
+  "showyouridentity.flag.trans_ally.credit": "由一位未知的作者创作于本世纪10年代末。",
+
+  "showyouridentity.midnightconfig.slur_filter_url": "屏蔽词过滤器的URL",
+  "showyouridentity.midnightconfig.comment_slur_filter": "屏蔽词过滤器需要以此Github内容为基础：awdev1/better-profane-words",
+  "showyouridentity.midnightconfig.title": "展示你的身份"
+}

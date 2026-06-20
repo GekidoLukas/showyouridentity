@@ -1,0 +1,158 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "Le joueur %1$s n’a pas choisi ses pronoms, demande-lui.",
+  "commands.showyouridentity.pronouns.get.success": "Le joueur %1$s utilise les pronoms %2$s.",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "Seul un joueur peut définir ses pronoms.",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "Tu utilises déjà les pronoms %1$s.",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s contient des insultes. Il ne faut pas.",
+  "commands.showyouridentity.pronouns.set.success": "Tes pronoms sont maintenant %1$s.",
+  "commands.showyouridentity.slur_filter.reload.success": "Filtre d’insultes rechargé. (Total : %1$s)",
+  "commands.showyouridentity.slur_filter.add.success": "Nouvelle insulte ajoutée au filtre",
+  "commands.showyouridentity.slur_filter.add.failure": "L’insulte existe déjà ou une erreur est survenue (voir logs)",
+  "commands.showyouridentity.reset.all.success": "Les données d’identité de tout le monde ont été réinitialisées.",
+  "commands.showyouridentity.reset.player.failure": "Impossible de réinitialiser les données d’identité de %s",
+  "commands.showyouridentity.reset.player.success": "Les données d’identité de %s ont été réinitialisées.",
+  "commands.showyouridentity.flag.set_primary.success": "Ton drapeau principal est maintenant %s",
+  "commands.showyouridentity.flag.set_secondary.success": "Ton drapeau secondaire est maintenant %s",
+  "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "Ton drapeau principal est déjà %s",
+  "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "Ton drapeau secondaire est déjà %s",
+  "commands.showyouridentity.flag.set.failure.unknown": "Drapeau inconnu",
+  "commands.showyouridentity.flag.reset_primary.success": "Ton drapeau principal a été réinitialisé",
+  "commands.showyouridentity.flag.reset_secondary.success": "Ton drapeau secondaire a été réinitialisé",
+  "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "Ton drapeau principal est déjà réinitialisé",
+  "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "Ton drapeau secondaire est déjà réinitialisé",
+  "commands.showyouridentity.flag_pos.set.failure.unknown": "Position de drapeau inconnue",
+  "commands.showyouridentity.flag_pos.set.success": "Ta position de drapeau est maintenant %s",
+  "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "Ta position de drapeau est déjà %s",
+
+  "showyouridentity.flag.rainbow.name": "Drapeau arc-en-ciel",
+  "showyouridentity.flag.rainbow.description": "La version moderne comporte des bandes horizontales rouges, orange, jaunes, vertes, bleues et violettes. Chaque couleur représente un aspect de la vie et de la communauté, comme la guérison, le soleil ou la nature.",
+  "showyouridentity.flag.rainbow.credit": "Créé par Gilbert Baker en 1978.",
+
+  "showyouridentity.flag.progress_pride.name": "Drapeau Progress Pride",
+  "showyouridentity.flag.progress_pride.description": "Ce drapeau reprend le drapeau arc-en-ciel traditionnel en ajoutant un chevron à gauche pour souligner clairement l’inclusion et le progrès à poursuivre. Le chevron comporte des bandes noires et brunes pour représenter les communautés LGBTQ+ racisées et marginalisées. Elles sont accompagnées du bleu clair, du rose et du blanc du drapeau transgenre.",
+  "showyouridentity.flag.progress_pride.credit": "Créé par Daniel Quasar en 2018.",
+
+  "showyouridentity.flag.lesbian.name": "Drapeau lesbien coucher de soleil",
+  "showyouridentity.flag.lesbian.description": "Une personne lesbienne est généralement une femme ou une personne non binaire attirée romantiquement, émotionnellement et/ou sexuellement par les femmes ou les personnes d’expression féminine.\nLa communauté a adopté ce drapeau pour mieux inclure les lesbiennes non conformes de genre et transgenres. Les bandes orange évoquent la non-conformité, l’indépendance et la communauté. Les bandes roses représentent la sérénité, l’amour et la féminité. Ces thèmes entourent une bande blanche, symbole d’un rapport unique à la féminité.",
+  "showyouridentity.flag.lesbian.credit": "Créé par Emily Gwen en 2018.",
+
+  "showyouridentity.flag.gay.name": "Drapeau gay masculin (MLM)",
+  "showyouridentity.flag.gay.description": "Une personne gay est généralement un homme ou une personne d’expression masculine attirée romantiquement, émotionnellement et/ou sexuellement par les hommes ou les personnes d’expression masculine.\nCe drapeau a été créé comme équivalent du drapeau lesbien. Les bandes vertes et turquoise du haut symbolisent la communauté, la guérison et la joie. Les bandes bleues et violettes du bas symbolisent l’amour pur, la force et la diversité. La bande blanche centrale représente les hommes gays transgenres, non binaires et non conformes de genre.",
+  "showyouridentity.flag.gay.credit": "Créé par l’utilisateur Tumblr @sadgaysite en 2019.",
+
+  "showyouridentity.flag.bisexual.name": "Drapeau bisexuel",
+  "showyouridentity.flag.bisexual.description": "Une personne bisexuelle ressent une attirance romantique, émotionnelle et/ou sexuelle pour plus d’un genre.\nCe drapeau donne à la communauté bisexuelle un symbole de visibilité distinct du drapeau arc-en-ciel. La bande rose du haut représente l’attirance pour son propre genre. La bande bleue du bas représente l’attirance pour d’autres genres. La bande violette centrale représente l’attirance à travers le spectre du genre.",
+  "showyouridentity.flag.bisexual.credit": "Créé par Michael Page en 1998.",
+
+  "showyouridentity.flag.transgender.name": "Drapeau transgenre",
+  "showyouridentity.flag.transgender.description": "Une personne transgenre a une identité de genre différente du sexe qui lui a été assigné à la naissance.\nLe motif symétrique du drapeau garantit qu’il est toujours affiché dans le bon sens, symbole de justesse dans sa propre vie. Les bandes bleu clair représentent la couleur traditionnelle des bébés garçons, les bandes roses celle des bébés filles, et la bande blanche centrale représente les personnes intersexes, en transition, ou au genre neutre ou indéfini.",
+  "showyouridentity.flag.transgender.credit": "Créé par Monica Helms en 1999.",
+
+  "showyouridentity.flag.intersex.name": "Drapeau intersexe",
+  "showyouridentity.flag.intersex.description": "Une personne intersexe naît avec des caractéristiques sexuelles qui ne correspondent pas aux définitions binaires typiques des corps masculins ou féminins.\nCe drapeau évite volontairement les couleurs genrées comme le bleu et le rose. Le fond jaune et le cercle violet représentent l’intégrité et la complétude. Ils symbolisent aussi le droit d’être exactement comme Dieu ou la nature nous a faits, ainsi que l’autonomie corporelle et l’autodétermination.",
+  "showyouridentity.flag.intersex.credit": "Créé par Morgan Carpenter en 2013.",
+
+  "showyouridentity.flag.asexual.name": "Drapeau asexuel",
+  "showyouridentity.flag.asexual.description": "Une personne asexuelle ressent peu ou pas d’attirance sexuelle envers autrui, même si elle peut ressentir de l’attirance romantique, émotionnelle ou esthétique.\nUn vote de la communauté a choisi ce drapeau pour représenter les facettes du spectre asexuel. La bande noire représente l’asexualité ; la grise, la demisexualité et la gris-asexualité ; la blanche, les alliés et partenaires non asexuels ; et la violette, la communauté.",
+  "showyouridentity.flag.asexual.credit": "Créé par @standup, utilisateur de l’AVEN, en 2010.",
+
+  "showyouridentity.flag.aromantic.name": "Drapeau aromantique",
+  "showyouridentity.flag.aromantic.description": "Une personne aromantique ressent peu ou pas d’attirance romantique envers autrui. Elle n’a donc généralement pas de « crush » et ne cherche pas de relation amoureuse. Cependant, elle accorde souvent une grande valeur aux relations platoniques.\nCe drapeau est la version la plus reconnue. Les bandes vert foncé et vert clair représentent le spectre aromantique, le vert étant l’opposé du rouge, traditionnellement lié à l’amour. La bande blanche représente l’amour platonique et l’amitié. Les bandes grise et noire représentent le spectre de la sexualité.",
+  "showyouridentity.flag.aromantic.credit": "Créé par l’utilisateur Tumblr @cameronwhimsy en 2014.",
+
+  "showyouridentity.flag.aroace.name": "Drapeau aroace",
+  "showyouridentity.flag.aroace.description": "Une personne aroace est à la fois aromantique et asexuelle, ce qui signifie qu’elle ressent peu ou pas d’attirance romantique et peu ou pas d’attirance sexuelle.\nPlutôt que de simplement combiner les drapeaux vert et violet, ce drapeau intègre les deux identités dans un design unique. Les bandes orange représentent la communauté et la nature unique de l’amour et des relations aroace. La bande blanche représente l’intégrité et la paix. Les bandes bleues représentent l’identité et le spectre aroace.",
+  "showyouridentity.flag.aroace.credit": "Créé par l’utilisateur Tumblr @bi-aroace (aujourd’hui Jacqueline) en 2018.",
+
+  "showyouridentity.flag.agender.name": "Drapeau agenre",
+  "showyouridentity.flag.agender.description": "Une personne agenre se définit comme n’ayant pas de genre, ayant un genre neutre ou n’ayant aucune identité de genre.\nCe drapeau représente l’absence de genre et la neutralité. Les bandes noires et blanches représentent l’absence de genre, les bandes grises la semi-absence de genre, et la bande verte centrale les identités non binaires, car le vert est l’inverse du violet, mélange des couleurs genrées traditionnelles, rose et bleu.",
+  "showyouridentity.flag.agender.credit": "Créé par Salem X (sous le pseudo @transvestia) en 2014.",
+
+  "showyouridentity.flag.non_binary.name": "Drapeau non binaire",
+  "showyouridentity.flag.non_binary.description": "Une personne non binaire a une identité de genre qui ne rentre pas strictement dans les catégories binaires homme/femme : elle peut s’identifier aux deux, à aucun, ou varier entre plusieurs genres.\nLe drapeau a été conçu pour compléter, et non remplacer, le drapeau genderqueer. La bande jaune désigne les personnes dont le genre est hors du binaire ; la blanche, celles ayant plusieurs genres ou tous les genres ; la violette, celles dont le genre mêle masculin et féminin ; et la noire, celles qui s’identifient comme neutres.",
+  "showyouridentity.flag.non_binary.credit": "Créé par Kye Rowan en 2014.",
+
+  "showyouridentity.flag.demiboy.name": "Drapeau demiboy",
+  "showyouridentity.flag.demiboy.description": "Un demiboy est une personne qui s’identifie en partie, mais pas entièrement, comme homme, garçon ou personne masculine, quel que soit son sexe assigné à la naissance.\nLes couleurs douces symbolisent une identité partielle. Les bandes grises représentent les zones grises de l’identité de genre ; les bandes bleues, la masculinité ou l’identité masculine ; et la bande blanche centrale, les identités non binaires ou agenres.",
+  "showyouridentity.flag.demiboy.credit": "Créé par l’utilisateur Tumblr @transmasculine-perspective en 2015.",
+
+  "showyouridentity.flag.demigirl.name": "Drapeau demigirl",
+  "showyouridentity.flag.demigirl.description": "Une demigirl est une personne qui s’identifie en partie, mais pas entièrement, comme femme, fille ou personne féminine, quel que soit son sexe assigné à la naissance.\nLes couleurs douces symbolisent une identité partielle. Les bandes grises représentent les zones grises de l’identité de genre ; les bandes roses, la féminité ou l’identité féminine ; et la bande blanche centrale, les identités non binaires ou agenres.",
+  "showyouridentity.flag.demigirl.credit": "Créé par l’utilisateur Tumblr @transmasculine-perspective en 2015.",
+
+  "showyouridentity.flag.genderfluid.name": "Drapeau genderfluid",
+  "showyouridentity.flag.genderfluid.description": "Une personne genderfluid a une identité de genre non fixe, qui fluctue avec le temps et peut passer entre plusieurs genres, comme homme, femme, non binaire ou agenre.\nCe drapeau illustre la nature dynamique et changeante de la fluidité de genre. La bande rose représente la féminité ; la blanche, tous les genres ; la violette, un mélange de masculinité et de féminité ; la noire, l’absence de genre ; et la bleue, la masculinité.",
+  "showyouridentity.flag.genderfluid.credit": "Créé par JJ Poole en 2012.",
+
+  "showyouridentity.flag.genderqueer.name": "Drapeau genderqueer",
+  "showyouridentity.flag.genderqueer.description": "Une personne genderqueer a une identité de genre hors du binaire homme/femme, au-delà de celui-ci, ou qui le rejette. Le terme peut désigner une identité précise ou servir de terme parapluie, comme « non binaire ».\nCe drapeau comporte des bandes lavande, blanches et vert foncé. La bande lavande représente un mélange de bleu et de rose, symbole d’androgynie et d’identités queer. La bande blanche représente les identités agenres ou neutres. La bande vert foncé représente les identités totalement hors du binaire.",
+  "showyouridentity.flag.genderqueer.credit": "Créé par Marilyn Roxie en 2011.",
+
+  "showyouridentity.flag.demisexual.name": "Drapeau demisexuel",
+  "showyouridentity.flag.demisexual.description": "Une personne demisexuelle ne ressent d’attirance sexuelle qu’après avoir créé un lien émotionnel fort. Cela fait partie du spectre asexuel, car l’attirance n’est pas ressentie de façon innée ou immédiate.\nCe drapeau reprend les couleurs du drapeau asexuel avec une disposition unique. Le chevron noir représente l’asexualité ; la bande grise, le spectre demisexuel ; la blanche, la sexualité et les alliés ; et la violette, la communauté.",
+  "showyouridentity.flag.demisexual.credit": "Créé par Sonofofallon, utilisateur de l’AVEN, en 2010.",
+
+  "showyouridentity.flag.demiromantic.name": "Drapeau demiromantique",
+  "showyouridentity.flag.demiromantic.description": "Une personne demiromantique ne ressent d’attirance romantique qu’après avoir créé un lien émotionnel fort. Cela fait partie du spectre aromantique, car les sentiments romantiques ne naissent pas d’une première impression ou d’interactions superficielles.\nCe drapeau adapte la forme du drapeau demisexuel, mais change les couleurs pour refléter l’identité aromantique. Le chevron noir représente le spectre aromantique ; la bande grise, le spectre demiromantique ; la blanche, l’amour platonique et l’amitié ; et la verte, l’aromantisme.",
+  "showyouridentity.flag.demiromantic.credit": "Créé par un utilisateur Tumblr anonyme en 2015.",
+
+  "showyouridentity.flag.pansexual.name": "Drapeau pansexuel",
+  "showyouridentity.flag.pansexual.description": "Une personne pansexuelle est attirée romantiquement, émotionnellement et/ou sexuellement par des personnes quel que soit leur genre. On décrit souvent cela comme une attirance indifférente au genre ou envers tous les genres.\nCe drapeau a été conçu pour rendre la communauté pansexuelle plus visible, séparément du drapeau bisexuel. La bande rose représente l’attirance envers les personnes s’identifiant comme femmes, la bleue envers celles s’identifiant comme hommes, et la jaune envers les personnes non binaires, genderqueer, agenres ou genderfluid.",
+  "showyouridentity.flag.pansexual.credit": "Créé par Jasper V. (sous le pseudo @evandragonfly) en 2010.",
+
+  "showyouridentity.flag.omnisexual.name": "Drapeau omnisexuel",
+  "showyouridentity.flag.omnisexual.description": "Une personne omnisexuelle ressent une attirance romantique, émotionnelle et/ou sexuelle pour les personnes de tous les genres. Contrairement aux personnes pansexuelles, souvent décrites comme « indifférentes au genre », les personnes omnisexuelles reconnaissent le genre d’une personne et en ont conscience. Le genre peut donc jouer un rôle dans leur attirance.\nCe drapeau utilise des tons roses et bleus pour représenter le spectre du genre. Les bandes bleu clair et bleu foncé représentent l’attirance envers les hommes et les genres masculins ; les bandes rose clair et rose foncé, l’attirance envers les femmes et les genres féminins ; et la bande violet foncé centrale, l’attirance envers les identités non binaires et de genre expansif.",
+  "showyouridentity.flag.omnisexual.credit": "Créé par l’utilisateur @bastard-of-the-skies (aussi appelé Pastellight) en 2015.",
+
+  "showyouridentity.flag.polysexual.name": "Drapeau polysexuel",
+  "showyouridentity.flag.polysexual.description": "Une personne polysexuelle est attirée par plusieurs genres, mais pas forcément tous. Contrairement à la pansexualité, qui est l’attirance indépendamment du genre, ou à l’omnisexualité, qui est l’attirance pour tous les genres, la polysexualité est l’attirance pour de nombreux genres, mais pas tous.\nCe drapeau représente la nature spécifique de l’attirance multigenre. La bande rose représente l’attirance envers les personnes s’identifiant comme femmes, la bleue envers celles s’identifiant comme hommes, et la verte envers les personnes hors du binaire traditionnel, comme les personnes non binaires, genderfluid ou agenres.",
+  "showyouridentity.flag.polysexual.credit": "Créé par l’utilisateur Tumblr @samlin en 2012.",
+
+  "showyouridentity.flag.polyamory.name": "Drapeau du polyamour",
+  "showyouridentity.flag.polyamory.description": "Une personne polyamoureuse est ouverte à, ou vit, plusieurs relations romantiques et/ou émotionnelles en même temps, avec le consentement éclairé de tous les partenaires.\nLe drapeau moderne remplace le tricolore de 1995 par un symbole plus cohérent. La bande bleu clair représente l’ouverture et l’honnêteté ; la magenta, l’amour et la passion ; et la violet foncé, la communauté polyamoureuse. Le chevron blanc à gauche pointe vers l’avant pour symboliser le progrès, et le cœur doré central représente la valeur centrale de l’amour et du lien émotionnel.",
+  "showyouridentity.flag.polyamory.credit": "Créé par Red Howell en 2022.",
+
+  "showyouridentity.flag.bear_brotherhood.name": "Drapeau de la communauté bear internationale",
+  "showyouridentity.flag.bear_brotherhood.description": "Dans les communautés gays, bisexuelles et queer masculines, un « bear » est une sous-culture désignant souvent un homme poilu, grand, costaud ou corpulent.\nCe drapeau représente l’inclusion de la communauté mondiale. Ses bandes horizontales forment un dégradé de couleurs (brun foncé, orange rouille, jaune doré, beige, blanc, gris et noir) représentant les poils et couleurs de peau des bears et des humains du monde entier. Une empreinte de patte d’ours noire dans le canton supérieur gauche symbolise l’identité et la force de la fraternité.",
+  "showyouridentity.flag.bear_brotherhood.credit": "Créé par Craig Byrnes en 1995.",
+
+  "showyouridentity.flag.femboy.name": "Drapeau femboy",
+  "showyouridentity.flag.femboy.description": "Un femboy est une personne qui s’identifie comme homme ou masculine, mais exprime son genre de façon traditionnellement féminine par ses vêtements, son comportement ou son style. Cette expression de genre remet en question les rôles masculins classiques.\nCe drapeau possède un dégradé symétrique qui souligne la rencontre entre identité masculine et expression féminine. Les bandes rose foncé à l’extérieur et rose clair à l’intérieur symbolisent la féminité et la présentation féminine. Les bandes blanches représentent les personnes non binaires qui adoptent aussi l’esthétique femboy. La bande bleu clair centrale représente l’identité masculine sous-jacente.",
+  "showyouridentity.flag.femboy.credit": "Créé par l’utilisateur « Jay » en 2017.",
+
+  "showyouridentity.flag.transfem.name": "Drapeau transféminin",
+  "showyouridentity.flag.transfem.description": "Une personne transféminine a été assignée homme à la naissance, mais s’identifie davantage à la féminité, à la condition de femme ou à une identité de genre féminine. Ce terme inclut les femmes transgenres, ainsi que les personnes non binaires, genderfluid et demigirls qui s’expriment ou s’identifient de façon féminine.\nLe drapeau reprend les couleurs du drapeau transgenre traditionnel. Les bandes extérieures bleu clair représentent l’assignation masculine à la naissance, puis vont vers des roses de plus en plus marqués pour symboliser le chemin vers une identité féminine fière et assumée.",
+  "showyouridentity.flag.transfem.credit": "Créé par l’utilisateur Tumblr @asexual-lesbian en 2015.",
+
+  "showyouridentity.flag.transmasc.name": "Drapeau transmasculin",
+  "showyouridentity.flag.transmasc.description": "Une personne transmasculine a été assignée femme à la naissance, mais s’identifie davantage à la masculinité, à la condition d’homme ou à une identité de genre masculine. Ce terme inclut les hommes transgenres, ainsi que les personnes non binaires, genderfluid et demiboys qui s’expriment ou s’identifient de façon masculine.\nLe drapeau reprend les couleurs du drapeau transgenre traditionnel. Les bandes extérieures rose clair représentent l’assignation féminine à la naissance, puis vont vers des bleus de plus en plus marqués pour symboliser le chemin vers une identité masculine fière et assumée.",
+  "showyouridentity.flag.transmasc.credit": "Créé par l’utilisateur Tumblr @asexual-lesbian en 2015.",
+
+  "showyouridentity.flag.neptunic.name": "Drapeau neptunic",
+  "showyouridentity.flag.neptunic.description": "Une personne neptunic est attirée par les femmes, les personnes non binaires d’expression féminine, et les personnes non binaires neutres ou sans alignement. Cette orientation exclut explicitement l’attirance envers les hommes, les personnes non binaires d’expression masculine et la masculinité. Le terme est souvent utilisé par les personnes non binaires pour décrire leur attirance sans termes binaires comme « lesbienne » ou « hétéro ».\nCe drapeau utilise une palette océanique inspirée de la planète Neptune. Les bandes turquoise et aqua du haut représentent les identités féminines et alignées avec les femmes. Les bandes bleu pastel et aqua clair du milieu symbolisent les personnes non binaires neutres ou non alignées. Les bandes lavande et violette du bas représentent la nature queer et unique de cette attirance.",
+  "showyouridentity.flag.neptunic.credit": "Créé par un utilisateur Tumblr anonyme en 2017.",
+
+  "showyouridentity.flag.uranic.name": "Drapeau uranic",
+  "showyouridentity.flag.uranic.description": "Une personne uranic est attirée par les hommes, les personnes non binaires d’expression masculine, et les personnes non binaires neutres ou sans alignement. Cette orientation exclut explicitement l’attirance envers les femmes, les personnes non binaires d’expression féminine et la féminité. Le terme est souvent utilisé par les personnes non binaires pour décrire leur attirance sans termes binaires comme « gay » ou « hétéro ».\nCe drapeau utilise une palette inspirée du ciel et d’Uranus, dieu grec du ciel. Les quatre bandes supérieures forment un dégradé de bleus moyens à pastel doux représentant les hommes et les identités masculines. Les bandes crème et orange clair du bas représentent les personnes neutres, sans alignement ou non binaires incluses dans cette attirance.",
+  "showyouridentity.flag.uranic.credit": "Créé par un utilisateur Tumblr anonyme en 2017.",
+
+  "showyouridentity.flag.sapphic.name": "Drapeau saphique",
+  "showyouridentity.flag.sapphic.description": "Une personne saphique est une femme ou une personne non binaire attirée par les femmes et les personnes d’expression féminine. Ce terme parapluie inclut les lesbiennes, femmes bisexuelles, pansexuelles et queer, et met l’accent sur l’expérience partagée de l’attirance entre femmes, qu’elle soit exclusive ou non.\nCe drapeau est une adaptation moderne de symboles historiques plus anciens. Les bandes roses du haut et du bas représentent l’amour, la romance et la féminité. La bande blanche centrale représente la sécurité, la paix et l’inclusion des personnes au genre expansif dans la communauté. Au centre se trouve une fleur de violette, symbole historique de l’amour saphique lié à la poésie de Sappho en Grèce antique. Elle écrivait que ses amantes portaient des guirlandes de violettes.",
+  "showyouridentity.flag.sapphic.credit": "Créé par les utilisateurs Tumblr @pride-flags et @lesbian-herstory en 2015.",
+
+  "showyouridentity.flag.sapiosexual.name": "Drapeau sapiosexuel",
+  "showyouridentity.flag.sapiosexual.description": "Une personne sapiosexuelle ressent d’abord une attirance romantique ou sexuelle pour l’intelligence et l’esprit. Pour ces personnes, la connexion intellectuelle, une conversation stimulante ou la profondeur mentale passent avant l’apparence physique ou l’identité de genre.\nCe drapeau représente les aspects d’une connexion intellectuelle. La bande verte du haut représente la croissance, le développement et l’expansion de l’esprit. La bande brune centrale représente la stabilité, la profondeur et l’ancrage de la pensée. La bande bleue du bas représente le savoir, la logique et l’exploration intellectuelle.",
+  "showyouridentity.flag.sapiosexual.credit": "Créé par l’utilisateur @WolfieBoy en 2015.",
+
+  "showyouridentity.flag.straight_ally.name": "Drapeau allié hétéro",
+  "showyouridentity.flag.straight_ally.description": "Les alliés utilisent leurs privilèges pour combattre l’homophobie, la biphobie, la transphobie et les inégalités systémiques, afin de créer des espaces sûrs et inclusifs pour les personnes LGBTQ+.\nCe drapeau combine des symboles de l’hétérosexualité et de la fierté queer. Le fond alterne des bandes horizontales noires et blanches, historiquement associées au drapeau hétéro. Au centre se trouve un grand « A » stylisé rempli de l’arc-en-ciel LGBTQ+ traditionnel à six couleurs. Le « A » signifie « allié » et représente le soutien actif et la protection de la communauté queer.",
+  "showyouridentity.flag.straight_ally.credit": "Créé par une personne inconnue à la fin des années 2000.",
+
+  "showyouridentity.flag.trans_ally.name": "Drapeau allié trans",
+  "showyouridentity.flag.trans_ally.description": "Les alliés utilisent leurs privilèges pour combattre l’homophobie, la biphobie, la transphobie et les inégalités systémiques, afin de créer des espaces sûrs et inclusifs pour les personnes LGBTQ+.\nReprenant le concept du drapeau allié hétéro, ce drapeau combine identité hétéro/cisgenre et fierté transgenre. Le fond alterne des bandes horizontales noires et blanches, historiquement associées au drapeau hétéro. Au centre se trouve un grand « A » stylisé rempli des couleurs bleu clair, rose et blanche du drapeau transgenre traditionnel de Monica Helms. Le « A » signifie « allié » et représente le soutien actif et la protection de la communauté trans.",
+  "showyouridentity.flag.trans_ally.credit": "Créé par une personne inconnue à la fin des années 2010.",
+
+  "showyouridentity.midnightconfig.slur_filter_url": "URL du filtre d’insultes",
+  "showyouridentity.midnightconfig.comment_slur_filter": "Le filtre d’insultes doit suivre la structure de awdev1/better-profane-words sur Github",
+  "showyouridentity.midnightconfig.title": "Affiche ton identité"
+}

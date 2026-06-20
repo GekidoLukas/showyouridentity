@@ -1,0 +1,163 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "%1$s não definiu pronomes, então pergunte.",
+  "commands.showyouridentity.pronouns.get.success": "%1$s usa os pronomes %2$s.",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "Apenas um jogador pode definir seus próprios pronomes.",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "Você já usa os pronomes %1$s.",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s contém termos ofensivos. Mano, não.",
+  "commands.showyouridentity.pronouns.set.success": "Seus pronomes foram definidos como %1$s.",
+  "commands.showyouridentity.slur_filter.reload.success": "Filtro de termos ofensivos recarregado com sucesso. (Quantidade: %1$s)",
+  "commands.showyouridentity.slur_filter.add.success": "Novo termo ofensivo adicionado ao filtro com sucesso.",
+  "commands.showyouridentity.slur_filter.add.failure": "O termo já existe ou ocorreu um erro. (Verifique o log)",
+  "commands.showyouridentity.reset.all.success": "Os Dados de Identidade de todos os jogadores foram redefinidos.",
+  "commands.showyouridentity.reset.player.failure": "Não foi possível redefinir os Dados de Identidade de %s.",
+  "commands.showyouridentity.reset.player.success": "Os Dados de Identidade de %s foram redefinidos.",
+  "commands.showyouridentity.flag.set_primary.success": "Sua bandeira do orgulho %s foi definida como principal.",
+  "commands.showyouridentity.flag.set_secondary.success": "Sua bandeira do orgulho %s foi definida como secundária.",
+  "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "Sua bandeira do orgulho %s já está definida como principal.",
+  "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "Sua bandeira do orgulho %s já está definida como secundária.",
+  "commands.showyouridentity.flag.set.failure.unknown": "Essa bandeira é desconhecida.",
+  "commands.showyouridentity.flag.reset_primary.success": "Sua bandeira do orgulho principal foi redefinida.",
+  "commands.showyouridentity.flag.reset_secondary.success": "Sua bandeira do orgulho secundária foi redefinida.",
+  "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "Sua bandeira do orgulho principal já foi redefinida.",
+  "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "Sua bandeira do orgulho secundária já foi redefinida.",
+  "commands.showyouridentity.flag_pos.set.failure.unknown": "Essa posição de bandeira é desconhecida.",
+  "commands.showyouridentity.flag_pos.set.success": "A posição da sua bandeira agora é %s.",
+  "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "A posição da sua bandeira já está definida como %s.",
+
+
+  "showyouridentity.flag.rainbow.name": "Bandeira do Orgulho Arco-Íris",
+  "showyouridentity.flag.rainbow.description": "A versão moderna apresenta faixas horizontais vermelha, laranja, amarela, verde, azul e violeta. Cada cor representa um aspecto diferente da vida e da comunidade, como cura, luz do sol e natureza.",
+
+  "showyouridentity.flag.rainbow.credit": "Criada por Gilbert Baker em 1978.",
+
+  "showyouridentity.flag.progress_pride.name": "Bandeira do Progresso",
+  "showyouridentity.flag.progress_pride.description": "Esta bandeira baseia-se na tradicional bandeira arco-íris, adicionando um chevron voltado para a esquerda para enfatizar explicitamente a inclusão e o progresso contínuo. O chevron apresenta listras pretas e marrons para representar as comunidades marginalizadas de pessoas negras, indígenas e de cor dentro do LGBTQ+. Essas listras são acompanhadas pelas cores azul-claro, rosa e branco da Bandeira Transgênero.",
+  "showyouridentity.flag.progress_pride.credit": "Criada por Daniel Quasar em 2018.",
+
+  "showyouridentity.flag.lesbian.name": "Bandeira do Orgulho Lésbico Sunset",
+  "showyouridentity.flag.lesbian.description": "Uma lésbica é geralmente definida como uma mulher ou pessoa não binária que sente atração romântica, emocional e/ou sexual por mulheres ou pessoas alinhadas à feminilidade.\nA comunidade adotou esta bandeira para ser mais inclusiva com lésbicas transgênero e com expressões de gênero não conformes. As faixas laranja representam temas como não conformidade, independência e comunidade. As faixas rosas representam serenidade, amor e feminilidade. Todos esses temas estão centrados em uma faixa branca, que representa as diferentes e únicas relações com a feminilidade e o ser mulher.",
+  "showyouridentity.flag.lesbian.credit": "Criada por Emily Gwen em 2018.",
+
+  "showyouridentity.flag.gay.name": "Bandeira do Orgulho Gay Masculino (Bandeira MLM)",
+  "showyouridentity.flag.gay.description": "Uma pessoa gay é geralmente definida como um homem ou pessoa alinhada à masculinidade que sente atração romântica, emocional e/ou sexual por homens ou pessoas alinhadas à masculinidade.\nEsta bandeira foi criada como uma contraparte da bandeira lésbica. As faixas verdes e turquesa na parte superior simbolizam comunidade, cura e alegria. As faixas azuis e roxas na parte inferior simbolizam amor genuíno, força e diversidade. A faixa branca no centro representa homens gays transgênero, não binários e com expressões de gênero não conformes.",
+  "showyouridentity.flag.gay.credit": "Criada pelo usuário do Tumblr @sadgaysite em 2019.",
+
+  "showyouridentity.flag.bisexual.name": "Bandeira do Orgulho Bissexual",
+  "showyouridentity.flag.bisexual.description": "Uma pessoa bissexual é alguém que sente atração romântica, emocional e/ou sexual por mais de um gênero.\nEsta bandeira foi criada para oferecer à comunidade bissexual um símbolo próprio de visibilidade, distinto da bandeira arco-íris geral. A faixa rosa superior representa a atração pelo próprio gênero. A faixa azul inferior representa a atração por outros gêneros. A faixa roxa sobreposta no centro representa a atração ao longo de todo o espectro de gênero.",
+  "showyouridentity.flag.bisexual.credit": "Criada por Michael Page em 1998.",
+
+  "showyouridentity.flag.transgender.name": "Bandeira do Orgulho Transgênero",
+  "showyouridentity.flag.transgender.description": "Uma pessoa transgênero é alguém cuja identidade de gênero difere do sexo que lhe foi atribuído ao nascer.\nO design simétrico da bandeira garante que ela sempre seja exibida corretamente, simbolizando encontrar o próprio caminho e autenticidade na vida. As faixas azul-claro representam a cor tradicionalmente associada a meninos, as faixas rosas representam a cor tradicionalmente associada a meninas, e a faixa branca central representa pessoas intersexo, em transição ou que consideram seu gênero neutro ou indefinido.",
+  "showyouridentity.flag.transgender.credit": "Criada por Monica Helms em 1999.",
+
+  "showyouridentity.flag.intersex.name": "Bandeira do Orgulho Intersexo",
+  "showyouridentity.flag.intersex.description": "Uma pessoa intersexo nasce com características sexuais que não se encaixam nas noções binárias típicas de corpos masculinos ou femininos.\nEsta bandeira evita intencionalmente cores associadas a gêneros, como azul e rosa. O fundo amarelo e o círculo roxo representam integridade e plenitude. Também simbolizam o direito de ser exatamente como a natureza ou Deus a fez, representando autonomia corporal e autodeterminação.",
+  "showyouridentity.flag.intersex.credit": "Criada por Morgan Carpenter em 2013.",
+
+
+  "showyouridentity.flag.asexual.name": "Bandeira do Orgulho Assexual",
+  "showyouridentity.flag.asexual.description": "Uma pessoa assexual sente pouca ou nenhuma atração sexual por outras pessoas, embora ainda possa sentir atração romântica, emocional ou estética.\nUma votação da comunidade foi realizada para escolher esta bandeira como representação das diferentes facetas do espectro assexual. A faixa preta representa a assexualidade; a faixa cinza, a demissexualidade e a gray-assexualidade; a faixa branca, aliados e parceiros não assexuais; e a faixa roxa, a comunidade.",
+  "showyouridentity.flag.asexual.credit": "Criada pelo usuário @standup da Rede de Visibilidade e Educação Assexual (AVEN) em 2010.",
+
+  "showyouridentity.flag.aromantic.name": "Bandeira do Orgulho Arromântico",
+  "showyouridentity.flag.aromantic.description": "Uma pessoa arromântica sente pouca ou nenhuma atração romântica por outras pessoas. Isso significa que geralmente não experimenta \"paixonites\" nem deseja relacionamentos românticos. Ainda assim, costuma valorizar profundamente relações platônicas.\nEsta é a versão mais amplamente reconhecida da bandeira. As faixas verde-escura e verde-clara representam o espectro arromântico (já que o verde é a cor oposta ao vermelho, tradicionalmente associado ao romance). A faixa branca representa amor platônico e amizade. As faixas cinza e preta representam o espectro da sexualidade.",
+  "showyouridentity.flag.aromantic.credit": "Criada pelo usuário @cameronwhimsy do Tumblr em 2014.",
+
+  "showyouridentity.flag.aroace.name": "Bandeira do Orgulho Aroace",
+  "showyouridentity.flag.aroace.description": "Uma pessoa aroace se identifica como arromântica e assexual ao mesmo tempo, o que significa sentir pouca ou nenhuma atração romântica e pouca ou nenhuma atração sexual.\nEm vez de simplesmente combinar as bandeiras verde e roxa, esta bandeira incorpora aspectos de ambas as identidades em um design único e unificado. As faixas laranja representam a comunidade e a natureza singular do amor e dos relacionamentos aroace. A faixa branca representa plenitude e paz. As faixas azuis representam a identidade e o espectro aroace.",
+  "showyouridentity.flag.aroace.credit": "Criada pelo usuário @bi-aroace do Tumblr (hoje conhecido como Jacqueline) em 2018.",
+
+  "showyouridentity.flag.agender.name": "Bandeira do Orgulho Agênero",
+  "showyouridentity.flag.agender.description": "Uma pessoa agênero é alguém que se identifica como não tendo gênero, possuindo um gênero neutro ou uma completa ausência de identidade de gênero.\nEsta bandeira representa a ausência de gênero e a neutralidade. As faixas preta e branca representam a ausência de gênero; as faixas cinza representam a semiausência de gênero; e a faixa verde central representa identidades não binárias, pois o verde é o inverso do roxo, que resulta da mistura das cores tradicionalmente associadas aos gêneros, rosa e azul.",
+  "showyouridentity.flag.agender.credit": "Criada por Salem X (sob o pseudônimo @transvestia) em 2014.",
+
+  "showyouridentity.flag.non_binary.name": "Bandeira do Orgulho Não Binário",
+  "showyouridentity.flag.non_binary.description": "Uma pessoa não binária é alguém cuja identidade de gênero não se encaixa estritamente nas categorias binárias de homem ou mulher, podendo identificar-se como ambos, nenhum deles ou transitar entre diferentes gêneros.\nA bandeira foi criada para complementar, e não substituir, a bandeira genderqueer. A faixa amarela representa pessoas cujo gênero está fora do binário; a faixa branca representa aquelas que possuem múltiplos gêneros ou todos os gêneros; a faixa roxa representa quem possui um gênero que combina masculino e feminino; e a faixa preta representa quem se identifica como neutro em relação ao gênero.",
+  "showyouridentity.flag.non_binary.credit": "Criada por Kye Rowan em 2014.",
+
+  "showyouridentity.flag.demiboy.name": "Bandeira do Orgulho Demiboy",
+  "showyouridentity.flag.demiboy.description": "Um demiboy é alguém que se identifica parcialmente, mas não totalmente, como homem, garoto ou uma pessoa alinhada à masculinidade, independentemente do sexo que lhe foi atribuído ao nascer.\nAs cores suavizadas da bandeira simbolizam uma identidade parcial. As faixas cinza representam as áreas intermediárias da identidade de gênero; as faixas azuis representam a masculinidade; e a faixa branca central representa identidades não binárias ou agênero.",
+  "showyouridentity.flag.demiboy.credit": "Criada pelo usuário @transmasculine-perspective do Tumblr em 2015.",
+
+  "showyouridentity.flag.demigirl.name": "Bandeira do Orgulho Demigirl",
+  "showyouridentity.flag.demigirl.description": "Uma demigirl é alguém que se identifica parcialmente, mas não totalmente, como mulher, garota ou uma pessoa alinhada à feminilidade, independentemente do sexo que lhe foi atribuído ao nascer.\nAs cores suavizadas da bandeira simbolizam uma identidade parcial. As faixas cinza representam as áreas intermediárias da identidade de gênero; as faixas rosas representam a feminilidade; e a faixa branca central representa identidades não binárias ou agênero.",
+  "showyouridentity.flag.demigirl.credit": "Criada pelo usuário @transmasculine-perspective do Tumblr em 2015.",
+
+  "showyouridentity.flag.genderfluid.name": "Bandeira do Orgulho Gênero-Fluido",
+  "showyouridentity.flag.genderfluid.description": "Uma pessoa gênero-fluido é alguém cuja identidade de gênero não é fixa e muda ao longo do tempo, transitando entre diferentes gêneros, como homem, mulher, não binário ou agênero.\nEsta bandeira representa a natureza dinâmica e mutável da fluidez de gênero. A faixa rosa representa a feminilidade; a faixa branca, todos os gêneros; a faixa roxa, a combinação de masculinidade e feminilidade; a faixa preta, a ausência de gênero; e a faixa azul, a masculinidade.",
+  "showyouridentity.flag.genderfluid.credit": "Criada por JJ Poole em 2012.",
+
+  "showyouridentity.flag.genderqueer.name": "Bandeira do Orgulho Genderqueer",
+  "showyouridentity.flag.genderqueer.description": "Uma pessoa genderqueer é alguém cuja identidade de gênero está fora, vai além ou rejeita o binário tradicional homem-mulher. O termo pode ser usado como uma identidade específica ou como um termo guarda-chuva, de forma semelhante a \"não binário\".\nEsta bandeira apresenta faixas lavanda, branca e verde-escura. A faixa lavanda representa a mistura de azul e rosa, simbolizando androginia e identidades queer. A faixa branca representa identidades agênero ou neutras em relação ao gênero. A faixa verde-escura representa identidades completamente fora do binário.",
+  "showyouridentity.flag.genderqueer.credit": "Criada por Marilyn Roxie em 2011.",
+
+
+  "showyouridentity.flag.demisexual.name": "Bandeira do Orgulho Demissexual",
+  "showyouridentity.flag.demisexual.description": "Uma pessoa demissexual sente atração sexual por outra pessoa apenas após desenvolver um forte vínculo emocional. Ela faz parte do espectro assexual porque a atração não é sentida de forma inerente ou imediata.\nEsta bandeira utiliza as mesmas cores da bandeira assexual, mas em uma disposição única. O chevron preto representa a assexualidade; a faixa cinza, o espectro demissexual; a faixa branca, a sexualidade e os aliados; e a faixa roxa, a comunidade.",
+  "showyouridentity.flag.demisexual.credit": "Criada pelo usuário Sonofofallon da Rede de Visibilidade e Educação Assexual (AVEN) em 2010.",
+
+  "showyouridentity.flag.demiromantic.name": "Bandeira do Orgulho Demiromântico",
+  "showyouridentity.flag.demiromantic.description": "Uma pessoa demiromântica sente atração romântica por outra pessoa apenas após desenvolver um forte vínculo emocional. Ela faz parte do espectro arromântico, o que significa que sentimentos românticos não surgem com base apenas na aparência ou em interações superficiais.\nEsta bandeira adapta o layout da bandeira demissexual, mas troca as cores para refletir a identidade arromântica. O chevron preto representa o espectro arromântico; a faixa cinza, o espectro demiromântico; a faixa branca, o amor platônico e a amizade; e a faixa verde, o arromantismo.",
+  "showyouridentity.flag.demiromantic.credit": "Criada por um usuário anônimo do Tumblr em 2015.",
+
+  "showyouridentity.flag.pansexual.name": "Bandeira do Orgulho Pansexual",
+  "showyouridentity.flag.pansexual.description": "Uma pessoa pansexual é alguém que sente atração romântica, emocional e/ou sexual por outras pessoas independentemente de sua identidade de gênero. Isso é frequentemente descrito como ser indiferente ao gênero ou sentir atração por pessoas de todos os gêneros.\nEsta bandeira foi criada para aumentar a visibilidade da comunidade pansexual, separadamente da bandeira bissexual. A faixa rosa representa atração por pessoas que se identificam como mulheres; a faixa azul representa atração por pessoas que se identificam como homens; e a faixa amarela representa atração por pessoas não binárias, genderqueer, agênero ou gênero-fluido.",
+  "showyouridentity.flag.pansexual.credit": "Criada por Jasper V. (sob o nome de usuário @evandragonfly) em 2010.",
+
+  "showyouridentity.flag.omnisexual.name": "Bandeira do Orgulho Omnissexual",
+  "showyouridentity.flag.omnisexual.description": "Uma pessoa omnissexual é alguém que sente atração romântica, emocional e/ou sexual por pessoas de todos os gêneros. Diferentemente de pessoas pansexuais, que costumam ser descritas como \"indiferentes ao gênero\", pessoas omnissexuais reconhecem e levam em consideração o gênero de outra pessoa. O gênero ainda pode desempenhar um papel em sua atração.\nEsta bandeira utiliza tons de rosa e azul para representar o espectro de gênero. As faixas azul-clara e azul-escura representam atração por homens e identidades masculinas; as faixas rosa-clara e rosa-escura representam atração por mulheres e identidades femininas; e a faixa roxa-escura central representa atração por identidades não binárias e expansivas de gênero.",
+  "showyouridentity.flag.omnisexual.credit": "Criada pelo usuário @bastard-of-the-skies (também conhecido como Pastellight) em 2015.",
+
+  "showyouridentity.flag.polysexual.name": "Bandeira do Orgulho Polissexual",
+  "showyouridentity.flag.polysexual.description": "Uma pessoa polissexual sente atração por múltiplos gêneros, mas não necessariamente por todos. Diferentemente da pansexualidade, que é a atração independentemente do gênero, ou da omnissexualidade, que é a atração por todos os gêneros, a polissexualidade envolve atração por muitos gêneros enquanto exclui outros.\nEsta bandeira foi criada para representar a natureza específica da atração por múltiplos gêneros. A faixa rosa representa atração por pessoas que se identificam como mulheres, a faixa azul representa atração por pessoas que se identificam como homens, e a faixa verde representa atração por pessoas que se identificam fora do binário de gênero tradicional, como pessoas não binárias, gênero-fluido ou agênero.",
+  "showyouridentity.flag.polysexual.credit": "Criada pelo usuário @samlin do Tumblr em 2012.",
+
+  "showyouridentity.flag.polyamory.name": "Bandeira do Orgulho Poliamoroso",
+  "showyouridentity.flag.polyamory.description": "Uma pessoa poliamorosa é alguém que está aberta a ou mantém múltiplos relacionamentos românticos e/ou emocionais simultaneamente, com o consentimento informado de todas as pessoas envolvidas.\nA versão moderna da bandeira foi criada para substituir a bandeira tricolor de 1995 por um símbolo mais coeso. A faixa azul-clara representa abertura e honestidade; a faixa magenta representa amor e paixão; e a faixa roxa-escura representa a comunidade poliamorosa. O chevron branco à esquerda aponta para frente, simbolizando progresso, e o coração dourado central representa o valor fundamental do amor e da conexão emocional.",
+  "showyouridentity.flag.polyamory.credit": "Criada por Red Howell em 2022.",
+
+  "showyouridentity.flag.bear_brotherhood.name": "Bandeira Internacional do Orgulho Bear",
+  "showyouridentity.flag.bear_brotherhood.description": "Nas comunidades gays, bissexuais e queer masculinas, um \"urso\" é uma subcultura que normalmente descreve homens peludos, corpulentos, robustos ou de porte físico avantajado.\nEsta bandeira representa a inclusão em toda a comunidade global. Suas faixas horizontais apresentam um gradiente de cores (marrom-escuro, ferrugem, amarelo-dourado, bege, branco, cinza e preto), representando os tons de pelos e pele de ursos e seres humanos ao redor do mundo. Uma pegada de urso preta ocupa o canto superior esquerdo, simbolizando a identidade distinta e a força da irmandade.",
+  "showyouridentity.flag.bear_brotherhood.credit": "Criada por Craig Byrnes em 1995.",
+
+  "showyouridentity.flag.femboy.name": "Bandeira do Orgulho Femboy",
+  "showyouridentity.flag.femboy.description": "Um femboy é alguém que se identifica como homem ou alinhado à masculinidade, mas expressa seu gênero de formas tradicionalmente femininas por meio de roupas, comportamento ou estética. Essa expressão de gênero desafia papéis masculinos convencionais.\nEsta bandeira apresenta um gradiente de cores simétrico criado para destacar a interseção entre identidade masculina e expressão feminina. As faixas rosa-escuras externas e as faixas rosa-claras internas simbolizam feminilidade e apresentação feminina. As faixas brancas representam pessoas não binárias que também adotam a estética femboy. A faixa azul-clara central representa a identidade masculina subjacente.",
+  "showyouridentity.flag.femboy.credit": "Criada pelo usuário \"Jay\" em 2017.",
+
+  "showyouridentity.flag.transfem.name": "Bandeira do Orgulho Transfeminino",
+  "showyouridentity.flag.transfem.description": "Uma pessoa transfeminina é alguém a quem foi atribuído o sexo masculino ao nascer, mas que se identifica mais com a feminilidade, o ser mulher ou uma identidade de gênero feminina. O termo inclui mulheres trans, bem como pessoas não binárias, gênero-fluido e demigirls que se expressam ou se identificam de forma feminina.\nA bandeira expande as cores da bandeira transgênero tradicional. As faixas azul-claras externas representam a designação masculina ao nascer, avançando gradualmente para tons cada vez mais intensos de rosa em direção ao centro, simbolizando a jornada rumo à afirmação e celebração de uma identidade feminina.",
+  "showyouridentity.flag.transfem.credit": "Criada pelo usuário @asexual-lesbian do Tumblr em 2015.",
+
+  "showyouridentity.flag.transmasc.name": "Bandeira do Orgulho Transmasculino",
+  "showyouridentity.flag.transmasc.description": "Uma pessoa transmasculina é alguém a quem foi atribuído o sexo feminino ao nascer, mas que se identifica mais com a masculinidade, o ser homem ou uma identidade de gênero masculina. O termo inclui homens trans, bem como pessoas não binárias, gênero-fluido e demiboys que se expressam ou se identificam de forma masculina.\nA bandeira expande as cores da bandeira transgênero tradicional. As faixas rosa-claras externas representam a designação feminina ao nascer, avançando gradualmente para tons cada vez mais intensos de azul em direção ao centro, simbolizando a jornada rumo à afirmação e celebração de uma identidade masculina.",
+  "showyouridentity.flag.transmasc.credit": "Criada pelo usuário @asexual-lesbian do Tumblr em 2015.",
+
+  "showyouridentity.flag.neptunic.name": "Bandeira do Orgulho Neptúnico",
+  "showyouridentity.flag.neptunic.description": "Uma pessoa neptúnica sente atração por mulheres, pessoas não binárias alinhadas à feminilidade e pessoas não binárias neutras ou não alinhadas. Essa orientação exclui explicitamente a atração por homens, pessoas não binárias alinhadas à masculinidade e pela masculinidade em si. O termo é frequentemente utilizado por pessoas não binárias para descrever sua atração sem recorrer a termos binários como \"lésbica\" ou \"heterossexual\".\nEsta bandeira utiliza uma paleta de cores oceânica inspirada no planeta Netuno. As faixas verde-água e turquesa superiores representam identidades femininas e alinhadas ao feminino. As faixas azul-pastel e verde-água-claro centrais simbolizam pessoas não binárias neutras ou não alinhadas. As faixas lavanda e roxa inferiores representam a natureza única e queer dessa atração.",
+  "showyouridentity.flag.neptunic.credit": "Criada por um usuário anônimo do Tumblr em 2017.",
+
+  "showyouridentity.flag.uranic.name": "Bandeira do Orgulho Urânico",
+  "showyouridentity.flag.uranic.description": "Uma pessoa urânica sente atração por homens, pessoas não binárias alinhadas à masculinidade e pessoas não binárias neutras ou não alinhadas. Essa orientação exclui explicitamente a atração por mulheres, pessoas não binárias alinhadas à feminilidade e pela feminilidade em si. O termo é frequentemente utilizado por pessoas não binárias para descrever sua atração sem recorrer a termos binários como \"gay\" ou \"heterossexual\".\nEsta bandeira apresenta um esquema de cores inspirado no céu e em Urano, o deus grego do firmamento. As quatro faixas superiores formam um gradiente de azuis médios a suaves, representando homens e identidades alinhadas à masculinidade. As faixas inferiores em creme e laranja-bege suave representam pessoas neutras, não alinhadas ou não binárias incluídas nessa atração.",
+  "showyouridentity.flag.uranic.credit": "Criada por um usuário anônimo do Tumblr em 2017.",
+
+  "showyouridentity.flag.sapphic.name": "Bandeira do Orgulho Sáfico",
+  "showyouridentity.flag.sapphic.description": "Uma pessoa sáfica é uma mulher ou pessoa não binária que sente atração por mulheres e pessoas alinhadas à feminilidade. Este termo guarda-chuva inclusivo engloba lésbicas, mulheres bissexuais, mulheres pansexuais e mulheres queer, concentrando-se na experiência compartilhada da atração entre mulheres, independentemente de essa atração ser exclusiva ou não.\nA bandeira é uma adaptação moderna de símbolos históricos mais antigos. As faixas rosas superior e inferior representam amor, romance e feminilidade. A faixa branca central representa segurança, paz e a inclusão de pessoas com identidades de gênero expansivas dentro da comunidade. No centro encontra-se uma flor violeta, símbolo histórico do amor sáfico desde a poesia de Safo, na Grécia Antiga. Ela escreveu sobre amantes usando coroas de violetas.",
+  "showyouridentity.flag.sapphic.credit": "Criada pelos usuários @pride-flags e @lesbian-herstory do Tumblr em 2015.",
+
+  "showyouridentity.flag.sapiosexual.name": "Bandeira do Orgulho Sapiossexual",
+  "showyouridentity.flag.sapiosexual.description": "Uma pessoa sapiossexual sente atração romântica ou sexual principalmente pela inteligência e pela mente humana. Para essas pessoas, uma conexão intelectual, uma conversa estimulante ou a profundidade mental de alguém constituem a base da atração, tendo prioridade sobre aparência física ou identidade de gênero.\nEsta bandeira representa diferentes aspectos da conexão intelectual. A faixa verde superior representa crescimento, desenvolvimento e expansão da mente. A faixa marrom central representa estabilidade, profundidade e a natureza sólida do pensamento profundo. A faixa azul inferior representa conhecimento, lógica e exploração intelectual.",
+  "showyouridentity.flag.sapiosexual.credit": "Criada pelo usuário @WolfieBoy em 2015.",
+
+  "showyouridentity.flag.straight_ally.name": "Bandeira de Aliado Heterossexual",
+  "showyouridentity.flag.straight_ally.description": "Aliados utilizam seus privilégios para combater a homofobia, bifobia, transfobia e desigualdades sistêmicas, criando espaços seguros e inclusivos para pessoas LGBTQ+.\nEsta bandeira combina símbolos da identidade heterossexual e do orgulho queer. O fundo consiste em faixas horizontais alternadas em preto e branco, que historicamente representam a bandeira do orgulho heterossexual. No centro há uma grande letra \"A\" estilizada preenchida com as seis cores tradicionais do arco-íris LGBTQ+. O \"A\" significa \"aliado\" e simboliza os esforços ativos da comunidade para oferecer apoio e proteção à comunidade queer.",
+  "showyouridentity.flag.straight_ally.credit": "Criada por uma pessoa desconhecida no final dos anos 2000.",
+
+  "showyouridentity.flag.trans_ally.name": "Bandeira de Aliado Trans",
+  "showyouridentity.flag.trans_ally.description": "Aliados utilizam seus privilégios para combater a homofobia, bifobia, transfobia e desigualdades sistêmicas, criando espaços seguros e inclusivos para pessoas LGBTQ+.\nSeguindo o conceito visual da bandeira de aliado heterossexual, esta bandeira combina identidade heterossexual/cisgênero com orgulho transgênero. O fundo consiste em faixas horizontais alternadas em preto e branco, que historicamente representam a bandeira do orgulho heterossexual. No centro há uma grande letra \"A\" estilizada preenchida com as cores azul-claro, rosa e branco da tradicional bandeira transgênero criada por Monica Helms. O \"A\" significa \"aliado\" e simboliza os esforços ativos da comunidade para oferecer apoio e proteção à comunidade trans.",
+  "showyouridentity.flag.trans_ally.credit": "Criada por uma pessoa desconhecida no final dos anos 2010.",
+
+
+  "showyouridentity.midnightconfig.slur_filter_url": "URL para o Filtro de Termos Ofensivos",
+  "showyouridentity.midnightconfig.comment_slur_filter": "O filtro de termos ofensivos precisa seguir a estrutura de awdev1/better-profane-words no GitHub",
+  "showyouridentity.midnightconfig.title": "Mostre Sua Identidade"
+}

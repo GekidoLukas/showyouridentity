@@ -1,0 +1,158 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "プレイヤー %1$s は代名詞を設定していません。尋ねてみてください。",
+  "commands.showyouridentity.pronouns.get.success": "プレイヤー %1$s の代名詞は %2$s です。",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "プレイヤーのみが代名詞を設定できます。",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "あなたはすでに代名詞 %1$s を設定しています。",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s には誹謗中傷表現（スラ語）が含まれています。使用しないでください。",
+  "commands.showyouridentity.pronouns.set.success": "あなたの代名詞を %1$s に設定しました。",
+  "commands.showyouridentity.slur_filter.reload.success": "誹謗中傷フィルターの再読み込みに成功しました。(カウント: %1$s)",
+  "commands.showyouridentity.slur_filter.add.success": "フィルターへの新しい誹謗中傷表現の追加に成功しました",
+  "commands.showyouridentity.slur_filter.add.failure": "その誹謗中傷表現がすでに存在しているか、エラーが発生しました（ログを確認してください）",
+  "commands.showyouridentity.reset.all.success": "全員の識別データがリセットされました。",
+  "commands.showyouridentity.reset.player.failure": "%s の識別データをリセットできませんでした",
+  "commands.showyouridentity.reset.player.success": "%s の識別データがリセットされました。",
+  "commands.showyouridentity.flag.set_primary.success": "あなたの第一プライドフラッグが %s に設定されました",
+  "commands.showyouridentity.flag.set_secondary.success": "あなたの第二プライドフラッグが %s に設定されました",
+  "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "あなたの第一プライドフラッグはすでに %s です",
+  "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "あなたの第二プライドフラッグはすでに %s です",
+  "commands.showyouridentity.flag.set.failure.unknown": "そのフラッグは不明です",
+  "commands.showyouridentity.flag.reset_primary.success": "あなたの第一プライドフラッグがリセットされました",
+  "commands.showyouridentity.flag.reset_secondary.success": "あなたの第二プライドフラッグがリセットされました",
+  "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "あなたの第一プライドフラッグはすでにリセットされています",
+  "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "あなたの第二プライドフラッグはすでにリセットされています",
+  "commands.showyouridentity.flag_pos.set.failure.unknown": "そのフラッグの位置は不明です",
+  "commands.showyouridentity.flag_pos.set.success": "あなたのフラッグの位置が %s に設定されました",
+  "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "あなたのフラッグの位置はすでに %s と一致しています",
+
+  "showyouridentity.flag.rainbow.name": "レインボー・プライド・フラッグ",
+  "showyouridentity.flag.rainbow.description": "現代のバージョンは、赤、オレンジ、黄、緑、青、紫の横縞が特徴です。それぞれの色は、癒やし、太陽の光、自然など、生命やコミュニティの異なる側面を表しています。",
+  "showyouridentity.flag.rainbow.credit": "1978年にギルバート・ベーカーによってデザインされました。",
+
+  "showyouridentity.flag.progress_pride.name": "プログレス・プライド・フラッグ",
+  "showyouridentity.flag.progress_pride.description": "このフラッグは、従来のレインボーフラッグをベースに、包括性と現在進行形の進歩を明確に強調するため、左向きの山形（シェブロン）を追加したものです。山形部分には、過小評価されている有色のLGBTQ+コミュニティを表す黒と茶色の縞が含まれています。これらの縞に、トランスジェンダー・プライド・フラッグの水色、ピンク、白が寄り添うように配置されています。",
+  "showyouridentity.flag.progress_pride.credit": "2018年にダニエル・クエーサーによってデザインされました。",
+
+  "showyouridentity.flag.lesbian.name": "サンセット・レズビアン・プライド・フラッグ",
+  "showyouridentity.flag.lesbian.description": "レズビアンとは一般に、女性またはフェミニン寄り（女性的）な個人に対して、恋愛感情、情緒的、および/または性的な惹かれを経験する女性またはノンバイナリーの人と定義されています。\nコミュニティは、ジェンダー・ノンコンフォーミング（性別不適合）やトランスジェンダーのレズビアンをより包括するためにこのフラッグを採用しました。オレンジ色の縞は、非共形性、独立性、コミュニティなどのテーマを表しています。ピンク色の縞は、平穏、愛、女性らしさを表しています。これらのテーマはすべて、女性らしさへの独自の結びつきを表す白い縞を中心に配置されています。",
+  "showyouridentity.flag.lesbian.credit": "2018年にエミリー・グウェンによってデザインされました。",
+
+  "showyouridentity.flag.gay.name": "ゲイ男性プライド・フラッグ（MLMフラッグ）",
+  "showyouridentity.flag.gay.description": "ゲイとは一般に、男性またはマスキュリン寄り（男性的）な個人に対して、恋愛感情、情緒的、および/または性的な惹かれを経験する男性またはマスキュリン寄りの人と定義されています。\nこのフラッグは、レズビアン・フラッグの対になるものとしてデザインされました。上部の緑と青緑色の縞は、コミュニティ、癒やし、喜びを象徴しています。下部の青と紫の縞は、純粋な愛、強さ、多様性を象徴しています。中央の白い縞は、トランスジェンダー、ノンバイナリー、およびジェンダー・ノンコンフォーミングのゲイ男性を表しています。",
+  "showyouridentity.flag.gay.credit": "2019年にTumblrユーザーの @sadgaysite によってデザインされました。",
+
+  "showyouridentity.flag.bisexual.name": "バイセクシュアル・プライド・フラッグ",
+  "showyouridentity.flag.bisexual.description": "バイセクシュアルとは、複数のジェンダーに対して恋愛感情、情緒的、および/または性的な惹かれを経験する人のことです。\nこのフラッグは、一般的なレインボーフラッグとは異なり、バイセクシュアル・コミュニティ独自の明確な可視性のシンボルを提供するために作成されました。上部のピンクの縞は自身のジェンダーへの惹かれを表しています。下部の青い縞は異なるジェンダーへの惹かれを表しています。中央の重なり合う紫の縞は、ジェンダー・スペクトラム（全般）にわたる惹かれを表しています。",
+  "showyouridentity.flag.bisexual.credit": "1998年にマイケル・ページによってデザインされました。",
+
+  "showyouridentity.flag.transgender.name": "トランスジェンダー・プライド・フラッグ",
+  "showyouridentity.flag.transgender.description": "トランスジェンダーとは、自身のジェンダーアイデンティティ（性自認）が、出生時に割り当てられた性別と異なる人のことです。\nフラッグの対称的なデザインは、常に正しく表示されることを保証し、自分自身の人生における「正しさ」を見出すことを象徴しています。水色の縞は男の赤ちゃんの伝統的な色を、ピンクの縞は女の赤ちゃんの伝統的な色を表し、中央の白い縞はインターセクシャル（性分化疾患など）、性別移行中、または自身のジェンダーが中立・未定義であると考えている人を表しています。",
+  "showyouridentity.flag.transgender.credit": "1999年にモニカ・ヘルムズによってデザインされました。",
+
+  "showyouridentity.flag.intersex.name": "インターセクス・プライド・フラッグ",
+  "showyouridentity.flag.intersex.description": "インターセクス（性分化疾患など）の人は、一般的な男性または女性の身体という二元的な概念に当てはまらない身体的性徴を持って生まれます。\nこのフラッグは、青やピンクのようなジェンダー化された色を意図的に避けています。黄色の背景と紫色の円は、完全性と充実性を表しています。これらはまた、神や自然があなたを作ったままである権利を象徴しており、身体の自律性と自己決定権を表しています。",
+  "showyouridentity.flag.intersex.credit": "2013年にモーガン・カーペンターによってデザインされました。",
+
+  "showyouridentity.flag.asexual.name": "アセクシュアル・プライド・フラッグ",
+  "showyouridentity.flag.asexual.description": "アセクシュアルの人は、他者に対して性的惹かれをほとんど、あるいは全く経験しませんが、恋愛感情、情緒的、または審美的な惹かれを経験することはあります。\nエース・スペクトラム（アセクシュアルのグラデーション）の様々な側面を表すため、コミュニティの投票によってこのフラッグが選ばれました。黒い縞はアセクシュアルを、グレーの縞はデミセクシュアルとグレー・アセクシュアルを、白い縞はアセクシュアルではないアライ（理解者）やパートナーを、紫の縞はコミュニティを表しています。",
+  "showyouridentity.flag.asexual.credit": "2010年にAsexual Visibility and Education Network（AVEN）ユーザーの @standup によってデザインされました。",
+
+  "showyouridentity.flag.aromantic.name": "アロマンティック・プライド・フラッグ",
+  "showyouridentity.flag.aromantic.description": "アロマンティックの人は、他者に対して恋愛感情をほとんど、あるいは全く経験しません。これは一般に「片思い」を経験したり、恋愛関係を望まないことを意味します。しかし、彼らはしばしばプラトニック（精神的）な関係を深く大切にします。\nこのフラッグは、最も広く認識されているバージョンです。濃い緑と薄い緑の縞はアロマンティック・スペクトラムを表しています（緑は、伝統的に恋愛と結びつけられる赤の補色であるため）。白い縞はプラトニックな愛と友情を表しています。グレーと黒の縞は、セクシュアリティのスペクトラムを表しています。",
+  "showyouridentity.flag.aromantic.credit": "2014年にTumblrユーザーの @cameronwhimsy によってデザインされました。",
+
+  "showyouridentity.flag.aroace.name": "アロエース（Aroace）・プライド・フラッグ",
+  "showyouridentity.flag.aroace.description": "アロエースの人は、アロマンティックとアセクシュアルの両方として自認しており、恋愛感情と性的惹かれをほとんど、あるいは全く経験しないことを意味します。\n緑と紫のフラッグを単純に組み合わせるのではなく、このフラッグは両方のアイデンティティの側面を独自の統一されたデザインに組み込んでいます。オレンジ色の縞は、アロエースの愛と関係性のコミュニティと独自の性質を表しています。白い縞は完全性と平和を表しています。青い縞はアロエースのアイデンティティとスペクトラムを表しています。",
+  "showyouridentity.flag.aroace.credit": "2018年にTumblrユーザーの @bi-aroace（現在はJacqueline）によってデザインされました。",
+
+  "showyouridentity.flag.agender.name": "アジェンダー・プライド・フラッグ",
+  "showyouridentity.flag.agender.description": "アジェンダーの人とは、自身にジェンダー（性別）がない、中立的なジェンダーである、あるいはジェンダーアイデンティティが完全に欠如していると自認している人のことです。\nこのフラッグは、無性別性と中立性を表しています。黒と白の縞はジェンダーの欠如を、グレーの縞は半無性別性を表し、中央の緑の縞はノンバイナリーのアイデンティティを表しています。緑は、伝統的なジェンダーの色であるピンクと青の混色である紫の反転色だからです。",
+  "showyouridentity.flag.agender.credit": "2014年にSalem X（@transvestia の別名）によってデザインされました。",
+
+  "showyouridentity.flag.non_binary.name": "ノンバイナリー・プライド・フラッグ",
+  "showyouridentity.flag.non_binary.description": "ノンバイナリーの人とは、自身のジェンダーアイデンティティが男性または女性という二元的なカテゴリに厳密に当てはまらない人のことで、両方に自認すること、どちらにも自認しないこと、あるいはジェンダー間で流動することなどが含まれます。\nこのフラッグは、ジェンダーキア・フラッグを置き換えるのではなく、補完するためにデザインされました。黄色の縞はジェンダーが二元論の外にある個人を、白い縞は複数またはすべてのジェンダーを持つ人を、紫の縞はジェンダーが男性と女性のブレンドである人を、黒の縞はジェンダーニュートラル（中立）として自認する人を表しています。",
+  "showyouridentity.flag.non_binary.credit": "2014年にカイ・ローワン（Kye Rowan）によってデザインされました。",
+
+  "showyouridentity.flag.demiboy.name": "デミボーイ・プライド・フラッグ",
+  "showyouridentity.flag.demiboy.description": "デミボーイとは、出生時に割り当てられた性別に関わらず、部分的に（ただし完全ではなく）男性、男の子、またはマスキュリンな人として自認している人のことです。\nフラッグの落ち着いた色は、部分的なアイデンティティを象徴しています。グレーの縞はジェンダーアイデンティティのグレーゾーンを、青い縞はマスキュリティ（男性らしさ）や男性であることを表し、中央の白い縞はノンバイナリーやアジェンダーのアイデンティティを表しています。",
+  "showyouridentity.flag.demiboy.credit": "2015年にTumblrユーザーの @transmasculine-perspective によってデザインされました。",
+
+  "showyouridentity.flag.demigirl.name": "デミガール・プライド・フラッグ",
+  "showyouridentity.flag.demigirl.description": "デミガールとは、出生時に割り当てられた性別に関わらず、部分的に（ただし完全ではなく）女性、女の子、またはフェミニンな人として自認している人のことです。\nフラッグの落ち着いた色は、部分的なアイデンティティを象徴しています。グレーの縞はジェンダーアイデンティティのグレーゾーンを、ピンクの縞はフェミニニティ（女性らしさ）や女性であることを表し、中央の白い縞はノンバイナリーやアジェンダーのアイデンティティを表しています。",
+  "showyouridentity.flag.demigirl.credit": "2015年にTumblrユーザーの @transmasculine-perspective によってデザインされました。",
+
+  "showyouridentity.flag.genderfluid.name": "ジェンダーフルイド・プライド・フラッグ",
+  "showyouridentity.flag.genderfluid.description": "ジェンダーフルイドの人とは、ジェンダーアイデンティティが固定されておらず、時間の経過とともに変動し、男性、女性、ノンバイナリー、アジェンダーなど異なるジェンダーの間を移行する人のことです。\nこのフラッグは、ジェンダーの流動性のダイナミックで変化する性質を包含しています。ピンクの縞は女性らしさを、白い縞はすべてのジェンダーを、紫の縞は男性らしさと女性らしさの組み合わせを、黒の縞はジェンダーの欠如を、青い縞は男性らしさを表しています。",
+  "showyouridentity.flag.genderfluid.credit": "2012年にJJ・プール（JJ Poole）によってデザインされました。",
+
+  "showyouridentity.flag.genderqueer.name": "ジェンダーキア・プライド・フラッグ",
+  "showyouridentity.flag.genderqueer.description": "ジェンダーキアの人とは、自身のジェンダーアイデンティティが伝統的な男女の二元論から外れている、それを超えている、あるいはそれを拒絶している人のことです。この用語は、特定のアイデンティティとして、または「ノンバイナリー」に似た包括的な用語として使用できます。\nこのフラッグは、ラベンダー色、白、濃い緑の縞が特徴です。ラベンダー色の縞は青とピンクの混合を表し、アンドロジニー（両性具有）やクィアのアイデンティティを象徴しています。白い縞はアジェンダーやジェンダーニュートラルなアイデンティティを表しています。濃い緑の縞は、二元論の完全に外側にあるアイデンティティを表しています。",
+  "showyouridentity.flag.genderqueer.credit": "2011年にマリリン・ロキシー（Marilyn Roxie）によってデザインされました。",
+
+  "showyouridentity.flag.demisexual.name": "デミセクシュアル・プライド・フラッグ",
+  "showyouridentity.flag.demisexual.description": "デミセクシュアルの人は、他者と強い情緒的な絆を形成した後にのみ、その人に対して性的惹かれを経験します。惹かれを本来的に、あるいは即座に感じるわけではないため、アセクシュアル・スペクトラムに位置付けられます。\nこのフラッグはアセクシュアル・フラッグと同じ色を使用していますが、独自の配置になっています。黒い山形（シェブロン）はアセクシュアルを、グレーの縞はデミセクシュアル・スペクトラムを、白い縞はセクシュアリティとアライを表し、紫の縞はコミュニティを表しています。",
+  "showyouridentity.flag.demisexual.credit": "2010年にAsexual Visibility and Education Network（AVEN）ユーザーの Sonofofallon によってデザインされました。",
+
+  "showyouridentity.flag.demiromantic.name": "デミアロマンティック・プライド・フラッグ",
+  "showyouridentity.flag.demiromantic.description": "デミアロマンティックの人は、他者と強い情緒的な絆を形成した後にのみ、その人に対して恋愛感情としての惹かれを経験します。アロマンティック・スペクトラムに位置付けられ、第一印象や表面的な交流に基づいて恋愛感情が発達することはありません。\nこのフラッグはデミセクシュアル・フラッグのレイアウトを応用していますが、アロマンティックのアイデンティティを反映するために色を入れ替えています。黒い山形（シェブロン）はアロマンティック・スペクトラムを、グレーの縞はデミアロマンティック・スペクトラムを、白い縞はプラトニックな愛と友情を表し、緑の縞はアロマンティシズムを表しています。",
+  "showyouridentity.flag.demiromantic.credit": "2015年に匿名のTumblrユーザーによってデザインされました。",
+
+  "showyouridentity.flag.pansexual.name": "パンセクシュアル・プライド・フラッグ",
+  "showyouridentity.flag.pansexual.description": "パンセクシュアルの人とは、相手のジェンダーアイデンティティに関わらず、人に対して恋愛感情、情緒的、および/または性的に惹かれる人のことです。これはしばしば「ジェンダー・ブラインド（性別を意識しない）」、あるいは「すべてのジェンダーの人に惹かれる」と表現されます。\nこのフラッグは、バイセクシュアル・フラッグとは異なり、パンセクシュアル・コミュニティの可視性を高めるためにデザインされました。ピンクの縞は女性として自認する人への惹かれを、青い縞は男性として自認する人への惹かれを、黄色の縞はノンバイナリー、ジェンダーキア、アジェンダー、またはジェンダーフルイドの個人への惹かれを表しています。",
+  "showyouridentity.flag.pansexual.credit": "2010年にジャスパー・V（Jasper V.、ユーザー名は @evandragonfly）によってデザインされました。",
+
+  "showyouridentity.flag.omnisexual.name": "オムニセクシュアル・プライド・フラッグ",
+  "showyouridentity.flag.omnisexual.description": "オムニセクシュアルの人とは、すべてのジェンダーの人に対して恋愛感情、情緒的、および/または性的な惹かれを経験する人のことです。しばしば「ジェンダー・ブラインド」と表現されるパンセクシュアルとは異なり、オムニセクシュアルは人のジェンダーを認識し、意識しています。そのジェンダーが惹かれにおいて役割を果たすこともあります。\nこのフラッグは、ピンクと青のグラデーションを使用してジェンダー・スペクトラムを表しています。薄い青と濃い青の縞は男性およびマスキュリンなジェンダーへの惹かれを、薄いピンクと濃いピンクの縞は女性およびフェミニンなジェンダーへの惹かれを、中央の濃い紫の縞はノンバイナリーおよびジェンダー拡張的なアイデンティティへの惹かれを表しています。",
+  "showyouridentity.flag.omnisexual.credit": "2015年にユーザーの @bastard-of-the-skies（別名 Pastellight）によってデザインされました。",
+
+  "showyouridentity.flag.polysexual.name": "ポリセクシュアル・プライド・フラッグ",
+  "showyouridentity.flag.polysexual.description": "ポリセクシュアルの人は複数のジェンダーに惹かれますが、必ずしもそれらすべてとは限りません。ジェンダーに関わらず惹かれるパンセクシュアリティや、すべてのジェンダーに惹かれるオムニセクシュアリティとは異なり、ポリセクシュアリティは多くのジェンダーに惹かれつつも、他のジェンダーを除外するものです。\nこのフラッグは、マルチ・ジェンダーへの惹かれの特定の性質を表すためにデザインされました。ピンクの縞は女性として自認する人への惹かれを、青い縞は男性として自認する人への惹かれを、緑の縞はノンバイナリー、ジェンダーフルイド、あるいはアジェンダーの個人など、伝統的なジェンダー二元論の外側で自認する人への惹かれを表しています。",
+  "showyouridentity.flag.polysexual.credit": "2012年にTumblrユーザーの @samlin によってデザインされました。",
+
+  "showyouridentity.flag.polyamory.name": "ポリアモリー・プライド・フラッグ",
+  "showyouridentity.flag.polyamory.description": "ポリアモラスの人とは、関与するすべてのパートナーのインフォームド・コンセント（十分な説明を受けた上での同意）を得た上で、複数の恋愛関係および/または情緒的な関係を同時に持つことにオープンであるか、あるいは従事している人のことです。\n現代のフラッグは、1995年の三色旗をよりまとまりのあるシンボルに置き換えるためにデザインされました。薄い青の縞は開放性と誠実さを、マゼンタの縞は愛と情熱を、濃い紫の縞はポリアモラス・コミュニティを表しています。左側の白い山形（シェブロン）は前進を象徴するために前を向いており、中央の金のハートは愛と情緒的なつながりという核となる価値を表しています。",
+  "showyouridentity.flag.polyamory.credit": "2022年にレッド・ハウエル（Red Howell）によってデザインされました。",
+
+  "showyouridentity.flag.bear_brotherhood.name": "インターナショナル・ベア・ブラザーフッド・プライド・フラッグ",
+  "showyouridentity.flag.bear_brotherhood.description": "ゲイ、バイセクシュアル、およびクィア男性のコミュニティにおいて、「ベア（熊）」とは一般的に、毛深く、身体が大きく、がっしりした、あるいは太り気味の男性を描写するサブカルチャーのことです。\nこのフラッグは、グローバルなコミュニティにおける包括性を表しています。その水平な縞は、世界中のベアや人間の毛色や肌の色を表現するグラデーション（濃い茶色、オレンジがかったサビ色、ゴールデンイエロー、タン、白、グレー、黒）が特徴です。左上のカントン（四半部）には黒いクマの足跡が配置され、ブラザーフッド（同胞団）の明確なアイデンティティと強さを象徴しています。",
+  "showyouridentity.flag.bear_brotherhood.credit": "1995年にクレイグ・バーンズ（Craig Byrnes）によってデザインされました。",
+
+  "showyouridentity.flag.femboy.name": "フェムボーイ（Femboy）・プライド・フラッグ",
+  "showyouridentity.flag.femboy.description": "フェムボーイとは、男性またはマスキュリンとして自認しつつも、服装、行動、または美意識を通じて、伝統的にフェミニン（女性的）な方法でジェンダーを表現する人のことです。このジェンダー表現は、従来の男性の役割に挑戦するものです。\nこのフラッグは、男性としてのアイデンティティと女性的な表現の交差を強調するためにデザインされた、対称的な色のグラデーションが特徴です。外側の濃いピンクの縞と内側の薄いピンクの縞は、女性らしさと女性的なプレゼンテーション（表現）を象徴しています。白い縞は、フェムボーイの美学を受け入れるノンバイナリーの個人を表しています。中央の薄い青の縞は、根底にある男性またはマスキュリン寄りのアイデンティティを表しています。",
+  "showyouridentity.flag.femboy.credit": "2017年にユーザー「Jay」によってデザインされました。",
+
+  "showyouridentity.flag.transfem.name": "トランスフェミニン・プライド・フラッグ",
+  "showyouridentity.flag.transfem.description": "トランスフェミニンの人とは、出生時に男性に割り当てられたものの、女性らしさ、女性であること、またはフェミニンなジェンダーアイデンティティに、より親近感を持って自認している人のことです。この用語には、トランスジェンダー女性だけでなく、フェミニンとして表現または自認するノンバイナリー、ジェンダーフルイド、およびデミガールの個人が含まれます。\nこのフラッグは、伝統的なトランスジェンダー・フラッグの色を拡張したものです。外側の水色の縞は出生時の男性割り当てを表し、内側に向かって徐々に濃いピンクの色合いへと移行することで、誇り高き女性としてのアイデンティティへの旅路と受け入れを象徴しています。",
+  "showyouridentity.flag.transfem.credit": "2015年にTumblrユーザーの @asexual-lesbian によってデザインされました。",
+
+  "showyouridentity.flag.transmasc.name": "トランスマスキュリン・プライド・フラッグ",
+  "showyouridentity.flag.transmasc.description": "トランスマスキュリンの人とは、出生時に女性に割り当てられたものの、男性らしさ、男性であること、またはマスキュリンなジェンダーアイデンティティに、より親近感を持って自認している人のことです。この用語には、トランスジェンダー男性だけでなく、マスキュリンとして表現または自認するノンバイナリー、ジェンダーフルイド、およびデミボーイの個人が含まれます。\nこのフラッグは、伝統的なトランスジェンダー・フラッグの色を拡張したものです。外側の薄いピンクの縞は出生時の女性割り当てを表し、内側に向かって徐々に濃い青の色合いへと移行することで、誇り高き男性としてのアイデンティティへの旅路と受け入れを象徴しています。",
+  "showyouridentity.flag.transmasc.credit": "2015年にTumblrユーザーの @asexual-lesbian によってデザインされました。",
+
+  "showyouridentity.flag.neptunic.name": "ネプチュニック（Neptunic）・プライド・フラッグ",
+  "showyouridentity.flag.neptunic.description": "ネプチュニックの人とは、女性、フェミニン寄りのノンバイナリーの人、および中立または特定の属性を持たないノンバイナリーの人に対して惹かれを経験する人のことです。この指向は、男性、マスキュリン寄りのノンバイナリーの個人、およびマスキュリティ（男性らしさ）への惹かれを明示的に除外します。この用語はしばしば、ノンバイナリーの個人が「レズビアン」や「ストレート」のような二元的な用語を使用せずに自身の惹かれを説明するために使用されます。\nこのフラッグは、海王星（Neptune）にインスパイアされた海洋的なカラーパレットを使用しています。上部のティール（青緑）とアクア（水色）の縞は、女性および女性寄りのアイデンティティを表しています。中央のパステルブルーと薄いアクアの縞は、中立および属性を持たないノンバイナリーの個人を象徴しています。下部のラベンダーと紫の縞は、この惹かれのユニークでクィアな性質を表しています。",
+  "showyouridentity.flag.neptunic.credit": "2017年に匿名のTumblrユーザーによってデザインされました。",
+
+  "showyouridentity.flag.uranic.name": "ウラニック（Uranic）・プライド・フラッグ",
+  "showyouridentity.flag.uranic.description": "ウラニックの人とは、男性、マスキュリン寄りのノンバイナリーの人、および中立または特定の属性を持たないノンバイナリーの人に対して惹かれを経験する人のことです。この指向は、女性、フェミニン寄りのノンバイナリーの個人、およびフェミニニティ（女性らしさ）への惹かれを明示的に除外します。この用語はしばしば、ノンバイナリーの個人が「ゲイ」や「ストレート」のような二元的な用語を使用せずに自身の惹かれを説明するために使用されます。\nこのフラッグは、ギリシャの空の神ウラヌス（天王星）にインスパイアされた、空をテーマにしたカラースキームが特徴です。上部の4つの縞は、男性およびマスキュリン寄りのアイデンティティを表す、中程度からソフトなパステルブルーのグラデーションです。下部のクリーム色とソフトなタン（茶黄）オレンジの縞は、中立、属性なし、またはノンバイナリーであり、この惹かれに含まれる個人を表しています。",
+  "showyouridentity.flag.uranic.credit": "2017年に匿名のTumblrユーザーによってデザインされました。",
+
+  "showyouridentity.flag.sapphic.name": "サフィック（Sapphic）・プライド・フラッグ",
+  "showyouridentity.flag.sapphic.description": "サフィックの人とは、女性およびフェミニン寄りの人に惹かれる女性またはノンバイナリーの個人です。この包括的な傘概念（総称）には、女性にのみ惹かれるかどうかにかかわらず、女性同士の惹かれという共通の経験に焦点を当てており、レズビアン、バイセクシュアルの女性、パンセクシュアルの女性、およびクィアの女性が含まれます。\nこのフラッグは、古い歴史的なシンボルを現代的に適応させたものです。上部と下部のピンクの縞は、愛、ロマンス、そして女性であることを表しています。中央の白い縞は、コミュニティ内におけるジェンダー拡張的な個人の安全、平和、および包括を表しています。中央には、古代ギリシャのサッポーの詩にまで遡る、サフィック・ラブの歴史的なシンボルであるスミレの花（バイオレット）が描かれています。彼女は恋人たちがスミレの花輪を身につけていることについて書いていました。",
+  "showyouridentity.flag.sapphic.credit": "2015年にTumblrユーザーの @pride-flags と @lesbian-herstory によってデザインされました。",
+
+  "showyouridentity.flag.sapiosexual.name": "サピオセクシュアル・プライド・フラッグ",
+  "showyouridentity.flag.sapiosexual.description": "サピオセクシュアルの人は、知性や人間の精神に対して主に恋愛感情や性的な惹かれを経験します。これらの個人にとっては、知的なつながり、刺激的な会話、または人の精神的な深みが惹かれの土台であり、身体的な外見やジェンダーアイデンティティよりも優先されます。\nこのフラッグは、知的なつながりの様々な側面を表しています。上部の緑の縞は、精神の成長、発達、および拡張を表しています。中央の茶色の縞は、深い思考の安定性、深み、および地に足のついた性質を表しています。下部の青の縞は、知識、論理、および知的な探求を表しています。",
+  "showyouridentity.flag.sapiosexual.credit": "2015年にユーザーの @WolfieBoy によってデザインされました。",
+
+  "showyouridentity.flag.straight_ally.name": "ストレート・アライ・フラッグ",
+  "showyouridentity.flag.straight_ally.description": "アライ（理解者・支援者）は、自身の特権を活かしてホモフォビア（同性愛嫌悪）、バイフォビア（両性愛嫌悪）、トランスフォビア（トランスジェンダー嫌悪）、および構造的な不平等と戦い、LGBTQ+の個人にとって安全で包括的な空間を作り出します。\nこのフラッグは、異性愛者のアイデンティティとクィア・プライドのシンボルを組み合わせています。背景は黒と白の水平な縞が交互に並んでおり、これは歴史的にストレート（異性愛者）・プライド・フラッグを表しています。中央には、伝統的な6色のLGBTQ+レインボーで満たされた、定型化された大きな大文字の「A」が配置されています。「A」は「Ally（アライ）」を意味し、クィア・コミュニティにサポートと保護を提供するためのコミュニティの積極的な取り組みを象徴しています。",
+  "showyouridentity.flag.straight_ally.credit": "2000年代後半に匿名の人物によってデザインされました。",
+
+  "showyouridentity.flag.trans_ally.name": "トランス・アライ・フラッグ",
+  "showyouridentity.flag.trans_ally.description": "アライは、自身の特権を活かしてホモフォビア、バイフォビア、トランスフォビア、および構造的な不平等と戦い、LGBTQ+の個人にとって安全で包括的な空間を作り出します。\nストレート・アライ・フラッグのデザインコンセプトを反映し、このフラッグは異性愛者/シスジェンダーのアイデンティティとトランスジェンダー・プライドを組み合わせています。背景は黒と白の水平な縞が交互に並んでおり、これは歴史的にストレート・プライド・フラッグを表しています。中央には、モニカ・ヘルムズの伝統的なトランスジェンダー・プライド・フラッグの水色、ピンク、白の3色で満たされた、定型化された大きな大文字の「A」が配置されています。「A」は「Ally（アライ）」を意味し、トランス・コミュニティにサポートと保護を提供するためのコミュニティの積極的な取り組みを象徴しています。",
+  "showyouridentity.flag.trans_ally.credit": "2010年代後半に匿名の人物によってデザインされました。",
+
+  "showyouridentity.midnightconfig.slur_filter_url": "誹謗中傷フィルターのURL",
+  "showyouridentity.midnightconfig.comment_slur_filter": "誹謗中傷フィルター（スラ語フィルター）は、Github上の awdev1/better-profane-words の構造に基づいている必要があります",
+  "showyouridentity.midnightconfig.title": "自分のアイデンティティを表示する"
+}
