@@ -2,6 +2,7 @@ package net.gekidolukas.showyouridentity.fabric.mixin;
 
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
+import net.gekidolukas.showyouridentity.SYIConfig;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
 import net.gekidolukas.showyouridentity.data.PrideFlag;
@@ -24,6 +25,7 @@ public class StyledChatStylesMixin {
             method = "getDisplayName",
             at = @At(value = "RETURN"))
     private static Component appendPronouns(Component original, ServerPlayer player, Component vanillaDisplayName) {
+        if(!SYIConfig.renderServerSidePronounsInChat && !SYIConfig.renderServerSideFlagsInChat) return original;
 
         IdentityData identityData = IdentityData.get(player.level());
         IdentityEntry entry = identityData.getIdentity(player);
@@ -31,12 +33,13 @@ public class StyledChatStylesMixin {
         if(entry != null) {
             ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
 
-            Component pronouns = Component.literal(" ")
+            MutableComponent pronouns = Component.literal(" ")
                     .append(Component.literal("- ").withStyle(ChatFormatting.GRAY))
                     .append(Component.literal(entry.getPronouns()).withStyle(ChatFormatting.GOLD))
                     ;
+            if(!SYIConfig.renderServerSidePronounsInChat) pronouns = Component.empty();
 
-            return PrideFlag.applyChatFlags(original, entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont)));
+            return (SYIConfig.renderServerSideFlagsInChat ? PrideFlag.applyChatFlags(original, entry.getPrimaryFlag() ,entry.getSecondaryFlag()) : original).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont)));
         }
 
 

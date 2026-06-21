@@ -17,6 +17,7 @@ import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.network.chat.Component;
 import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityAttachment;
 import net.minecraft.world.entity.player.Player;
@@ -34,6 +35,7 @@ public abstract class PlayerRendererMixin extends net.minecraft.client.renderer.
     }
 
     protected void renderPronouns(Entity entity, Component component, PoseStack poseStack, MultiBufferSource multiBufferSource, int i, float f) {
+        if(!SYIConfig.renderPronounsWithNameTag) return;
         double d = this.entityRenderDispatcher.distanceToSqr(entity);
         if (!(d > (double)4096.0F)) {
             Vec3 vec3 = entity.getAttachments().getNullable(EntityAttachment.NAME_TAG, 0, entity.getViewYRot(f));
@@ -69,7 +71,7 @@ public abstract class PlayerRendererMixin extends net.minecraft.client.renderer.
         poseStack.pushPose();
         IdentityData identityData = IdentityData.get(player.level());
         IdentityEntry entry = identityData.getIdentity(player);
-        if(entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
+        if(entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty() && SYIConfig.renderPronounsWithNameTag) {
             poseStack.translate(0.0F, (SYIConfig.pronounScale) * 0.275f + 0.01f, 0.0F); //Somehow this formula works, idk
         }
     }
@@ -82,7 +84,7 @@ public abstract class PlayerRendererMixin extends net.minecraft.client.renderer.
         if(entity instanceof Player player){
             IdentityData identityData = IdentityData.get(player.level());
             IdentityEntry entry = identityData.getIdentity(player);
-            if(entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
+            if(entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty() && SYIConfig.renderFlagsWithNameTag) {
                 if(entry.getFlagPos() == NameFlagPos.PLAYER_NAME) {
                     PrideFlag leftFlag = entry.getPrimaryFlag();
                     PrideFlag rightFlag = entry.getSecondaryFlag();
@@ -112,13 +114,15 @@ public abstract class PlayerRendererMixin extends net.minecraft.client.renderer.
         IdentityEntry entry = identityData.getIdentity(player);
 
         if (entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
-            Component pronouns = Component.literal("")
+            MutableComponent pronouns = Component.literal("")
                     .append(Component.literal("-=").withStyle(ChatFormatting.GRAY))
                     .append(Component.literal(entry.getPronouns()).withStyle(ChatFormatting.GOLD))
                     .append(Component.literal("=-").withStyle(ChatFormatting.GRAY))
                     ;
 
-            if(entry.getFlagPos() == NameFlagPos.PRONOUNS) {
+            if(!SYIConfig.renderPronounsWithNameTag) pronouns = Component.empty();
+
+            if(entry.getFlagPos() == NameFlagPos.PRONOUNS && SYIConfig.renderFlagsWithNameTag) {
                 PrideFlag leftFlag = entry.getPrimaryFlag();
                 PrideFlag rightFlag = entry.getSecondaryFlag();
                 renderPronouns(player,PrideFlag.applyOverHeadFlags(pronouns, leftFlag ,rightFlag),poseStack,buffer,i,f);

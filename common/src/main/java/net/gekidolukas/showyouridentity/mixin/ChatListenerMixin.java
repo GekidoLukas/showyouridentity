@@ -1,6 +1,7 @@
 package net.gekidolukas.showyouridentity.mixin;
 
 import com.mojang.authlib.GameProfile;
+import net.gekidolukas.showyouridentity.SYIConfig;
 import net.gekidolukas.showyouridentity.client.ClientToggles;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
@@ -10,6 +11,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.chat.ChatListener;
 import net.minecraft.network.chat.ChatType;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.PlayerChatMessage;
 import net.minecraft.resources.ResourceLocation;
 import org.spongepowered.asm.mixin.Mixin;
@@ -37,6 +39,7 @@ public class ChatListenerMixin {
     private ChatType.Bound modifyBound(ChatType.Bound bound) {
         GameProfile profile = CURRENT_CHAT_PROFILE.get();
         Minecraft mc = Minecraft.getInstance();
+        if(!SYIConfig.renderPronounsInChat && !SYIConfig.renderFlagsInChat) return bound;
         if(!ClientToggles.shouldRenderChat) return bound;
 
         if (profile != null && mc.level != null) {
@@ -47,13 +50,14 @@ public class ChatListenerMixin {
                 if (entry != null) {
                     ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
 
-                    Component pronouns = Component.literal(" ")
+                    MutableComponent pronouns = Component.literal(" ")
                             .append(Component.literal("- ").withStyle(ChatFormatting.GRAY))
                             .append(Component.literal(entry.getPronouns()).withStyle(ChatFormatting.GOLD))
                             ;
+                    if(!SYIConfig.renderPronounsInChat) pronouns = Component.empty();
 
 
-                    Component newName = PrideFlag.applyChatFlags(bound.name(), entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont)));
+                    Component newName = (SYIConfig.renderFlagsInChat ? PrideFlag.applyChatFlags(bound.name(), entry.getPrimaryFlag() ,entry.getSecondaryFlag()) : bound.name()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont)));
 
                     return new ChatType.Bound(bound.chatType(), newName, bound.targetName());
                 }

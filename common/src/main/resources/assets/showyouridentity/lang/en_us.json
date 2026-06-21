@@ -160,6 +160,19 @@
   "showyouridentity.midnightconfig.category.common": "Common",
   "showyouridentity.midnightconfig.category.client": "Client",
   "showyouridentity.midnightconfig.renderThirdPersonNameTag": "Show Nametag above Head in Third Person",
-  "showyouridentity.midnightconfig.pronounScale": "Pronoun Scale"
+  "showyouridentity.midnightconfig.pronounScale": "Pronoun Scale",
+  "showyouridentity.midnightconfig.renderPronounsInChat": "Render pronouns in chat",
+  "showyouridentity.midnightconfig.renderPronounsWithNameTag": "Render pronouns with name tag",
+  "showyouridentity.midnightconfig.renderPronounsInTabList": "Render pronouns in tab list",
+  "showyouridentity.midnightconfig.renderFlagsInChat": "Render flags in chat",
+  "showyouridentity.midnightconfig.renderFlagsWithNameTag": "Render flags with name tag",
+  "showyouridentity.midnightconfig.renderFlagsInTabList": "Render flags in tab list",
+  "showyouridentity.midnightconfig.commentServerPronouns": "Some serverside mods require workarounds, that make the pronouns and flags apply on serverside. These settings are only for these cases.",
+  "showyouridentity.midnightconfig.renderServerSidePronounsInChat": "Render pronouns in chat (serverside)",
+  "showyouridentity.midnightconfig.renderServerSidePronounsWithNameTag": "Render pronouns with name tag (serverside)",
+  "showyouridentity.midnightconfig.renderServerSidePronounsInTabList": "Render pronouns in tab list (serverside)",
+  "showyouridentity.midnightconfig.renderServerSideFlagsInChat": "Render flags in chat (serverside)",
+  "showyouridentity.midnightconfig.renderServerSideFlagsWithNameTag": "Render flags with name tag (serverside)",
+  "showyouridentity.midnightconfig.renderServerSideFlagsInTabList": "Render flags in tab list (serverside)"
 
 }

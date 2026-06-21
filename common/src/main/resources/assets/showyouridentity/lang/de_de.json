@@ -158,5 +158,18 @@
   "showyouridentity.midnightconfig.category.common": "Common",
   "showyouridentity.midnightconfig.category.client": "Client",
   "showyouridentity.midnightconfig.renderThirdPersonNameTag": "Zeige das Namensschild über dem Kopf in der Third-Person-Perspektive",
-  "showyouridentity.midnightconfig.pronounScale": "Pronomen-Maßstab"
+  "showyouridentity.midnightconfig.pronounScale": "Pronomen-Maßstab",
+  "showyouridentity.midnightconfig.renderPronounsInChat": "Pronomen im Chat anzeigen",
+  "showyouridentity.midnightconfig.renderPronounsWithNameTag": "Pronomen beim Namensschild anzeigen",
+  "showyouridentity.midnightconfig.renderPronounsInTabList": "Pronomen in der Tab-Liste anzeigen",
+  "showyouridentity.midnightconfig.renderFlagsInChat": "Flaggen im Chat anzeigen",
+  "showyouridentity.midnightconfig.renderFlagsWithNameTag": "Flaggen beim Namensschild anzeigen",
+  "showyouridentity.midnightconfig.renderFlagsInTabList": "Flaggen in der Tab-Liste anzeigen",
+  "showyouridentity.midnightconfig.commentServerPronouns": "Manche server-seitigen Mods benötigen Workarounds, die die Pronomen und Flaggen server-seitig anwenden. Diese Einstellungen sind nur für diese Fälle.",
+  "showyouridentity.midnightconfig.renderServerSidePronounsInChat": "Pronomen im Chat anzeigen (server-seitig)",
+  "showyouridentity.midnightconfig.renderServerSidePronounsWithNameTag": "Pronomen beim Namensschild anzeigen (server-seitig)",
+  "showyouridentity.midnightconfig.renderServerSidePronounsInTabList": "Pronomen in der Tab-Liste anzeigen (server-seitig)",
+  "showyouridentity.midnightconfig.renderServerSideFlagsInChat": "Flaggen im Chat anzeigen (server-seitig)",
+  "showyouridentity.midnightconfig.renderServerSideFlagsWithNameTag": "Flaggen beim Namensschild anzeigen (server-seitig)",
+  "showyouridentity.midnightconfig.renderServerSideFlagsInTabList": "Flaggen in der Tab-Liste anzeigen (server-seitig)"
 }

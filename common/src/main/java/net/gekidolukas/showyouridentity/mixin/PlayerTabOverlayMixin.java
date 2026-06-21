@@ -1,6 +1,7 @@
 package net.gekidolukas.showyouridentity.mixin;
 
 import com.mojang.authlib.GameProfile;
+import net.gekidolukas.showyouridentity.SYIConfig;
 import net.gekidolukas.showyouridentity.client.ClientToggles;
 import net.gekidolukas.showyouridentity.data.IdentityData;
 import net.gekidolukas.showyouridentity.data.IdentityEntry;
@@ -10,6 +11,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.PlayerTabOverlay;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import org.spongepowered.asm.mixin.Mixin;
@@ -26,6 +28,7 @@ public class PlayerTabOverlayMixin {
             cancellable = true
     )
     private void appendPronounsToTab(PlayerInfo playerInfo, CallbackInfoReturnable<Component> cir) {
+        if(!SYIConfig.renderPronounsInTabList && !SYIConfig.renderFlagsInTabList) return;
         if(!ClientToggles.shouldRenderTab) return;
         Component originalName = cir.getReturnValue();
         if (originalName == null) return;
@@ -42,12 +45,13 @@ public class PlayerTabOverlayMixin {
                 ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
 
                 if (entry != null && entry.getPronouns() != null && !entry.getPronouns().isEmpty()) {
-                    Component pronouns = Component.literal(" ")
+                    MutableComponent pronouns = Component.literal(" ")
                             .append(Component.literal("- ").withStyle(ChatFormatting.GRAY))
                             .append(Component.literal(entry.getPronouns()).withStyle(ChatFormatting.GOLD))
                             ;
+                    if(!SYIConfig.renderPronounsInTabList) pronouns = Component.empty();
 
-                    cir.setReturnValue(PrideFlag.applyTabFlags(originalName, entry.getPrimaryFlag() ,entry.getSecondaryFlag()).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont))));
+                    cir.setReturnValue((SYIConfig.renderFlagsInTabList ? PrideFlag.applyChatFlags(originalName, entry.getPrimaryFlag() ,entry.getSecondaryFlag()) : originalName).copy().append(pronouns.copy().withStyle(style -> style.withFont(defaultFont))));
                 }
             }
         }

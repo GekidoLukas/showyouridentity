@@ -1,14 +1,8 @@
 package net.gekidolukas.showyouridentity.data;
 
-import com.mojang.authlib.GameProfile;
-import dev.architectury.platform.Platform;
 import net.gekidolukas.showyouridentity.SYIMod;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.player.Player;
-
-import java.io.Console;
 
 public enum PrideFlag {
 
