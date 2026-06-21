@@ -6,6 +6,8 @@
 - third person rendering for name tags
 - scale config option for name tags
 - settings for customizing where pronouns and flags are actually visible
+- de_de translation by me
+- es_mx, fr_fr, it_it, ja_jp, pt_br, zh_cn translations by translators of LusobitStudio
 
 ### Fixed
 - flags will now be displayed, even if no pronouns are set 
