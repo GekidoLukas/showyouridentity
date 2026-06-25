@@ -91,9 +91,9 @@ public enum PrideFlag {
     }
 
 
-    public static Component applyOverHeadFlags(Component originalName, PrideFlag leftFlag, PrideFlag rightFlag) {
+    public static Component applyFlagsToComponent(Component original, PrideFlag leftFlag, PrideFlag rightFlag, boolean leftOnly) {
         if (leftFlag == null || rightFlag == null ) {
-            return originalName;
+            return original;
         }
 
         ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
@@ -107,50 +107,16 @@ public enum PrideFlag {
 
         boolean noFlag = leftFlag == PrideFlag.NONE && rightFlag == PrideFlag.NONE;
 
-        return leftFlagComponent.copy()
-                .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(defaultFont)))
-                .append(originalName.copy().withStyle(style -> style.withFont(defaultFont)))
-                .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(defaultFont)))
-                .append(rightFlagComponent);
-    }
-
-    public static Component applyChatFlags(Component originalName, PrideFlag leftFlag, PrideFlag rightFlag) {
-        if (leftFlag == null || rightFlag == null ) {
-            return originalName;
+        if(leftOnly) {
+            return leftFlagComponent.copy()
+                    .append(!leftFlag.equals(rightFlag) ? rightFlagComponent : Component.empty())
+                    .append(original.copy().withStyle(style -> style.withFont(defaultFont)));
+        } else {
+            return leftFlagComponent.copy()
+                    .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(defaultFont)))
+                    .append(original.copy().withStyle(style -> style.withFont(defaultFont)))
+                    .append(Component.literal(noFlag ? "" : " ").withStyle(style -> style.withFont(defaultFont)))
+                    .append(rightFlagComponent);
         }
-
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
-
-
-        Component leftFlagComponent = leftFlag != PrideFlag.NONE ?  Component.literal(leftFlag.getUnicode())
-                .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();
-
-        Component rightFlagComponent = rightFlag != PrideFlag.NONE ?  Component.literal( rightFlag.getUnicode())
-                .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();
-
-
-        return leftFlagComponent.copy()
-                .append(rightFlagComponent)
-                .append(originalName.copy().withStyle(style -> style.withFont(defaultFont)));
-    }
-
-
-    public static Component applyTabFlags(Component originalName, PrideFlag leftFlag, PrideFlag rightFlag) {
-        if (leftFlag == null || rightFlag == null ) {
-            return originalName;
-        }
-
-        ResourceLocation defaultFont = ResourceLocation.parse("minecraft:default");
-
-        Component leftFlagComponent = leftFlag != PrideFlag.NONE ?  Component.literal(leftFlag.getUnicode())
-                .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();
-
-        Component rightFlagComponent = rightFlag != PrideFlag.NONE ?  Component.literal( rightFlag.getUnicode())
-                .withStyle(style -> style.withFont(PRIDE_FONT)) : Component.empty();
-
-
-        return leftFlagComponent.copy()
-                .append(rightFlagComponent)
-                .append(originalName.copy().withStyle(style -> style.withFont(defaultFont)));
     }
 }
