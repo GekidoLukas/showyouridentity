@@ -109,7 +109,7 @@ public enum PrideFlag {
 
         if(leftOnly) {
             return leftFlagComponent.copy()
-                    .append(!leftFlag.equals(rightFlag) ? rightFlagComponent : Component.empty())
+                    .append(!leftFlagComponent.equals(rightFlagComponent) ? rightFlagComponent : Component.empty())
                     .append(original.copy().withStyle(style -> style.withFont(defaultFont)));
         } else {
             return leftFlagComponent.copy()
