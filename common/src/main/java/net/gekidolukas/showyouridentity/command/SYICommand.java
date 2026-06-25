@@ -70,6 +70,10 @@ public class SYICommand {
                                                 .executes(commandContext -> executeGetPronouns(commandContext.getSource(),EntityArgument.getPlayer(commandContext,"player")))
                                         )
                                 )
+                                .then(Commands.literal("reset")
+                                        .executes(commandContext -> executeResetPronounsSelf(commandContext.getSource()))
+
+                                )
                         )
                 .then(Commands.literal("flag")
                         .then(Commands.literal("set")
@@ -189,6 +193,26 @@ public class SYICommand {
         }
 
 
+
+        return 1;
+    }
+
+    private static int executeResetPronounsSelf(CommandSourceStack source) {
+
+        IdentityData identityData = IdentityData.get(source.getLevel());
+        IdentityEntry entry = identityData.getIdentity(source.getPlayer());
+        if(source.isPlayer()) {
+            if(entry != null) {
+                entry.setPronouns("");
+                identityData.markNeoDirty();
+                identityData.sync(source.getLevel());
+                source.sendSuccess(() -> Component.translatable("commands.showyouridentity.pronouns.reset_self.success"),false);
+            } else {
+                source.sendFailure(Component.translatable("commands.showyouridentity.pronouns.reset_self.failure"));
+            }
+        } else {
+            source.sendFailure(Component.translatable("commands.showyouridentity.pronouns.set.failure.not_a_player"));
+        }
 
         return 1;
     }
