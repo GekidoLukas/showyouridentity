@@ -1,0 +1,160 @@
+{
+  "commands.showyouridentity.pronouns.get.failure": "Leikmaðurinn %1$s hefur setur ekki fornöfn, svo spyrðu.",
+  "commands.showyouridentity.pronouns.get.success": "Leikmaðurinn %1$s hefur fornöfnin %2$s.",
+  "commands.showyouridentity.pronouns.set.failure.not_a_player": "Aðeins leikmaður getur stillt fornöfn sín.",
+  "commands.showyouridentity.pronouns.set.failure.already_these_pronouns": "Þú þegar hefur fornöfnin %1$s.",
+  "commands.showyouridentity.pronouns.set.failure.contains_slur": "%1$s inniheldur niðrandi orð. Ekki.",
+  "commands.showyouridentity.pronouns.set.success": "Þú hefur setur fornöfnin þitt til %1$s.",
+  "commands.showyouridentity.slur_filter.reload.success": "Niðrandi orðssían farsælslega endurhlóð. (Talning: %1$s)",
+  "commands.showyouridentity.slur_filter.add.success": "Farsælslega bætti við nýtt niðrandi orð til síuna",
+  "commands.showyouridentity.slur_filter.add.failure": "Annað hvort er niðrandi orðið þegar til staðar eða villa kom upp (Athugaðu skrá)",
+ "commands.showyouridentity.reset.all.success": "Auðkennisupplýsingar allra hafa verið endurstilltar.",
+ "commands.showyouridentity.reset.player.failure": "Ekki tókst að endurstilla auðkennisupplýsingar %s",
+ "commands.showyouridentity.reset.player.success": "Auðkennisupplýsingar %s hafa verið endurstilltar.",
+ "commands.showyouridentity.flag.set_primary.success": "Aðal-stoltfáninn þinn hefur nú verið stilltur á %s",
+ "commands.showyouridentity.flag.set_secondary.success": "Auka-stoltfáninn þinn hefur nú verið stilltur á %s",
+ "commands.showyouridentity.flag.set.failure.already_that_primary_flag": "Aðal-stoltfáninn þinn er nú þegar %s",
+ "commands.showyouridentity.flag.set.failure.already_that_secondary_flag": "Auka-stoltfáninn þinn er nú þegar %s",
+ "commands.showyouridentity.flag.set.failure.unknown": "Þetta fáni er óþekkt",
+ "commands.showyouridentity.flag.reset_primary.success": "Aðal-stórmerkið þitt hefur nú verið endurstillt",
+ "commands.showyouridentity.flag.reset_secondary.success": "Auka-stórmerkið þitt hefur nú verið endurstillt",
+ "commands.showyouridentity.flag.reset.failure.already_that_primary_flag": "Aðal-stórmerkið þitt hefur þegar verið endurstillt",
+ "commands.showyouridentity.flag.reset.failure.already_that_secondary_flag": "Auka-stórmerkið þitt hefur þegar verið endurstillt",
+ "commands.showyouridentity.flag_pos.set.failure.unknown": "Þessi fánastaðsetning er óþekkt",
+ "commands.showyouridentity.flag_pos.set.success": "Fánastaðsetning þín hefur nú verið stillt á %s",
+ "commands.showyouridentity.flag_pos.set.failure.already_that_flag_pos": "Staðsetning fánans passar nú þegar við %s",
+
+  "showyouridentity.flag.rainbow.name": "Regnbogistoltfáni",
+  "showyouridentity.flag.rainbow.description": "194
+Nútímaútgáfan sýnir láréttar rauðar, appelsínugular, gular, grænar, bláar og fjólubláar rendur. Hver litur táknar mismunandi þætti lífsins og samfélagsins, svo sem lækningu, sólarljós og náttúru.",
+  "showyouridentity.flag.rainbow.credit": "Hannað af Gilbert Baker í 1978.",
+
+  "showyouridentity.flag.progress_pride.name": "Framsóknstoltfáni",
+  "showyouridentity.flag.progress_pride.description": "This flag builds on the traditional rainbow flag by adding a left-facing chevron to explicitly emphasize inclusion and ongoing progress. The chevron features black and brown stripes to represent marginalized LGBTQ+ communities of color. These stripes are accompanied by the light blue, pink, and white colors of the Transgender stoltfáni.",
+  "showyouridentity.flag.progress_pride.credit": "Hannað af Daniel Quasar í2018.",
+
+  "showyouridentity.flag.lesbian.name": "Sólseturlesbíustoltfáni",
+  "showyouridentity.flag.lesbian.description": "Lesbía er almennt skilgreind sem kona eða frjálsgervafólk sem er upplifir rómantíska, tilfinningalega og/eða kynferðislega aðdráttarafl að konum eða einstaklingum sem eru kvenkyns.\nSamfélagið tók upp þennan fána til að vera meira opinskátt gagnvart kynjaósamræmi og transfólki. Appelsínugulu rendurnar tákna þemu eins og kynjaósamræmi, sjálfstæði og samfélag. Bleikar rendurnar tákna ró, ást og kvenleika. Öll þessi þemu snúast um hvíta rönd, sem táknar einstök tengsl við kvenleika.",
+  "showyouridentity.flag.lesbian.credit": "Hannað af Emily Gwen í 2018.",
+
+  "showyouridentity.flag.gay.name": "Samkynhneigðurmennstoltfáni (MLM Fáni)",
+  "showyouridentity.flag.gay.description": "Samkynhneigður einstaklingur er almennt skilgreindur sem karlmaður eða einstaklingur með karlmennsku sem upplifir rómantíska, tilfinningalega og/eða kynferðislega aðdráttarafl til karla eða einstaklinga með karlmennsku. Þessi fáni var hannaður sem hliðstæða lesbíufánans. Efri grænu og blágrænu rendurnar tákna samfélag, lækningu og gleði. Neðri bláu og fjólubláu rendurnar tákna hreina ást, styrk og fjölbreytileika. Hvítur rönd í miðjunni táknar transfólk, kynjamismunun og kynjaósamræmi.",
+  "showyouridentity.flag.gay.credit": "Hannað af Tumblr user @sadgaysite í 2019.",
+
+  "showyouridentity.flag.bisexual.name": "Tvíkynhneigðarstoltfáni",
+  "showyouridentity.flag.bisexual.description": "Tvíkynhneigður einstaklingur er einhver sem upplifir rómantíska, tilfinningalega og/eða kynferðislega aðdráttarafl að fleiri en einu kyni. Þessi fáni var búinn til til að veita tvíkynhneigða samfélaginu sitt eigið sérstaka tákn um sýnileika, aðskilið frá almenna regnbogafánanum. Efri bleika röndin táknar aðdráttarafl að eigin kyni. Neðri bláa röndin táknar aðdráttarafl að mismunandi kynjum. Fjólubláa röndin í miðjunni, sem skarast, táknar aðdráttarafl yfir allt kynjasviðið.",
+  "showyouridentity.flag.bisexual.credit": "Hannað af Michael Page í 1998.",
+
+  "showyouridentity.flag.transgender.name": "Transkynsstoltfáni",
+  "showyouridentity.flag.transgender.description": "Transfólk er einhver sem hefur aðra kynvitund en það kyn sem viðkomandi fékk við fæðingu. Samhverf hönnun fánans tryggir að hann sé alltaf sýndur rétt og táknar að finna rétta lífsreynslu. Ljósbláu rendurnar tákna hefðbundinn lit fyrir drengi, bleiku rendurnar tákna hefðbundinn lit fyrir stúlkur og hvíta miðjuröndin táknar þá sem eru kyneinkenna, eru í kynleiðréttingu eða telja kyn sitt hlutlaust eða óskilgreint.",
+  "showyouridentity.flag.transgender.credit": "Hannað af Monica Helms í 1999.",
+
+  "showyouridentity.flag.intersex.name": "Kyneinkennastoltfáni",
+  "showyouridentity.flag.intersex.description": "Intersex einstaklingur fæðist með kyneinkenni sem passa ekki við dæmigerðar tvíhyggjuhugmyndir um karlkyns eða kvenkyns líkama. Þessi fáni forðast vísvitandi kynjaða liti eins og bláan og bleikan. Guli bakgrunnurinn og fjólublái hringurinn tákna heild og tæmandi eðli. Þeir tákna einnig réttinn til að vera nákvæmlega eins og Guð eða náttúran skapaði þig, sem táknar líkamlegt sjálfstæði og sjálfsákvörðunarrétt.",
+  "showyouridentity.flag.intersex.credit": "Hannað af Morgan Carpenter í 2013.",
+
+  "showyouridentity.flag.asexual.name": "eikynhneigðarstoltfáni",
+  "showyouridentity.flag.asexual.description": "Eikynhneigður einstaklingur finnur fyrir litlum sem engum kynferðislegum aðdráttarafli til annarra, þó hann geti samt fundið fyrir rómantískum, tilfinningalegum eða fagurfræðilegum aðdráttarafli.\nSamfélagsatkvæðagreiðsla var haldin til að velja þennan fána til að tákna ýmsa þætti ás-litrófsins. Svarta röndin táknar ókynhneigð; gráa röndin táknar tvíkynhneigð og grá ókynhneigð; hvíta röndin táknar bandamenn og maka sem ekki eru kynhneigðir; og fjólubláa röndin samfélag.",
+  "showyouridentity.flag.asexual.credit": "Hannað af Asexual Visibility og Education Network (AVEN) notanda @standup í 2010.",
+
+  "showyouridentity.flag.aromantic.name": "Eirómantík stoltfáni",
+  "showyouridentity.flag.aromantic.description": "An aromantic person experiences little to no romantic attraction to others. This means they generally do not experience \"crushes\" or desire romantic partnerships. However, they often deeply value platonic relationships.\nThis flag is the most widely recognized version. The dark and light green stripes represent the aromantic spectrum (since green is the opposite of red, which is traditionally associated with romance). The white stripe represents platonic love and friendship. The gray and black stripes represent the sexuality spectrum.",
+  "showyouridentity.flag.aromantic.credit": "Hannað af Tumblr user @cameronwhimsy í 2014.",
+
+  "showyouridentity.flag.aroace.name": "Aroace-stoltfáni",
+  "showyouridentity.flag.aroace.description": "An aroace person identifies as both aromantic and asexual, meaning they experience little to no romantic attraction and little to no sexual attraction.\nRather than simply combining the green and purple flags, this flag incorporates aspects of both identities into a unique, unified design. The orange stripes represent the community and unique nature of aroace love and relationships. The white stripe represents wholeness and peace. The blue stripes represent the aroace identity and spectrum.",
+  "showyouridentity.flag.aroace.credit": "Hannað af Tumblr user @bi-aroace (now known as Jacqueline) í 2018.",
+
+  "showyouridentity.flag.agender.name": "Eigervastoltfáni",
+  "showyouridentity.flag.agender.description": "An agender person is someone who identifies as having no gender, a neutral gender, or an absence of gender identity entirely.\nThis flag represents genderlessness and neutrality. The black and white stripes represent an absence of gender, the gray stripes represent semi-genderlessness, and the central green stripe represents non-binary identities because green is the inverse of purple, which is a mix of the traditional gender colors, pink and blue.",
+  "showyouridentity.flag.agender.credit": "Hannað af Salem X (under the alias @transvestia) í 2014.",
+
+  "showyouridentity.flag.non_binary.name": "Frjálsgervastoltfáni",
+  "showyouridentity.flag.non_binary.description": "A non-binary person is someone whose gender identity does not fit strictly within the binary categories of male or female, which can include identifying as both, neither, or fluctuating between genders.\nThe flag was designed to complement, not replace, the genderqueer flag. The yellow stripe signifies individuals whose gender falls outside the binary, the white stripe denotes those with multiple or all genders, the purple stripe designates those whose gender is a blend of male and female, and the black stripe stands for those who identify as gender neutral.",
+  "showyouridentity.flag.non_binary.credit": "Hannað af Kye Rowan í 2014.",
+
+  "showyouridentity.flag.demiboy.name": "Hálfstrákurstoltfáni",
+  "showyouridentity.flag.demiboy.description": "A demiboy is someone who identifies partially, but not fully, as a man, boy, or masculine person, regardless of their sex assigned at birth.\nThe flag's muted colors symbolize a partial identity. The gray stripes symbolize the gray areas of gender identity; the blue stripes represent masculinity or manhood; and the central white stripe represents non-binary or agender identities.",
+  "showyouridentity.flag.demiboy.credit": "Hannað af Tumblr user @transmasculine-perspective í 2015.",
+
+  "showyouridentity.flag.demigirl.name": "Hálfstelpastoltfáni",
+  "showyouridentity.flag.demigirl.description": "A demigirl is someone who identifies partially, but not fully, as a woman, girl, or feminine person, regardless of their sex assigned at birth.\nThe flag's muted colors symbolize a partial identity. The gray stripes symbolize the gray areas of gender identity; the pink stripes represent femininity or womanhood; and the central white stripe represents non-binary or agender identities.",
+  "showyouridentity.flag.demigirl.credit": "Hannað af Tumblr user @transmasculine-perspective í 2015.",
+
+  "showyouridentity.flag.genderfluid.name": "Flæðigervastoltfáni",
+  "showyouridentity.flag.genderfluid.description": "A genderfluid person is someone whose gender identity is not fixed and fluctuates over time, shifting between different genders such as male, female, non-binary, or agender.\nThis flag encompasses the dynamic and changing nature of gender fluidity. The pink stripe represents femininity; the white stripe, all genders; the purple stripe, a combination of masculinity and femininity; the black stripe, a lack of gender; and the blue stripe, masculinity.",
+  "showyouridentity.flag.genderfluid.credit": "Hannað af JJ Poole í 2012.",
+
+  "showyouridentity.flag.genderqueer.name": "Kynseginstoltfáni",
+  "showyouridentity.flag.genderqueer.description": "A genderqueer person is someone whose gender identity falls outside of, extends beyond, or rejects the traditional male-female binary. This term can be used as a specific identity or as an umbrella term, similar to \"non-binary.\"\nThis flag features lavender, white, and dark green stripes. The lavender stripe represents a mixture of blue and pink, symbolizing androgyny and queer identities. The white stripe represents agender or gender-neutral identities. The dark green stripe represents identities that stand completely outside the binary.",
+  "showyouridentity.flag.genderqueer.credit": "Hannað af Marilyn Roxie í 2011.",
+
+  "showyouridentity.flag.demisexual.name": "Hálfkynhneigðarstoltfáni",
+  "showyouridentity.flag.demisexual.description": "A demisexual person experiences sexual attraction to another person only after forming a strong emotional bond with them. It sits on the asexual spectrum because attraction is not felt inherently or instantly.\nThis flag uses the same colors as the asexual flag, but in a unique arrangement. The black chevron represents asexuality; the gray stripe, the demisexual spectrum; the white stripe, sexuality and allies; and the purple stripe, community.",
+  "showyouridentity.flag.demisexual.credit": "Hannað af Asexual Visibility and Education Network (AVEN) user Sonofofallon in 2010.",
+
+  "showyouridentity.flag.demiromantic.name": "Hálfrómantík stoltfáni",
+  "showyouridentity.flag.demiromantic.description": "A demiromantic person experiences romantic attraction to another person only after forming a strong emotional bond with them. It sits on the aromantic spectrum meaning romantic feelings do not develop based on initial appearance or surface-level interactions.\nThis flag adapts the layout of the demisexual flag but swaps the colors to reflect the aromantic identity. The black chevron represents the aromantic spectrum; the gray stripe, the demiromantic spectrum; the white stripe, platonic love and friendship; and the green stripe, aromanticism.",
+  "showyouridentity.flag.demiromantic.credit": "Hannað af an anonymous Tumblr user í 2015.",
+
+  "showyouridentity.flag.pansexual.name": "Pankynhneigðarstoltfáni",
+  "showyouridentity.flag.pansexual.description": "A pansexual person is someone who is romantically, emotionally, and/or sexually attracted to people regardless of their gender identity. This is often described as being gender-blind or as being attracted to people of all genders.\nThis flag was designed to increase visibility for the pansexual community, separate from the bisexual flag. The pink stripe represents attraction to people who identify as female, the blue stripe represents attraction to people who identify as male, and the yellow stripe represents attraction to non-binary, genderqueer, agender, or genderfluid individuals.",
+  "showyouridentity.flag.pansexual.credit": "Hannað af Jasper V. (under the username @evandragonfly) í 2010.",
+
+  "showyouridentity.flag.omnisexual.name": "Allthneigðarstoltfáni",
+  "showyouridentity.flag.omnisexual.description": "An omnisexual person is someone who experiences romantic, emotional, and/or sexual attraction to people of all genders. Unlike pansexuals, who are often described as \"gender-blind,\" omnisexuals recognize and are aware of a person's gender. The gender may still play a role in their attraction.\nThis flag uses shades of pink and blue to represent the gender spectrum. The light and dark blue stripes represent attraction to men and masculine genders; the light and dark pink stripes represent attraction to women and feminine genders; and the central dark purple stripe represents attraction to nonbinary and gender expansive identities.",
+  "showyouridentity.flag.omnisexual.credit": "Hannað af the user @bastard-of-the-skies (aka Pastellight) í 2015.",
+
+  "showyouridentity.flag.polysexual.name": "Fjölkynhneigðarstoltfáni",
+  "showyouridentity.flag.polysexual.description": "A polysexual person is attracted to multiple genders, but not necessarily all of them. Unlike pansexuality, which is attraction regardless of gender, or omnisexuality, which is attraction to all genders, polysexuality is attraction to many genders while excluding others.\nThis flag was designed to represent the specific nature of multi-gender attraction. The pink stripe represents attraction to people who identify as female, the blue stripe represents attraction to people who identify as male, and the green stripe represents attraction to people who identify outside the traditional gender binary, such as non-binary, genderfluid, or agender individuals.",
+  "showyouridentity.flag.polysexual.credit": "Hannað af Tumblr-notanda @samlin í 2012.",
+
+  "showyouridentity.flag.polyamory.name": "Fjölástastoltfáni",
+  "showyouridentity.flag.polyamory.description": "A polyamorous person is someone who is open to or engages in having multiple romantic and/or emotional relationships simultaneously with the informed consent of all partners involved.\nThe modern flag was designed to replace the 1995 tricolor flag with a more cohesive symbol. The light blue stripe represents openness and honesty; the magenta stripe, love and passion; and the dark purple stripe, the polyamorous community. The white chevron on the left points forward to symbolize progression, and the central gold heart represents the core value of love and emotional connection.",
+  "showyouridentity.flag.polyamory.credit": "Hannað af Red Howell í 2022.",
+
+  "showyouridentity.flag.bear_brotherhood.name": "Alþjóðlega bjarnarbræðralagið Stoltfáni",
+  "showyouridentity.flag.bear_brotherhood.description": "In the gay, bisexual, and queer male communities, a \"bear\" is a subculture that typically describes a hairy, physically large, burly, or heavy-set man.\nThis flag represents inclusivity across the global community. Its horizontal stripes feature a gradient of colors (dark brown, orange-rust, golden yellow, tan, white, gray, and black) representing the fur and skin tones of bears and humans worldwide. A black bear paw print sits in the upper-left canton, symbolizing the distinct identity and strength of the brotherhood.",
+  "showyouridentity.flag.bear_brotherhood.credit": "Hannað af Craig Byrnes í 1995.",
+
+  "showyouridentity.flag.femboy.name": "Femboy-stoltfáni",
+  "showyouridentity.flag.femboy.description": "A femboy is someone who identifies as an man or masculine but expresses their gender in traditionally feminine ways through clothing, behavior, or aesthetics. This gender expression challenges conventional male roles.\nThis flag features a symmetrical color gradient designed to highlight the intersection of male identity and feminine expression. The dark pink stripes on the outside and the lighter pink stripes on the inside symbolize femininity and feminine presentation. The white stripes represent non-binary individuals who also embrace the femboy aesthetic. The central light blue stripe represents the underlying male or masculine-aligned identity.",
+  "showyouridentity.flag.femboy.credit": "Hannað af notanda \"Jay\" í 2017.",
+
+  "showyouridentity.flag.transfem.name": "Transkvenkynstoltfáni",
+  "showyouridentity.flag.transfem.description": "A transfeminine person is someone who was assigned male at birth but identifies more closely with femininity, womanhood, or a feminine gender identity. This term encompasses transgender women, as well as non-binary, genderfluid, and demigirl individuals who express or identify as feminine.\nThe flag expands on the colors of the traditional transgender flag. The light blue outer stripes represent male assignment at birth, transitioning inward through progressively deeper shades of pink to symbolize the journey toward and embrace of a proud feminine identity.",
+  "showyouridentity.flag.transfem.credit": "Hannað af Tumblr-notanda @asexual-lesbian í 2015.",
+
+  "showyouridentity.flag.transmasc.name": "Transkarlkynstoltfáni",
+  "showyouridentity.flag.transmasc.description": "A transmasculine person is someone who was assigned female at birth but identifies more closely with masculinity, manhood, or a masculine gender identity. This term encompasses transgender men, as well as non-binary, genderfluid, and demiboy individuals who express or identify as masculine.\nThe flag expands on the colors of the traditional transgender flag. The light pink outer stripes represent female assignment at birth, transitioning inward through progressively deeper shades of blue to symbolize the journey toward and embrace of a proud masculine identity.",
+  "showyouridentity.flag.transmasc.credit": "Hannað af Tumblr-notanda @asexual-lesbian í 2015.",
+
+  "showyouridentity.flag.neptunic.name": "Neptúnuslegur Stoltfáni",
+  "showyouridentity.flag.neptunic.description": "A neptunic person is someone who experiences attraction to women, feminine-aligned non-binary people, and neutral or unaligned non-binary people. This orientation explicitly excludes attraction to men, masculine-aligned non-binary individuals, and masculinity. This term is often used by non-binary individuals to describe their attraction without using binary terms such as \"lesbian\" or \"straight\".\nThis flag uses an oceanic color palette inspired by the planet Neptune. The top teal and aqua stripes represent feminine and woman-aligned identities. The middle pastel blue and light aqua stripes symbolize neutral and unaligned non-binary individuals. The bottom lavender and purple stripes represent the unique, queer nature of this attraction.",
+  "showyouridentity.flag.neptunic.credit": "Hannað af an anonymous Tumblr-notanda í 2017.",
+
+  "showyouridentity.flag.uranic.name": "Úranuslegur Stoltfáni",
+  "showyouridentity.flag.uranic.description": "A uranic person is someone who experiences attraction to men, masculine-aligned non-binary people, and neutral or unaligned non-binary people. This orientation explicitly excludes attraction to women, feminine-aligned non-binary individuals, and femininity. This term is often used by non-binary individuals to describe their attraction without using binary terms such as \"gay\" or \"straight\".\nThis flag features a sky-themed color scheme inspired by Uranus, the Greek god of the sky. The top four stripes are a gradient of medium to soft pastel blues representing men and masculine-aligned identities. The bottom cream and soft tan-orange stripes represent individuals who are neutral, unaligned, or non-binary and are included within this attraction.",
+  "showyouridentity.flag.uranic.credit": "Hannað af an anonymous Tumblr-notanda í 2017.",
+
+  "showyouridentity.flag.sapphic.name": "Sapphic-stoltfáni",
+  "showyouridentity.flag.sapphic.description": "A sapphic person is a woman or non-binary individual attracted to women and feminine-aligned people. This inclusive umbrella term encompasses lesbians, bisexual women, pansexual women, and queer women, focusing on the shared experience of female-to-female attraction, regardless of whether they are exclusively attracted to women.\nThe flag is a modern adaptation of older historical symbols. The top and bottom pink stripes represent love, romance, and womanhood. The middle white stripe represents safety, peace, and inclusion of gender-expansive individuals within the community. In the center is a violet flower, a historic symbol of sapphic love dating back to Sappho's poetry in ancient Greece. She wrote of her lovers wearing garlands of violets.",
+  "showyouridentity.flag.sapphic.credit": "Hannað af Tumblr-notendur @pride-flags og @lesbian-herstory í 2015.",
+
+  "showyouridentity.flag.sapiosexual.name": "Sapiosexual stoltfáni",
+  "showyouridentity.flag.sapiosexual.description": "A sapiosexual person experiences primary romantic or sexual attraction toward intelligence and the human mind. For these individuals, an intellectual connection, stimulating conversation, or a person's mental depth is the foundation of attraction, taking priority over physical appearance or gender identity.\nThis flag represents the various aspects of an intellectual connection. The top green stripe represents growth, development, and the expansion of the mind. The middle brown stripe represents stability, depth, and the grounded nature of deep thought. The bottom blue stripe represents knowledge, logic, and intellectual exploration.",
+  "showyouridentity.flag.sapiosexual.credit": "Hannað af notandinn @WolfieBoy í 2015.",
+
+  "showyouridentity.flag.straight_ally.name": "Straight Ally Flag",
+  "showyouridentity.flag.straight_ally.description": "Allies leverage their privilege to combat homophobia, biphobia, transphobia, and systemic inequalities, creating safe and inclusive spaces for LGBTQ+ individuals.\nThis flag combines symbols of heterosexual identity and queer pride. The background consists of alternating black and white horizontal stripes, which historically represent the straight stoltfáni. In the center is a large, stylized capital \"A\" filled with the traditional six-color LGBTQ+ rainbow. The \"A\" stands for \"ally\" and signifies the community's active efforts to provide support and protection to the queer community.",
+  "showyouridentity.flag.straight_ally.credit": "Hannað af an unknown person in the late 2000s.",
+
+  "showyouridentity.flag.trans_ally.name": "Trans Ally Flag",
+  "showyouridentity.flag.trans_ally.description": "Allies leverage their privilege to combat homophobia, biphobia, transphobia, and systemic inequalities, creating safe and inclusive spaces for LGBTQ+ individuals.\nMirroring the design concept of the straight ally flag, this flag combines heterosexual/cisgender identity with transgender pride. The background consists of alternating black and white horizontal stripes, which historically represent the straight stoltfáni. In the center is a large, stylized capital \"A\" filled with light blue, pink, and white colors of Monica Helms’ traditional transgender stoltfáni. The \"A\" stands for \"ally\" and signifies the community's active efforts to provide support and protection to the trans community.",
+  "showyouridentity.flag.trans_ally.credit": "Hannað af an unknown person in the late 2010s.",
+
+
+  "showyouridentity.midnightconfig.slur_filter_url": "URL fyrir Niðrandi orð síuna",
+  "showyouridentity.midnightconfig.comment_slur_filter": "The slur filter needs to be based on the structure of awdev1/better-profane-words on Github",
+  "showyouridentity.midnightconfig.title": "Show Your Identity"
+}
